@@ -1,9 +1,11 @@
 import { Col, Container, Row } from "react-bootstrap";
-import Header from "./Header";
-import Slider from "./Slider";
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import Footer from "./Footer";
+import Header from "../Header";
+import Slider from "./Slider";
+import Footer from "../Footer";
+import PopulationCourse from "./PopulationProduct";
+
 
 const Home = () => {
     const [category, setCategory] = useState([]);
@@ -22,7 +24,7 @@ const Home = () => {
                         <img src="Images/banner2.png" style={{width:"100%"}} alt="banner"/>
                     </Col>
             </Container>
-            <Slider />
+            <Slider/>
             <Container style={{ backgroundColor: "white", borderRadius: "5px", paddingTop: "10px", paddingBottom: "10px", marginTop: "50px" }}>
                 <Row>
                     {
@@ -46,6 +48,7 @@ const Home = () => {
                         <img src="Images/banner1.png" style={{width:"100%"}} alt="banner"/>
                     </Col>
             </Container>
+            <PopulationCourse/>
             <Footer/>
         </div>
     )
