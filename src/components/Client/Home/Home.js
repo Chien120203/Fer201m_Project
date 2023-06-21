@@ -17,7 +17,7 @@ const Home = () => {
             })
     }, [])
     return (
-        <div style={{ backgroundColor: "#f53b22" }}>
+        <div style={{ backgroundColor: "#f53b22", paddingBottom:"100px" }}>
             <Header />
             <Container style={{padding: 0, marginTop:"49px"}}>
                     <Col md={12} style={{padding: 0}}>
@@ -30,7 +30,7 @@ const Home = () => {
                     {
                         category.map((c) => {
                             return (
-                                <Col md={2}>
+                                <Col Col={2}>
                                     <Link className="category_link">
                                         <div style={{ textAlign: "center" }}>
                                             <img src={c.Logo} style={{ width: "90%", borderRadius: "50%" }} alt="category"/>

@@ -3,6 +3,7 @@ import { useEffect, useState } from "react";
 const PopulationCourse = () => {
     const [product, setProduct] = useState([]);
     const [order, setOrder] = useState([]);
+    const [topcourse, setTopCourse] = useState([]);
     const orderedcourse = [];
     const countOrderCourse = () => {
         product.map((p) => {
@@ -15,8 +16,8 @@ const PopulationCourse = () => {
                     order_product.quantity += 1;
                 }
             })
-            console.log(order_product)
-            // orderedcourse.push(order_product);
+            // console.log(order_product)
+            orderedcourse.push(order_product);
         })
     }
 
@@ -25,38 +26,49 @@ const PopulationCourse = () => {
             .then(result => {
                 setOrder(result);
             })
-    },[])
+    }, [])
     useEffect(() => {
         fetch("http://localhost:9999/Product").then(res => res.json())
             .then(result => {
-                countOrderCourse();
-                // orderedcourse.sort((a, b) => {
-                //     return b.quantity - a.quantity;
-                // })
-                // const topcourse = [orderedcourse[0], orderedcourse[1], orderedcourse[2], orderedcourse[3]];
-                // setProduct(result.filter((r) => {
-                //     const poProduct = topcourse.map((p) => {
-                //         if (r.ID == p.ID) return p;
-                //     })
-                //     return poProduct[0];
-                // }))
-                // setProduct(result);
+                setProduct(result);
             })
     }, [])
+
+    useEffect(() => {
+        const getTopProduct = () => countOrderCourse();
+        getTopProduct();
+        orderedcourse.sort((a, b) => {
+            return b.quantity - a.quantity;
+        })
+        setTopCourse(product.filter((p) => {
+            if (p.ID === orderedcourse[0].ID || p.ID === orderedcourse[1].ID || p.ID === orderedcourse[2].ID || p.ID === orderedcourse[3].ID) {
+                return p;
+            }
+        }))
+        console.log(topcourse);
+    }, [])
     return (
-        <Container>
+        <Container style={{ marginTop: "50px", backgroundColor: "white", paddingTop:"30px", paddingBottom:"30px"}}>
             <Row>
                 {
-                    product.map((p) => {
-                        const image = p.Images[0];
+                    topcourse.map((p) => {
                         return (
-                            <Col lg={4} md={6}>
-                                <div className="card">
-                                    <img className="card-img-top" src={image} alt="Card image" />
-                                    <div className="card-body">
-                                        <h4 className="card-title">John Doe</h4>
-                                        <p className="card-text">Some example text.</p>
-                                        <a href="#" class="btn btn-primary">See Profile</a>
+                            <Col lg={3} md={6}>
+                                <div className="product">
+                                    <div className="product-img">
+                                        <img src={p.Images[0]} alt="Card image" />
+                                    </div>
+                                    <div>
+                                        <h4>{p.Name}</h4>
+                                        <div className="price">
+                                        <div className="sale-price">
+                                                {new Intl.NumberFormat('vi-VN', { style: 'currency', currency: 'VND' }).format((1-p.SalePrice)*p.Price)}
+                                            </div>
+                                            <div className="real-price">
+                                                <p>{new Intl.NumberFormat('vi-VN', { style: 'currency', currency: 'VND' }).format(p.Price)}</p>
+                                            </div>
+                                        </div>
+                                        <a href="#" className="btn btn-dark" style={{marginTop:"20px"}}>Mua Ngay</a>
                                     </div>
                                 </div>
                             </Col>
