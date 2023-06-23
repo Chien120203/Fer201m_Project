@@ -57,3 +57,34 @@
 .real-price{
   text-decoration: line-through;
 }
+
+.nav{
+  background-color: #252525;
+}
+
+.nav-content{
+   display: flex;
+   justify-content: space-around;
+   height: 40px;
+   line-height: 40px;
+}
+
+.nav-content a{
+  color: white;
+}
+
+.nav-content a:hover{
+  text-decoration: none;
+}
+
+.product-quantity{
+  border: 1px solid rgb(204, 204, 204);
+  border-radius: 5px;
+  height: 50px;
+  line-height: 50px;
+  display: flex;
+}
+.product-quantity h3{
+  line-height: 50px;
+  margin-right: 10px;
+}

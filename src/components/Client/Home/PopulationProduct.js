@@ -45,32 +45,32 @@ const PopulationCourse = () => {
                 return p;
             }
         }))
-        console.log(topcourse);
     }, [])
     return (
-        <Container style={{ marginTop: "50px", backgroundColor: "white", paddingTop:"30px", paddingBottom:"30px"}}>
+        <Container style={{ marginTop: "50px", backgroundColor: "white", paddingTop: "30px", paddingBottom: "30px" }}>
             <Row>
                 {
                     topcourse.map((p) => {
+
                         return (
                             <Col lg={3} md={6}>
-                                <div className="product">
+                                {/* <div className="product">
                                     <div className="product-img">
                                         <img src={p.Images[0]} alt="Card image" />
                                     </div>
                                     <div>
                                         <h4>{p.Name}</h4>
                                         <div className="price">
-                                        <div className="sale-price">
-                                                {new Intl.NumberFormat('vi-VN', { style: 'currency', currency: 'VND' }).format((1-p.SalePrice)*p.Price)}
+                                            <div className="sale-price">
+                                                {new Intl.NumberFormat('vi-VN', { style: 'currency', currency: 'VND' }).format((1 - p.SalePrice) * p.Price)}
                                             </div>
                                             <div className="real-price">
                                                 <p>{new Intl.NumberFormat('vi-VN', { style: 'currency', currency: 'VND' }).format(p.Price)}</p>
                                             </div>
                                         </div>
-                                        <a href="#" className="btn btn-dark" style={{marginTop:"20px"}}>Mua Ngay</a>
+                                        <a href="#" className="btn btn-dark" style={{ marginTop: "20px" }}>Mua Ngay</a>
                                     </div>
-                                </div>
+                                </div> */}
                             </Col>
                         )
                     })

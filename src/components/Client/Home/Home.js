@@ -5,6 +5,7 @@ import Header from "../Header";
 import Slider from "./Slider";
 import Footer from "../Footer";
 import PopulationCourse from "./PopulationProduct";
+import Navigation from "../Navigation";
 
 
 const Home = () => {
@@ -19,7 +20,8 @@ const Home = () => {
     return (
         <div style={{ backgroundColor: "#f53b22", paddingBottom:"100px" }}>
             <Header />
-            <Container style={{padding: 0, marginTop:"49px"}}>
+            <Navigation/>
+            <Container style={{padding: 0}}>
                     <Col md={12} style={{padding: 0}}>
                         <img src="Images/banner2.png" style={{width:"100%"}} alt="banner"/>
                     </Col>
@@ -30,7 +32,7 @@ const Home = () => {
                     {
                         category.map((c) => {
                             return (
-                                <Col Col={2}>
+                                <Col xs={2}>
                                     <Link className="category_link">
                                         <div style={{ textAlign: "center" }}>
                                             <img src={c.Logo} style={{ width: "90%", borderRadius: "50%" }} alt="category"/>

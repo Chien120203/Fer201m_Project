@@ -804,7 +804,7 @@
         {
             "ID": 31,
             "Name": "iPhone 11 64GB",
-            "Category": 4,
+            "Category_ID": 4,
             "Price": 10480000,
             "SalePrice": 0.13,
             "Quantity": 10,
@@ -834,7 +834,7 @@
         {
             "ID": 32,
             "Name": "iPhone 12 64GB",
-            "Category": 4,
+            "Category_ID": 4,
             "Price": 14990000,
             "SalePrice": 0.17,
             "Quantity": 10,
@@ -873,7 +873,7 @@
         {
             "ID": 33,
             "Name": "iPhone 13 128GB",
-            "Category": 4,
+            "Category_ID": 4,
             "Price": 16790000,
             "SalePrice": 0.12,
             "Quantity": 10,
@@ -914,7 +914,7 @@
         {
             "ID": 34,
             "Name": "iPhone 14 128GB",
-            "Category": 4,
+            "Category_ID": 4,
             "Price": 19180000,
             "SalePrice": 0.13,
             "Quantity": 10,
@@ -954,7 +954,7 @@
         {
             "ID": 35,
             "Name": "iPhone 14 Plus 128GB",
-            "Category": 4,
+            "Category_ID": 4,
             "Price": 21680000,
             "SalePrice": 0.13,
             "Quantity": 10,
@@ -994,7 +994,7 @@
         {
             "ID": 36,
             "Name": "iPhone 14 Pro 128GB",
-            "Category": 4,
+            "Category_ID": 4,
             "Price": 24880000,
             "SalePrice": 0.11,
             "Quantity": 10,
@@ -1035,7 +1035,7 @@
         {
             "ID": 37,
             "Name": "iPhone 14 Pro Max 128GB",
-            "Category": 4,
+            "Category_ID": 4,
             "Price": 26580000,
             "SalePrice": 0.11,
             "Quantity": 10,
@@ -1075,7 +1075,7 @@
         {
             "ID": 38,
             "Name": "OPPO Reno8 T 5G 128GB",
-            "Category": 5,
+            "Category_ID": 5,
             "Price": 9490000,
             "SalePrice": 0.05,
             "Quantity": 10,
@@ -1111,7 +1111,7 @@
         {
             "ID": 39,
             "Name": "OPPO Reno8 4G 8GB - 256GB",
-            "Category": 5,
+            "Category_ID": 5,
             "Price": 6990000,
             "SalePrice": 0.22,
             "Quantity": 10,
@@ -1152,7 +1152,7 @@
         {
             "ID": 40,
             "Name": "OPPO A55 4GB-64GB",
-            "Category": 5,
+            "Category_ID": 5,
             "Price": 3690000,
             "SalePrice": 0.08,
             "Quantity": 10,
@@ -1188,7 +1188,7 @@
         {
             "ID": 41,
             "Name": "OPPO A57 4GB-128GB",
-            "Category": 5,
+            "Category_ID": 5,
             "Price": 4190000,
             "SalePrice": 0.16,
             "Quantity": 10,
@@ -1225,7 +1225,7 @@
         {
             "ID": 42,
             "Name": "OPPO A17 4GB-64GB",
-            "Category": 5,
+            "Category_ID": 5,
             "Price": 3690000,
             "SalePrice": 0.08,
             "Quantity": 10,
@@ -1261,7 +1261,7 @@
         {
             "ID": 43,
             "Name": "OPPO A17k 3GB-64GB",
-            "Category": 5,
+            "Category_ID": 5,
             "Price": 2990000,
             "SalePrice": 0.09,
             "Quantity": 10,
@@ -1297,7 +1297,7 @@
         {
             "ID": 44,
             "Name": "Oppo Reno6 5G",
-            "Category": 5,
+            "Category_ID": 5,
             "Price": 6990000,
             "SalePrice": 0.46,
             "Quantity": 10,
@@ -1335,7 +1335,7 @@
         {
             "ID": 45,
             "Name": "OPPO Find X5 Pro 12GB - 256GB",
-            "Category": 5,
+            "Category_ID": 5,
             "Price": 22990000,
             "SalePrice": 0.3,
             "Quantity": 10,
@@ -1373,7 +1373,7 @@
         {
             "ID": 46,
             "Name": "OPPO A95 8GB-128GB",
-            "Category": 5,
+            "Category_ID": 5,
             "Price": 5490000,
             "SalePrice": 0.15,
             "Quantity": 10,
@@ -1408,7 +1408,7 @@
         {
             "ID": 47,
             "Name": "OPPO Reno7 Z 5G 8GB - 128GB",
-            "Category": 5,
+            "Category_ID": 5,
             "Price": 6490000,
             "SalePrice": 0.35,
             "Quantity": 10,
@@ -1448,7 +1448,7 @@
         {
             "ID": 48,
             "Name": "OPPO Reno6 Z 5G",
-            "Category": 5,
+            "Category_ID": 5,
             "Price": 5990000,
             "SalePrice": 0.37,
             "Quantity": 10,
@@ -1484,7 +1484,7 @@
         {
             "ID": 49,
             "Name": "OPPO A16k 3GB-32GB",
-            "Category": 5,
+            "Category_ID": 5,
             "Price": 2490000,
             "SalePrice": 0.24,
             "Quantity": 10,
@@ -1519,7 +1519,7 @@
         {
             "ID": 50,
             "Name": "OPPO Find N2 Flip",
-            "Category": 5,
+            "Category_ID": 5,
             "Price": 19990000,
             "SalePrice": 0,
             "Quantity": 10,
@@ -1558,7 +1558,7 @@
         {
             "ID": 51,
             "Name": "Nokia 5710 XpressAudio",
-            "Category": 6,
+            "Category_ID": 6,
             "Price": 1390000,
             "SalePrice": 0.22,
             "Quantity": 10,
@@ -1589,7 +1589,7 @@
         {
             "ID": 52,
             "Name": "Nokia G22 4GB-128GB",
-            "Category": 6,
+            "Category_ID": 6,
             "Price": 3690000,
             "SalePrice": 0.08,
             "Quantity": 10,
@@ -1622,7 +1622,7 @@
         {
             "ID": 53,
             "Name": "Nokia 110 DS 4G",
-            "Category": 6,
+            "Category_ID": 6,
             "Price": 720000,
             "SalePrice": 0.17,
             "Quantity": 10,
@@ -1648,7 +1648,7 @@
         {
             "ID": 54,
             "Name": "Nokia 105 DS 4G",
-            "Category": 6,
+            "Category_ID": 6,
             "Price": 670000,
             "SalePrice": 0.18,
             "Quantity": 10,
@@ -1673,7 +1673,7 @@
         {
             "ID": 55,
             "Name": "Nokia C30 3GB-32GB",
-            "Category": 6,
+            "Category_ID": 6,
             "Price": 1990000,
             "SalePrice": 0.38,
             "Quantity": 10,
@@ -1700,7 +1700,7 @@
         {
             "ID": 56,
             "Name": "Nokia 215 DS 4G",
-            "Category": 6,
+            "Category_ID": 6,
             "Price": 990000,
             "SalePrice": 0,
             "Quantity": 10,
@@ -1730,7 +1730,7 @@
         {
             "ID": 57,
             "Name": "Nokia 2660 Flip 4G",
-            "Category": 6,
+            "Category_ID": 6,
             "Price": 1590000,
             "SalePrice": 0,
             "Quantity": 10,
@@ -1761,7 +1761,7 @@
         {
             "ID": 58,
             "Name": "Nokia 8210 4G",
-            "Category": 6,
+            "Category_ID": 6,
             "Price": 1590000,
             "SalePrice": 0,
             "Quantity": 10,
