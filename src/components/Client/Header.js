@@ -18,8 +18,12 @@ import {
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Link } from "react-router-dom";
 const Header = () => {
+  const checkLogin = () => {
+    return sessionStorage.getItem("user") !== undefined;
+  }
   return (
     <Container fluid className="fixed-top">
+      {console.log(sessionStorage.getItem("user"))}
       <Row>
         <Col md={12} className="header">
           <Row>
@@ -49,7 +53,7 @@ const Header = () => {
               </div>
             </Col>
             <Col md={5} style={{ height: "50px", textAlign: "right" }}>
-              <div>
+              <div style={{display: "flex", justifyContent:"space-around"}}>
                 <Link
                   style={{
                     textAlign: "center",
@@ -64,44 +68,53 @@ const Header = () => {
                   />
                   <p style={{ color: "white" }}>Giỏ hàng</p>
                 </Link>
-                <Link
-                  style={{
-                    textAlign: "center",
-                    display: "inline-block",
-                    marginRight: "100px",
-                  }}
-                >
-                  <FontAwesomeIcon icon={faUser} style={{ color: "white" }} />
-                  <p style={{ color: "white" }}>Tài khoản</p>
-                </Link>
-                <Link
-                  style={{
-                    textAlign: "center",
-                    display: "inline-block",
-                    marginRight: "100px",
-                  }}
-                  to={"/login"}
-                >
-                  <FontAwesomeIcon
-                    icon={faSignInAlt}
-                    style={{ color: "white" }}
-                  />
-                  <p style={{ color: "white" }}>Đăng Nhập</p>
-                </Link>
-                <Link
-                  style={{
-                    textAlign: "center",
-                    display: "inline-block",
-                    marginRight: "100px",
-                  }}
-                  to={"/signup"}
-                >
-                  <FontAwesomeIcon
-                    icon={faUserPlus}
-                    style={{ color: "white" }}
-                  />
-                  <p style={{ color: "white" }}>Đăng Ký</p>
-                </Link>
+                {
+                  checkLogin() ? (
+                    <div>
+                      <Link
+                        style={{
+                          textAlign: "center",
+                          display: "inline-block",
+                          marginRight: "100px",
+                        }}
+                      >
+                        <FontAwesomeIcon icon={faUser} style={{ color: "white" }} />
+                        <p style={{ color: "white" }}>Tài khoản</p>
+                      </Link>
+                    </div>
+                  ) : (
+                    <div>
+                      <Link
+                        style={{
+                          textAlign: "center",
+                          display: "inline-block",
+                          marginRight: "100px",
+                        }}
+                        to={"/login"}
+                      >
+                        <FontAwesomeIcon
+                          icon={faSignInAlt}
+                          style={{ color: "white" }}
+                        />
+                        <p style={{ color: "white" }}>Đăng Nhập</p>
+                      </Link>
+                      <Link
+                        style={{
+                          textAlign: "center",
+                          display: "inline-block",
+                          marginRight: "100px",
+                        }}
+                        to={"/signup"}
+                      >
+                        <FontAwesomeIcon
+                          icon={faUserPlus}
+                          style={{ color: "white" }}
+                        />
+                        <p style={{ color: "white" }}>Đăng Ký</p>
+                      </Link>
+                    </div>
+                  )
+                }
               </div>
             </Col>
           </Row>
