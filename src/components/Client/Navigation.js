@@ -14,11 +14,11 @@ const Navigation = () => {
         <Container fluid style={{ marginTop: "49px" }} className="nav">
             <Row style={{width:"100%"}}>
                 <Col md={12} className="nav-content">
-                    <NavLink to="/dien-thoai">Sản phẩm</NavLink>
+                    <NavLink to="/dien-thoai/all">Sản phẩm</NavLink>
                     {
                         category.map((c) => {
                             return (
-                                <NavLink>{c.Category_Name}</NavLink>
+                                <NavLink to={`/dien-thoai/${c.ID}`}>{c.Category_Name}</NavLink>
                             )
                         })
                     }

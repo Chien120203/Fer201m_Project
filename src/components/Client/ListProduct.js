@@ -3,12 +3,13 @@ import Header from "./Header";
 import Footer from "./Footer";
 import Navigation from "./Navigation";
 import { useEffect, useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 
 const ListProduct = () => {
+  const {catId} = useParams();
   const [category, setCategory] = useState([]);
   const [Product, setProduct] = useState([]);
-  const [categoryId, setCategoryId] = useState("all");
+  const [categoryId, setCategoryId] = useState(catId);
   const [price, setPrice] = useState(0);
   useEffect(() => {
     fetch("http://localhost:9999/Category")
@@ -83,8 +84,7 @@ const ListProduct = () => {
   return (
     <div>
       <Header />
-      <Navigation />
-      <Container style={{ marginTop: "30px", marginBottom: "100px" }}>
+      <Container style={{ marginTop: "100px", marginBottom: "100px" }}>
         <Row>
           <Col md={3}>
             <h5>Hãng sản xuất</h5>

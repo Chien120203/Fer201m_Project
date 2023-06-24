@@ -18,7 +18,7 @@ const Home = () => {
             })
     }, [])
     return (
-        <div style={{ backgroundColor: "#f53b22", paddingBottom:"100px" }}>
+        <div style={{ backgroundColor: "#f53b22"}}>
             <Header />
             <Navigation/>
             <Container style={{padding: 0}}>

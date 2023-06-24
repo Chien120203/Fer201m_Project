@@ -54,7 +54,7 @@ const PopulationCourse = () => {
 
                         return (
                             <Col lg={3} md={6}>
-                                {/* <div className="product">
+                                <div className="product">
                                     <div className="product-img">
                                         <img src={p.Images[0]} alt="Card image" />
                                     </div>
@@ -70,7 +70,7 @@ const PopulationCourse = () => {
                                         </div>
                                         <a href="#" className="btn btn-dark" style={{ marginTop: "20px" }}>Mua Ngay</a>
                                     </div>
-                                </div> */}
+                                </div>
                             </Col>
                         )
                     })
