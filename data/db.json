@@ -1639,7 +1639,7 @@
             "Logo": "Images/category/nokia.png"
         }
     ],
-    "admin": [
+    "user": [
         {
             "id": "RC1639",
             "firstName": "Davida",
@@ -1649,6 +1649,7 @@
             "email": "ddust0@wp.com",
             "dateOfBirth": "9/29/2002",
             "account": "AF89520724",
+            "roll": 1,
             "password": "=.*a)=.*2)h{8,}"
         },
         {
@@ -1660,6 +1661,7 @@
             "email": "acastelletti1@wufoo.com",
             "dateOfBirth": "11/22/1969",
             "account": "CQ93719869",
+            "roll": 1,
             "password": "=.*M=.*7)k{8,}"
         },
         {
@@ -1671,6 +1673,7 @@
             "email": "ejeannin2@weebly.com",
             "dateOfBirth": "6/11/1964",
             "account": "MS66652092",
+            "roll": 1,
             "password": "=.*e)=.*3Z{8,}"
         },
         {
@@ -1682,6 +1685,7 @@
             "email": "pemsley3@nymag.com",
             "dateOfBirth": "8/30/1903",
             "account": "CE65036430",
+            "roll": 1,
             "password": "=.*c)=.*3\\{8,}"
         },
         {
@@ -1693,10 +1697,9 @@
             "email": "sdawson4@dailymotion.com",
             "dateOfBirth": "10/26/1926",
             "account": "YZ11597177",
+            "roll": 1,
             "password": "=.*q)=.*5d{8,}"
-        }
-    ],
-    "user": [
+        },
         {
             "id": "OS0571",
             "firstName": "Cindelyn",
@@ -1706,6 +1709,7 @@
             "email": "csleany0@google.co.uk",
             "dateOfBirth": "3/21/2000",
             "account": "RM59284163",
+            "roll": 0,
             "password": "=.*W)=.*3)b{8,}"
         },
         {
@@ -1717,6 +1721,7 @@
             "email": "dgaskell1@aol.com",
             "dateOfBirth": "5/14/1964",
             "account": "PH13552618",
+            "roll": 0,
             "password": "=.*W)=.*8h{8,}"
         },
         {
@@ -1728,6 +1733,7 @@
             "email": "wsherbrooke2@dyndns.org",
             "dateOfBirth": "3/7/1915",
             "account": "HK33503365",
+            "roll": 0,
             "password": "=.*H)=.*0)\\{8,}"
         },
         {
@@ -1739,6 +1745,7 @@
             "email": "hbarrick3@shareasale.com",
             "dateOfBirth": "11/11/2020",
             "account": "BB18435473",
+            "roll": 0,
             "password": "=.*w)=.*4g{8,}"
         },
         {
@@ -1750,6 +1757,7 @@
             "email": "htacker4@cpanel.net",
             "dateOfBirth": "7/25/1975",
             "account": "BJ66719012",
+            "roll": 0,
             "password": "=.*S=.*8t{8,}"
         },
         {
@@ -1761,6 +1769,7 @@
             "email": "astokes5@woothemes.com",
             "dateOfBirth": "12/2/1958",
             "account": "MY45735698",
+            "roll": 0,
             "password": "=.*E=.*8\\{8,}"
         },
         {
@@ -1772,6 +1781,7 @@
             "email": "atrank6@ca.gov",
             "dateOfBirth": "2/10/1949",
             "account": "PX78063658",
+            "roll": 0,
             "password": "=.*C=.*8I{8,}"
         },
         {
@@ -1783,6 +1793,7 @@
             "email": "ldundon7@people.com.cn",
             "dateOfBirth": "12/19/2009",
             "account": "FT94096949",
+            "roll": 0,
             "password": "=.*d)=.*6\\{8,}"
         },
         {
@@ -1794,6 +1805,7 @@
             "email": "hcrosseland8@vk.com",
             "dateOfBirth": "8/22/2003",
             "account": "SU10730180",
+            "roll": 0,
             "password": "=.*P)=.*0N{8,}"
         },
         {
@@ -1805,6 +1817,7 @@
             "email": "eoxterby9@yellowbook.com",
             "dateOfBirth": "2/1/1933",
             "account": "SM97058083",
+            "roll": 0,
             "password": "=.*F=.*2d{8,}"
         },
         {
@@ -1816,6 +1829,7 @@
             "email": "cboggona@mozilla.com",
             "dateOfBirth": "6/29/1989",
             "account": "SA46023240",
+            "roll": 0,
             "password": "=.*b=.*2N{8,}"
         },
         {
@@ -1827,6 +1841,7 @@
             "email": "samerb@paginegialle.it",
             "dateOfBirth": "10/6/1922",
             "account": "LA92855952",
+            "roll": 0,
             "password": "=.*E)=.*4)I{8,}"
         },
         {
@@ -1838,6 +1853,7 @@
             "email": "pmadillc@foxnews.com",
             "dateOfBirth": "4/14/1913",
             "account": "FK93399247",
+            "roll": 0,
             "password": "=.*u)=.*6)d{8,}"
         },
         {
@@ -1849,6 +1865,7 @@
             "email": "kbrookesd@vkontakte.ru",
             "dateOfBirth": "11/6/1902",
             "account": "SQ47750050",
+            "roll": 0,
             "password": "=.*Z)=.*3)\\{8,}"
         },
         {
@@ -1860,6 +1877,7 @@
             "email": "mhaydone@sciencedaily.com",
             "dateOfBirth": "8/28/1909",
             "account": "LI43381479",
+            "roll": 0,
             "password": "=.*P)=.*4)w{8,}"
         },
         {
@@ -1871,6 +1889,7 @@
             "email": "tmackenneyf@yolasite.com",
             "dateOfBirth": "1/15/1923",
             "account": "LB96578074",
+            "roll": 0,
             "password": "=.*h)=.*5)d{8,}"
         },
         {
@@ -1882,6 +1901,7 @@
             "email": "htumbeltyg@loc.gov",
             "dateOfBirth": "11/12/1995",
             "account": "JK83042952",
+            "roll": 0,
             "password": "=.*D)=.*6k{8,}"
         },
         {
@@ -1893,6 +1913,7 @@
             "email": "jberthodh@nps.gov",
             "dateOfBirth": "4/27/1962",
             "account": "LW32230115",
+            "roll": 0,
             "password": "=.*Y)=.*7\\{8,}"
         },
         {
@@ -1904,6 +1925,7 @@
             "email": "rvokinsi@google.com.au",
             "dateOfBirth": "4/24/1912",
             "account": "LX04249743",
+            "roll": 0,
             "password": "=.*h)=.*5V{8,}"
         },
         {
@@ -1915,6 +1937,7 @@
             "email": "ccolthardj@odnoklassniki.ru",
             "dateOfBirth": "3/4/1915",
             "account": "BG20152978",
+            "roll": 0,
             "password": "=.*F=.*5)o{8,}"
         },
         {
@@ -1926,6 +1949,7 @@
             "email": "hdequesnek@liveinternet.ru",
             "dateOfBirth": "9/1/1979",
             "account": "FI08492074",
+            "roll": 0,
             "password": "=.*X=.*4)z{8,}"
         },
         {
@@ -1937,6 +1961,7 @@
             "email": "kdyettl@smugmug.com",
             "dateOfBirth": "12/5/1988",
             "account": "YH47331379",
+            "roll": 0,
             "password": "=.*f=.*2\\{8,}"
         },
         {
@@ -1948,6 +1973,7 @@
             "email": "sgarnseym@ning.com",
             "dateOfBirth": "1/12/1939",
             "account": "MV79737106",
+            "roll": 0,
             "password": "=.*t=.*1d{8,}"
         },
         {
@@ -1959,6 +1985,7 @@
             "email": "vevenettn@icio.us",
             "dateOfBirth": "9/3/1904",
             "account": "JD92190245",
+            "roll": 0,
             "password": "=.*E)=.*0)\\{8,}"
         },
         {
@@ -1970,6 +1997,7 @@
             "email": "gcrudeno@oracle.com",
             "dateOfBirth": "3/15/1995",
             "account": "OD46798259",
+            "roll": 0,
             "password": "=.*e=.*4)d{8,}"
         },
         {
@@ -1981,6 +2009,7 @@
             "email": "dvasentsovp@blogs.com",
             "dateOfBirth": "4/18/1907",
             "account": "GP81919342",
+            "roll": 0,
             "password": "=.*l)=.*7)\\{8,}"
         },
         {
@@ -1992,6 +2021,7 @@
             "email": "rbauserq@discuz.net",
             "dateOfBirth": "8/14/1911",
             "account": "WX49996100",
+            "roll": 0,
             "password": "=.*m=.*5)q{8,}"
         },
         {
@@ -2003,6 +2033,7 @@
             "email": "sciceror@walmart.com",
             "dateOfBirth": "1/6/1963",
             "account": "WZ94936850",
+            "roll": 0,
             "password": "=.*Z)=.*9)\\{8,}"
         },
         {
@@ -2014,6 +2045,7 @@
             "email": "gmiddlemisss@purevolume.com",
             "dateOfBirth": "4/28/1985",
             "account": "LR66408740",
+            "roll": 0,
             "password": "=.*R)=.*6Q{8,}"
         },
         {
@@ -2025,6 +2057,7 @@
             "email": "irymert@comcast.net",
             "dateOfBirth": "3/8/1903",
             "account": "SH57325884",
+            "roll": 0,
             "password": "=.*U=.*6)g{8,}"
         },
         {
@@ -2036,6 +2069,7 @@
             "email": "ktomlinsonu@comsenz.com",
             "dateOfBirth": "11/29/1955",
             "account": "UE71811909",
+            "roll": 0,
             "password": "=.*h)=.*7)\\{8,}"
         },
         {
@@ -2047,6 +2081,7 @@
             "email": "wturfittv@yale.edu",
             "dateOfBirth": "5/23/1956",
             "account": "UW47409247",
+            "roll": 0,
             "password": "=.*E)=.*1)X{8,}"
         },
         {
@@ -2058,6 +2093,7 @@
             "email": "dworldw@uiuc.edu",
             "dateOfBirth": "10/30/2007",
             "account": "QA64872784",
+            "roll": 0,
             "password": "=.*H)=.*0\\{8,}"
         },
         {
@@ -2069,6 +2105,7 @@
             "email": "egrogonax@histats.com",
             "dateOfBirth": "6/9/1977",
             "account": "VL48202546",
+            "roll": 0,
             "password": "=.*J=.*6)N{8,}"
         },
         {
@@ -2080,6 +2117,7 @@
             "email": "jstazikery@t-online.de",
             "dateOfBirth": "10/21/1958",
             "account": "UN56792353",
+            "roll": 0,
             "password": "=.*S)=.*1)\\{8,}"
         },
         {
@@ -2091,6 +2129,7 @@
             "email": "cproctorz@usnews.com",
             "dateOfBirth": "4/17/1903",
             "account": "HK02097878",
+            "roll": 0,
             "password": "=.*H)=.*4d{8,}"
         },
         {
@@ -2102,6 +2141,7 @@
             "email": "ddimanche10@hubpages.com",
             "dateOfBirth": "5/6/1938",
             "account": "UT59284976",
+            "roll": 0,
             "password": "=.*S)=.*6J{8,}"
         },
         {
@@ -2113,6 +2153,7 @@
             "email": "gvolk11@ucla.edu",
             "dateOfBirth": "9/16/1995",
             "account": "NZ87499590",
+            "roll": 0,
             "password": "=.*O=.*1)\\{8,}"
         },
         {
@@ -2124,6 +2165,7 @@
             "email": "hduffus12@nbcnews.com",
             "dateOfBirth": "7/7/1992",
             "account": "UY51503343",
+            "roll": 0,
             "password": "=.*E)=.*7\\{8,}"
         },
         {
@@ -2135,6 +2177,7 @@
             "email": "cgansbuhler13@phpbb.com",
             "dateOfBirth": "3/27/1975",
             "account": "CD26210623",
+            "roll": 0,
             "password": "=.*U=.*2)M{8,}"
         },
         {
@@ -2146,6 +2189,7 @@
             "email": "hlasseter14@hc360.com",
             "dateOfBirth": "7/13/1999",
             "account": "ZG39093312",
+            "roll": 0,
             "password": "=.*J=.*2)d{8,}"
         },
         {
@@ -2157,6 +2201,7 @@
             "email": "tinggall15@addthis.com",
             "dateOfBirth": "6/4/2007",
             "account": "RJ09717847",
+            "roll": 0,
             "password": "=.*A=.*5)z{8,}"
         },
         {
@@ -2168,6 +2213,7 @@
             "email": "cprall16@princeton.edu",
             "dateOfBirth": "10/15/1971",
             "account": "KR79153380",
+            "roll": 0,
             "password": "=.*b)=.*6)\\{8,}"
         },
         {
@@ -2179,6 +2225,7 @@
             "email": "jstair17@google.es",
             "dateOfBirth": "6/4/1994",
             "account": "NP33489041",
+            "roll": 0,
             "password": "=.*z=.*2)q{8,}"
         },
         {
@@ -2190,6 +2237,7 @@
             "email": "etrappe18@unc.edu",
             "dateOfBirth": "10/26/1978",
             "account": "FA22519610",
+            "roll": 0,
             "password": "=.*m=.*4)d{8,}"
         },
         {
@@ -2201,6 +2249,7 @@
             "email": "rdenziloe19@hibu.com",
             "dateOfBirth": "10/25/1936",
             "account": "HC32499358",
+            "roll": 0,
             "password": "=.*l=.*6f{8,}"
         },
         {
@@ -2212,6 +2261,7 @@
             "email": "hpandey1a@jalbum.net",
             "dateOfBirth": "3/15/1930",
             "account": "FK52113076",
+            "roll": 0,
             "password": "=.*W)=.*7d{8,}"
         },
         {
@@ -2223,6 +2273,7 @@
             "email": "tgyde1b@amazon.de",
             "dateOfBirth": "5/11/1930",
             "account": "XB28447030",
+            "roll": 0,
             "password": "=.*y=.*2)M{8,}"
         },
         {
@@ -2234,6 +2285,7 @@
             "email": "bgrzelewski1c@amazon.com",
             "dateOfBirth": "5/6/1997",
             "account": "HF03121844",
+            "roll": 0,
             "password": "=.*G)=.*5\\{8,}"
         },
         {
@@ -2245,6 +2297,7 @@
             "email": "kmccumskay1d@google.it",
             "dateOfBirth": "12/23/2001",
             "account": "VN82969964",
+            "roll": 0,
             "password": "=.*G=.*2)d{8,}"
         },
         {
@@ -2256,6 +2309,7 @@
             "email": "jstorrock1e@illinois.edu",
             "dateOfBirth": "3/28/1958",
             "account": "XF78726829",
+            "roll": 0,
             "password": "=.*t)=.*5)\\{8,}"
         },
         {
@@ -2267,6 +2321,7 @@
             "email": "cringsell1f@newyorker.com",
             "dateOfBirth": "8/18/2018",
             "account": "XN97971266",
+            "roll": 0,
             "password": "=.*O=.*7)J{8,}"
         },
         {
@@ -2278,6 +2333,7 @@
             "email": "hdealey1g@ow.ly",
             "dateOfBirth": "9/22/1906",
             "account": "GC10437948",
+            "roll": 0,
             "password": "=.*E)=.*0)d{8,}"
         },
         {
@@ -2289,6 +2345,7 @@
             "email": "ygerry1h@imageshack.us",
             "dateOfBirth": "11/19/1937",
             "account": "PQ88011239",
+            "roll": 0,
             "password": "=.*a=.*5)C{8,}"
         },
         {
@@ -2300,6 +2357,7 @@
             "email": "tnel1i@blogspot.com",
             "dateOfBirth": "12/1/1928",
             "account": "AB23487271",
+            "roll": 0,
             "password": "=.*i)=.*3)H{8,}"
         },
         {
@@ -2311,6 +2369,7 @@
             "email": "khempel1j@vistaprint.com",
             "dateOfBirth": "6/4/1982",
             "account": "XA76888932",
+            "roll": 0,
             "password": "=.*L=.*1d{8,}"
         },
         {
@@ -2322,6 +2381,7 @@
             "email": "rdearan1k@google.pl",
             "dateOfBirth": "2/19/1935",
             "account": "RQ76101664",
+            "roll": 0,
             "password": "=.*V=.*0\\{8,}"
         },
         {
@@ -2333,6 +2393,7 @@
             "email": "scolles1l@epa.gov",
             "dateOfBirth": "3/20/1963",
             "account": "UK43134357",
+            "roll": 0,
             "password": "=.*H=.*8G{8,}"
         },
         {
@@ -2344,6 +2405,7 @@
             "email": "xwattisham1m@google.pl",
             "dateOfBirth": "10/4/1990",
             "account": "BL22965583",
+            "roll": 0,
             "password": "=.*m=.*3)A{8,}"
         },
         {
@@ -2355,6 +2417,7 @@
             "email": "nkeane1n@bloomberg.com",
             "dateOfBirth": "10/30/2005",
             "account": "ET04292372",
+            "roll": 0,
             "password": "=.*X)=.*0)\\{8,}"
         },
         {
@@ -2366,6 +2429,7 @@
             "email": "gkemster1o@dion.ne.jp",
             "dateOfBirth": "4/25/1972",
             "account": "OA90494801",
+            "roll": 0,
             "password": "=.*m=.*0m{8,}"
         },
         {
@@ -2377,6 +2441,7 @@
             "email": "aattwill1p@cnn.com",
             "dateOfBirth": "6/23/1935",
             "account": "IH11956463",
+            "roll": 0,
             "password": "=.*r)=.*3d{8,}"
         },
         {
@@ -2388,6 +2453,7 @@
             "email": "ekilrow1q@arizona.edu",
             "dateOfBirth": "12/21/1955",
             "account": "MW61173949",
+            "roll": 0,
             "password": "=.*g=.*4)\\{8,}"
         },
         {
@@ -2399,6 +2465,7 @@
             "email": "udalziell1r@elegantthemes.com",
             "dateOfBirth": "7/28/2001",
             "account": "GQ94315020",
+            "roll": 0,
             "password": "=.*p)=.*3)d{8,}"
         },
         {
@@ -2410,6 +2477,7 @@
             "email": "wlocker1s@bizjournals.com",
             "dateOfBirth": "11/14/2004",
             "account": "ZS15445145",
+            "roll": 0,
             "password": "=.*w=.*4k{8,}"
         },
         {
@@ -2421,6 +2489,7 @@
             "email": "lcanario1t@foxnews.com",
             "dateOfBirth": "2/18/1935",
             "account": "QY41698145",
+            "roll": 0,
             "password": "=.*J=.*8)d{8,}"
         },
         {
@@ -2432,6 +2501,7 @@
             "email": "pjacobowitz1u@cargocollective.com",
             "dateOfBirth": "10/23/2008",
             "account": "VS96172066",
+            "roll": 0,
             "password": "=.*r)=.*0d{8,}"
         },
         {
@@ -2443,6 +2513,7 @@
             "email": "obrocklehurst1v@bluehost.com",
             "dateOfBirth": "7/11/2000",
             "account": "RB92982833",
+            "roll": 0,
             "password": "=.*S=.*3Z{8,}"
         },
         {
@@ -2454,6 +2525,7 @@
             "email": "bmaccaull1w@yandex.ru",
             "dateOfBirth": "10/30/1976",
             "account": "LW91362814",
+            "roll": 0,
             "password": "=.*A)=.*0d{8,}"
         },
         {
@@ -2465,6 +2537,7 @@
             "email": "gcottham1x@51.la",
             "dateOfBirth": "3/26/2012",
             "account": "IC59325034",
+            "roll": 0,
             "password": "=.*D)=.*0)d{8,}"
         },
         {
@@ -2476,6 +2549,7 @@
             "email": "mstruss1y@yelp.com",
             "dateOfBirth": "1/31/1973",
             "account": "BH84789722",
+            "roll": 0,
             "password": "=.*B=.*5d{8,}"
         },
         {
@@ -2487,6 +2561,7 @@
             "email": "sdowsing1z@clickbank.net",
             "dateOfBirth": "9/26/1965",
             "account": "MV46013505",
+            "roll": 0,
             "password": "=.*P)=.*2)d{8,}"
         },
         {
@@ -2498,6 +2573,7 @@
             "email": "mhonatsch20@fastcompany.com",
             "dateOfBirth": "1/2/1963",
             "account": "FF11955256",
+            "roll": 0,
             "password": "=.*m)=.*8\\{8,}"
         },
         {
@@ -2509,6 +2585,7 @@
             "email": "uadamek21@state.gov",
             "dateOfBirth": "9/3/1958",
             "account": "BJ68226961",
+            "roll": 0,
             "password": "=.*P)=.*5)d{8,}"
         },
         {
@@ -2520,6 +2597,7 @@
             "email": "fmarzelle22@liveinternet.ru",
             "dateOfBirth": "12/12/1998",
             "account": "JR57036965",
+            "roll": 0,
             "password": "=.*Q)=.*5)\\{8,}"
         },
         {
@@ -2531,6 +2609,7 @@
             "email": "aprobate23@blogtalkradio.com",
             "dateOfBirth": "3/9/1997",
             "account": "FQ94614759",
+            "roll": 0,
             "password": "=.*d=.*0)l{8,}"
         },
         {
@@ -2542,6 +2621,7 @@
             "email": "coutlaw24@squidoo.com",
             "dateOfBirth": "10/29/1942",
             "account": "XO03863237",
+            "roll": 0,
             "password": "=.*b=.*0\\{8,}"
         },
         {
@@ -2553,6 +2633,7 @@
             "email": "dpigne25@phoca.cz",
             "dateOfBirth": "3/28/2016",
             "account": "XG32359648",
+            "roll": 0,
             "password": "=.*T=.*5j{8,}"
         },
         {
@@ -2564,6 +2645,7 @@
             "email": "wnolin26@examiner.com",
             "dateOfBirth": "5/20/2008",
             "account": "DT94565760",
+            "roll": 0,
             "password": "=.*b)=.*8)n{8,}"
         },
         {
@@ -2575,6 +2657,7 @@
             "email": "redward27@sciencedirect.com",
             "dateOfBirth": "6/29/1939",
             "account": "RT56639727",
+            "roll": 0,
             "password": "=.*p=.*3d{8,}"
         },
         {
@@ -2586,6 +2669,7 @@
             "email": "elongfield28@homestead.com",
             "dateOfBirth": "5/13/1989",
             "account": "XH90860938",
+            "roll": 0,
             "password": "=.*n=.*6d{8,}"
         },
         {
@@ -2597,6 +2681,7 @@
             "email": "rhair29@github.io",
             "dateOfBirth": "12/3/1923",
             "account": "HH55329553",
+            "roll": 0,
             "password": "=.*d=.*5)D{8,}"
         },
         {
@@ -2608,6 +2693,7 @@
             "email": "adyball2a@forbes.com",
             "dateOfBirth": "5/21/1968",
             "account": "KD07107946",
+            "roll": 0,
             "password": "=.*h)=.*9)\\{8,}"
         },
         {
@@ -2619,6 +2705,7 @@
             "email": "wsellen2b@vinaora.com",
             "dateOfBirth": "2/28/1916",
             "account": "WG12126516",
+            "roll": 0,
             "password": "=.*p)=.*3\\{8,}"
         },
         {
@@ -2630,6 +2717,7 @@
             "email": "mzimek2c@engadget.com",
             "dateOfBirth": "3/8/1993",
             "account": "ZD12474256",
+            "roll": 0,
             "password": "=.*G)=.*8)\\{8,}"
         },
         {
@@ -2641,6 +2729,7 @@
             "email": "eshervington2d@shareasale.com",
             "dateOfBirth": "4/5/1945",
             "account": "IS21056657",
+            "roll": 0,
             "password": "=.*l)=.*2\\{8,}"
         },
         {
@@ -2652,6 +2741,7 @@
             "email": "njosipovic2e@tuttocitta.it",
             "dateOfBirth": "1/22/1906",
             "account": "LV13537375",
+            "roll": 0,
             "password": "=.*P)=.*3)d{8,}"
         },
         {
@@ -2663,6 +2753,7 @@
             "email": "amaevela2f@wisc.edu",
             "dateOfBirth": "7/26/1922",
             "account": "JX75596008",
+            "roll": 0,
             "password": "=.*P)=.*0W{8,}"
         },
         {
@@ -2674,6 +2765,7 @@
             "email": "vomara2g@nbcnews.com",
             "dateOfBirth": "12/24/1943",
             "account": "CL08758699",
+            "roll": 0,
             "password": "=.*B)=.*4)\\{8,}"
         },
         {
@@ -2685,6 +2777,7 @@
             "email": "aborton2h@tripod.com",
             "dateOfBirth": "9/3/1914",
             "account": "DJ66670513",
+            "roll": 0,
             "password": "=.*X=.*8T{8,}"
         },
         {
@@ -2696,6 +2789,7 @@
             "email": "ssteagall2i@storify.com",
             "dateOfBirth": "12/22/1940",
             "account": "FI88221530",
+            "roll": 0,
             "password": "=.*b)=.*9d{8,}"
         },
         {
@@ -2707,6 +2801,7 @@
             "email": "iwheelwright2j@gravatar.com",
             "dateOfBirth": "5/14/2018",
             "account": "LZ55300475",
+            "roll": 0,
             "password": "=.*s)=.*4d{8,}"
         },
         {
@@ -2718,6 +2813,7 @@
             "email": "fbunting2k@omniture.com",
             "dateOfBirth": "5/9/1924",
             "account": "UZ94785920",
+            "roll": 0,
             "password": "=.*D)=.*3)I{8,}"
         },
         {
@@ -2729,6 +2825,7 @@
             "email": "kpoundesford2l@boston.com",
             "dateOfBirth": "3/10/1905",
             "account": "IB33456189",
+            "roll": 0,
             "password": "=.*b=.*1)d{8,}"
         },
         {
@@ -2740,6 +2837,7 @@
             "email": "scoulthard2m@fema.gov",
             "dateOfBirth": "5/17/1933",
             "account": "OD05834053",
+            "roll": 0,
             "password": "=.*Q=.*0B{8,}"
         },
         {
@@ -2751,6 +2849,7 @@
             "email": "uiorillo2n@bloglovin.com",
             "dateOfBirth": "10/29/2012",
             "account": "RO87196485",
+            "roll": 0,
             "password": "=.*Z)=.*7)E{8,}"
         },
         {
@@ -2762,6 +2861,7 @@
             "email": "tpaulton2o@scribd.com",
             "dateOfBirth": "12/13/1909",
             "account": "KF57763407",
+            "roll": 0,
             "password": "=.*R=.*5)d{8,}"
         },
         {
@@ -2773,6 +2873,7 @@
             "email": "hsrutton2p@uol.com.br",
             "dateOfBirth": "1/13/1950",
             "account": "OB12088660",
+            "roll": 0,
             "password": "=.*W)=.*7d{8,}"
         },
         {
@@ -2784,6 +2885,7 @@
             "email": "aokelly2q@ustream.tv",
             "dateOfBirth": "3/15/2010",
             "account": "UX69177400",
+            "roll": 0,
             "password": "=.*Z=.*1)b{8,}"
         },
         {
@@ -2795,6 +2897,7 @@
             "email": "wmacnulty2r@jiathis.com",
             "dateOfBirth": "3/17/1917",
             "account": "SY20027372",
+            "roll": 0,
             "password": "=.*f)=.*2)e{8,}"
         }
     ],

@@ -14,6 +14,7 @@ import {
   faUser,
   faSignInAlt,
   faUserPlus,
+  faSignOut,
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Link } from "react-router-dom";
@@ -68,53 +69,58 @@ const Header = () => {
                   />
                   <p style={{ color: "white" }}>Giỏ hàng</p>
                 </Link>
-                {
-                  checkLogin() ? (
-                    <div>
-                      <Link
-                        style={{
-                          textAlign: "center",
-                          display: "inline-block",
-                          marginRight: "100px",
-                        }}
-                      >
-                        <FontAwesomeIcon icon={faUser} style={{ color: "white" }} />
-                        <p style={{ color: "white" }}>Tài khoản</p>
-                      </Link>
-                    </div>
-                  ) : (
-                    <div>
-                      <Link
-                        style={{
-                          textAlign: "center",
-                          display: "inline-block",
-                          marginRight: "100px",
-                        }}
-                        to={"/login"}
-                      >
-                        <FontAwesomeIcon
-                          icon={faSignInAlt}
-                          style={{ color: "white" }}
-                        />
-                        <p style={{ color: "white" }}>Đăng Nhập</p>
-                      </Link>
-                      <Link
-                        style={{
-                          textAlign: "center",
-                          display: "inline-block",
-                          marginRight: "100px",
-                        }}
-                        to={"/signup"}
-                      >
-                        <FontAwesomeIcon
-                          icon={faUserPlus}
-                          style={{ color: "white" }}
-                        />
-                        <p style={{ color: "white" }}>Đăng Ký</p>
-                      </Link>
-                    </div>
-                  )
-                }
+                <Link
+                  style={{
+                    textAlign: "center",
+                    display: "inline-block",
+                    marginRight: "100px",
+                  }}
+                >
+                  <FontAwesomeIcon icon={faUser} style={{ color: "white" }} />
+                  <p style={{ color: "white" }}>Tài khoản</p>
+                </Link>
+                <Link
+                  style={{
+                    textAlign: "center",
+                    display: "inline-block",
+                    marginRight: "100px",
+                  }}
+                  to={"/login"}
+                >
+                  <FontAwesomeIcon
+                    icon={faSignInAlt}
+                    style={{ color: "white" }}
+                  />
+                  <p style={{ color: "white" }}>Đăng Nhập</p>
+                </Link>
+                <Link
+                  style={{
+                    textAlign: "center",
+                    display: "inline-block",
+                    marginRight: "100px",
+                  }}
+                  to={"/signup"}
+                >
+                  <FontAwesomeIcon
+                    icon={faUserPlus}
+                    style={{ color: "white" }}
+                  />
+                  <p style={{ color: "white" }}>Đăng Ký</p>
+                </Link>
+                <Link
+                  style={{
+                    textAlign: "center",
+                    display: "inline-block",
+                    marginRight: "100px",
+                  }}
+                  to={"/logout"}
+                >
+                  <FontAwesomeIcon
+                    icon={faSignOut}
+                    style={{ color: "white" }}
+                  />
+                  <p style={{ color: "white" }}>Đăng xuất</p>
+                </Link>
               </div>
             </Col>
           </Row>
