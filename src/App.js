@@ -9,6 +9,7 @@ import Login from "./components/common/Login/Login";
 import Signup from "./components/common/Register/Register";
 import ProductDetail from "./components/Client/ProductDetail";
 import ShoppingCard from "./components/Client/ShoppingCard";
+import Logout from "./components/common/Logout/Logout";
 function App() {
   return (
     <BrowserRouter>
@@ -24,6 +25,7 @@ function App() {
         <Route path="/login" element={<Login />} />
         <Route path="/signup" element={<Signup />} />
         <Route path="/shoppingcard" element={<ShoppingCard />} />
+        <Route path="/logout" element={<Logout />} />
       </Routes>
     </BrowserRouter>
   );

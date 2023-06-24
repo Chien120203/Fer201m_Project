@@ -150,7 +150,11 @@ const ShoppingCard = () => {
                         {new Intl.NumberFormat("vi-VN", {
                           style: "currency",
                           currency: "VND",
-                        }).format(product.Price)}
+                        }).format(
+                          (1 - product.SalePrice) *
+                            product.Price *
+                            getQuantity(product.ID)
+                        )}
                       </p>
                       <p
                         className=""
@@ -163,7 +167,7 @@ const ShoppingCard = () => {
                         {new Intl.NumberFormat("vi-VN", {
                           style: "currency",
                           currency: "VND",
-                        }).format((1 - product.SalePrice) * product.Price)}
+                        }).format(product.Price * getQuantity(product.ID))}
                       </p>
                     </div>
                   </div>

@@ -14,6 +14,7 @@ import {
   faUser,
   faSignInAlt,
   faUserPlus,
+  faSignOut,
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Link } from "react-router-dom";
@@ -101,6 +102,20 @@ const Header = () => {
                     style={{ color: "white" }}
                   />
                   <p style={{ color: "white" }}>Đăng Ký</p>
+                </Link>
+                <Link
+                  style={{
+                    textAlign: "center",
+                    display: "inline-block",
+                    marginRight: "100px",
+                  }}
+                  to={"/logout"}
+                >
+                  <FontAwesomeIcon
+                    icon={faSignOut}
+                    style={{ color: "white" }}
+                  />
+                  <p style={{ color: "white" }}>Đăng xuất</p>
                 </Link>
               </div>
             </Col>
