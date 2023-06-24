@@ -56,6 +56,7 @@ const Header = () => {
                     display: "inline-block",
                     marginRight: "10px",
                   }}
+                  to={"/shoppingcard"}
                 >
                   <FontAwesomeIcon
                     icon={faShoppingCart}
