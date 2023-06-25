@@ -18,7 +18,7 @@ function App() {
         <Route path="/dien-thoai" element={<ListProduct />}></Route>
         <Route path="/dien-thoai/:catId" element={<ListProduct />}></Route>
         <Route
-          path="dien-thoai/product-detail/:ID"
+          path="/dien-thoai/product-detail/:ID"
           element={<ProductDetail />}
         />
         <Route path="/" element={<Home />} />
@@ -26,6 +26,10 @@ function App() {
         <Route path="/login" element={<Login />} />
         <Route path="/signup" element={<Signup />} />
         <Route path="/shoppingcard" element={<ShoppingCard />} />
+        <Route
+          path="/dien-thoai/purchase/:ID/:TYPE"
+          element={<ProductDetail />}
+        />
         <Route path="/logout" element={<Logout />} />
       </Routes>
     </BrowserRouter>

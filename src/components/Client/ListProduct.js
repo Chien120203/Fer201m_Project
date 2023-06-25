@@ -249,7 +249,7 @@ const ListProduct = () => {
                               </div>
                             </div>
                             <Link
-                              to={`product-detail/${p.ID}`}
+                              to={`/dien-thoai/product-detail/${p.ID}`}
                               className="btn btn-dark"
                               style={{ marginTop: "20px" }}
                             >
