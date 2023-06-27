@@ -10,6 +10,8 @@ import Signup from "./components/common/Register/Register";
 import ProductDetail from "./components/Client/ProductDetail";
 import ShoppingCard from "./components/Client/ShoppingCard";
 import Logout from "./components/common/Logout/Logout";
+import Purchase from "./components/Client/Purchase";
+import Search from "./components/Client/Search";
 function App() {
   return (
     <BrowserRouter>
@@ -26,9 +28,15 @@ function App() {
         <Route path="/login" element={<Login />} />
         <Route path="/signup" element={<Signup />} />
         <Route path="/shoppingcard" element={<ShoppingCard />} />
+        <Route path="/tim-kiem/:searchname" element={<Search />} />
+        <Route path="/tim-kiem" element={<Search />} />
         <Route
-          path="/dien-thoai/purchase/:ID/:TYPE"
-          element={<ProductDetail />}
+          path="dien-thoai/purchase/:ID/:TYPE"
+          element={<Purchase />}
+        />
+        <Route
+          path="/dien-thoai/purchase/:TYPE"
+          element={<Purchase />}
         />
         <Route path="/logout" element={<Logout />} />
       </Routes>

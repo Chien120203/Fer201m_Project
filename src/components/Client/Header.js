@@ -17,14 +17,24 @@ import {
   faSignOut,
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
+import { useRef } from "react";
 const Header = () => {
   const checkLogin = () => {
     return sessionStorage.getItem("user") !== null;
   }
+  const searchs = useRef(null);
+  const navigate = useNavigate();
+  const handleSearch=()=>{
+      if(searchs.current){
+        navigate(`/tim-kiem/${searchs.current.value}`)
+      }
+      else{
+        navigate(`/tim-kiem`)
+      }
+  }
   return (
     <Container fluid className="fixed-top">
-      {console.log(typeof sessionStorage.getItem("user"))}
       <Row>
         <Col md={12} className="header">
           <Row>
@@ -45,9 +55,9 @@ const Header = () => {
               style={{ height: "50px", padding: "5px" }}
             >
               <div className="input-group">
-                <FormControl type="text" placeholder="Nhập tên điện thoại" />
+                <FormControl type="text" placeholder="Nhập tên điện thoại" ref={searchs} />
                 <div className="input-group-prepend">
-                  <Button className="btn-dark">
+                  <Button className="btn-dark" onClick={() => handleSearch()}>
                     <FontAwesomeIcon icon={faMagnifyingGlass} />
                   </Button>
                 </div>

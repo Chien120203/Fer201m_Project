@@ -25,7 +25,6 @@ const ProductDetail = () => {
   const [category, setCategory] = useState({});
   const { Images, Specifications } = product;
   const [cookies, setCookie] = useCookies(["productIds"]);
-  const [paynow, setPayNow] = useCookies(["paynow"]);
   const productIds = cookies.productIds || [];
   useEffect(() => {
     fetch("http://localhost:9999/Product")
@@ -52,11 +51,7 @@ const ProductDetail = () => {
       // If the productId does not exist, initialize the count to 1
       existingProductIds[productId] = 1;
     }
-    const paynowProduct = existingProductIds.filter((x, index) => {
-      return index === productId;
-    }) ;
     setCookie("productIds", existingProductIds, { path: "/" });
-    setCookie("paynow", paynowProduct, { path: "/" });
   };
   // useEffect(() => {
   //   console.log(productIds);
@@ -154,7 +149,7 @@ const ProductDetail = () => {
                 <Link
                   className="w-100 buy-btn btn"
                   onClick={() => handlePurchase(product)}
-                  to={`/dien-thoai/purchase/${product.ID}`}
+                  to={`/dien-thoai/purchase/${product.ID}/1`}
                 >
                   <span className="text-uppercase">Mua Ngay</span>
                   <br></br>

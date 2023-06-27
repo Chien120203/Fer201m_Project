@@ -177,8 +177,8 @@ const ShoppingCard = () => {
           </Col>
           <Col xs={12} sm={12} md={12} className="pl-0">
             <hr></hr>
-            <Link className="w-100 buy-btn btn" to={`dien-thoai/purchase`}>
-              <span className="text-uppercase">thanh toán tất cả</span>
+            <Link className="w-100 buy-btn btn" to={`/dien-thoai/purchase/2`}>
+              <span className="text-uppercase">Thanh toán tất cả</span>
               <br></br>
             </Link>
           </Col>
