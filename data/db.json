@@ -2902,84 +2902,9 @@
     }
   ],
   "order": [
-    {
-      "id": 1,
-      "product_id": 1,
-      "Quantity": 1,
-      "Price": 15990000
-    },
-    {
-      "id": 2,
-      "product_id": 11,
-      "Quantity": 1,
-      "Price": 2590000
-    },
-    {
-      "id": 3,
-      "product_id": 21,
-      "Quantity": 1,
-      "Price": 10990000
-    },
-    {
-      "id": 4,
-      "product_id": 32,
-      "Quantity": 1,
-      "Price": 14990000
-    },
-    {
-      "product_id": 35,
-      "Quantity": 2,
-      "Price": 21680000,
-      "id": 5
-    },
-    {
-      "product_id": 1,
-      "Quantity": 1,
-      "Price": 15990000,
-      "id": 6
-    },
-    {
-      "product_id": 31,
-      "Quantity": 1,
-      "Price": 10480000,
-      "id": 7
-    },
-    {
-      "product_id": 1,
-      "Quantity": 1,
-      "Price": 15990000,
-      "id": 8
-    }
+    
   ],
   "OrderDetail": [
-    {
-      "firstName": "khai",
-      "lastName": "dao",
-      "phone": "0938448573",
-      "address": "HN",
-      "email": "daokhai@gmail.com",
-      "purchaseMethod": "Thanh toán bằng ZaloPay",
-      "id": 1
-    },
-    {
-      "firstName": "khai",
-      "lastName": "dao",
-      "phone": "095875621",
-      "address": "Thạch thất - Hà Nội",
-      "email": "khai@gmail.com",
-      "purchaseMethod": "Thanh toán bằng Momo",
-      "userId": null,
-      "id": 2
-    },
-    {
-      "firstName": "khai",
-      "lastName": "dao",
-      "phone": "049458489494",
-      "address": "hello",
-      "email": "dao@gmai.com",
-      "purchaseMethod": "Thanh toán khi nhận hàng",
-      "userId": "YO3199",
-      "id": 3
-    }
+    
   ]
 }

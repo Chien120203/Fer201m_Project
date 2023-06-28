@@ -26,6 +26,7 @@ const Purchase = () => {
     const address = useRef(null);
     const [purchaseMethods, setPurchaseMethods] = useState("Thanh toán khi nhận hàng");
     const navigate = useNavigate();
+    const [quantity,setQuantity] = useState(1);
     useEffect(() => {
         setProductIds(cookies.productIds || []);
     }, [cookies.productIds]);
@@ -43,7 +44,7 @@ const Purchase = () => {
                     })
                     let sum = 0;
                     selectedProduct.map((a) => {
-                        sum += a.Price
+                        sum += (a.Price+(1-a.SalePrice))*quantity;
                     })
                     setTotalPrice(sum);
                 }
@@ -54,7 +55,7 @@ const Purchase = () => {
                     setListProduct(list);
                     let sum = 0;
                     list.map((a) => {
-                        sum = sum + a.Price * cookies.productIds[a.ID]
+                        sum = sum + (a.Price*(1-a.SalePrice)) * cookies.productIds[a.ID]
                     })
                     setTotalPrice(sum);
                 }
@@ -65,7 +66,7 @@ const Purchase = () => {
     };
     const getTotalPrice = () => {
         let sum = listProduct.reduce((a, b) => {
-            return a.Price + b.Price;
+            return (a.Price*(1-a.SalePrice)*getQuantity(a.ID)) + (b.Price*(1-b.SalePrice)*getQuantity(b.ID)) ;
         })
         setTotalPrice(sum);
     }
@@ -80,11 +81,13 @@ const Purchase = () => {
         if (quantity > 0) {
             updateProduct(id, quantity + 1);
         }
+        // getTotalPrice();
     };
     const updateProduct = (id, quantity) => {
         const updatedListProductIds = { ...productIds };
         updatedListProductIds[id] = quantity;
         setProductIds(updatedListProductIds);
+        setQuantity(quantity+1);
         setCookie("productIds", updatedListProductIds, { path: "/" });
     };
     const deleteProduct = (id) => {
@@ -138,7 +141,8 @@ const Purchase = () => {
                 address: address.current.value.trim(),
                 email: email.current.value.trim(),
                 purchaseMethod: purchaseMethods,
-                userId: user.id
+                userId: user.id,
+                totalPrice: totalPrice
             };
             getOrderDetailId();
             // console.log(`id: ${Id}`);
@@ -157,7 +161,7 @@ const Purchase = () => {
                 const newOrder = {
                     product_id: product.ID,
                     Quantity: getQuantity(product.ID),
-                    Price: product.Price * getQuantity(product.ID),
+                    Price: (product.Price*(1-product.SalePrice)) * getQuantity(product.ID),
                     OrderDetailId: Id
                 }
                 fetch("http://localhost:9999/Order", {
@@ -272,7 +276,7 @@ const Purchase = () => {
                                                     <p style={{ marginBottom: "5px" }}>Giá: {new Intl.NumberFormat("vi-VN", {
                                                         style: "currency",
                                                         currency: "VND",
-                                                    }).format((l.Price * getQuantity()))}</p>
+                                                    }).format(((l.Price*(1-l.SalePrice)) * getQuantity()))}</p>
                                                 </Col>
                                                 <Col md={6} style={{ textAlign: "right" }}>
                                                     <p>Số lượng:

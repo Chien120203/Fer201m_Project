@@ -4,9 +4,10 @@ import Footer from "./Footer";
 import Navigation from "./Navigation";
 import { useEffect, useState } from "react";
 import { Link, useParams } from "react-router-dom";
-
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faBatteryFull, faCamera, faMemory, faMicrochip, faMobile, faMobileScreen } from "@fortawesome/free-solid-svg-icons";
 const ListProduct = () => {
-  const {catId} = useParams();
+  const { catId } = useParams();
   const [category, setCategory] = useState([]);
   const [Product, setProduct] = useState([]);
   const [categoryId, setCategoryId] = useState(catId);
@@ -229,6 +230,16 @@ const ListProduct = () => {
                         <div className="product">
                           <div className="product-img">
                             <img src={p.Images[0]} alt="Card image" />
+                            <div className="productinfo">
+                              <Row>
+                                <Col md={12}>
+                                  <p><FontAwesomeIcon icon={faMobileScreen} />: {p.Specifications.Screen}</p>
+                                  <p><FontAwesomeIcon icon={faMemory} />: {p.Specifications.RAM}</p>
+                                  <p><FontAwesomeIcon icon={faMicrochip} />: {p.Specifications.CPU}</p>
+                                  <p><FontAwesomeIcon icon={faBatteryFull} />: {p.Specifications.Battery_capacity}</p>
+                                </Col>
+                              </Row>
+                            </div>
                           </div>
                           <div>
                             <h4>{p.Name}</h4>

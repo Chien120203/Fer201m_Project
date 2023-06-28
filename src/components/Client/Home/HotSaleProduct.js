@@ -2,53 +2,21 @@ import { Col, Container, Row } from "react-bootstrap";
 import { useEffect, useState } from "react";
 import { Link } from 'react-router-dom'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBatteryFull, faCamera, faMemory, faMicrochip, faMobile, faMobileScreen } from "@fortawesome/free-solid-svg-icons";
+import { faBatteryFull, faCamera, faFireFlameCurved, faMemory, faMicrochip, faMobile, faMobileScreen } from "@fortawesome/free-solid-svg-icons";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-const PopulationCourse = () => {
-    const [product, setProduct] = useState([]);
-    const [order, setOrder] = useState([]);
+const HotSaleProduct = () => {
     const [topcourse, setTopCourse] = useState([]);
-    var orderedcourse = [];
-    const countOrderCourse = (products) => {
-        products.map((p) => {
-            let order_product = {
-                ID: p.ID,
-                quantity: 0
-            }
-            order.map((o) => {
-                if (o.product_id === p.ID) {
-                    order_product.quantity += 1;
-                }
-            })
-            // console.log(order_product)
-            orderedcourse.push(order_product);
-        })
-    }
 
-    useEffect(() => {
-        fetch("http://localhost:9999/Order").then(res => res.json())
-            .then(result => {
-                setOrder(result);
-            })
-    }, [])
     useEffect(() => {
         fetch("http://localhost:9999/Product").then(res => res.json())
             .then(result => {
-                countOrderCourse(result);
-                orderedcourse.sort((a, b) => {
-                    return b.quantity - a.quantity;
-                })
-                setTopCourse(result.filter((p) => {
-                    let length = 0;
-                    if(orderedcourse.length >= 8) length = 8;
-                    else length = orderedcourse.length
-                    for(let i = 0; i < length; i++){
-                        if(p.ID == orderedcourse[i].ID) return p;
-                    }
-                }))
+                setTopCourse(result.sort((a, b) => {
+                    return (b.SalePrice - a.SalePrice)
+                }).slice(0, 9));
             })
     }, [])
+
     const responsive = {
         superLargeDesktop: {
             // the naming can be any, depends on you.
@@ -70,7 +38,7 @@ const PopulationCourse = () => {
     };
     return (
         <Container style={{ marginTop: "50px", backgroundColor: "white", paddingTop: "30px", paddingBottom: "30px" }}>
-            <h3 style={{ marginBottom: "20px", color: "rgb(245, 59, 34)" }}>Sản phẩm bán chạy</h3>
+            <h3 style={{ marginBottom: "20px", color: "rgb(245, 59, 34)" }}>HOT SALE <FontAwesomeIcon icon={faFireFlameCurved} /></h3>
             <Carousel responsive={responsive}>
                 {
                     topcourse.map((p) => {
@@ -109,4 +77,4 @@ const PopulationCourse = () => {
         </Container>
     )
 }
-export default PopulationCourse;
+export default HotSaleProduct;

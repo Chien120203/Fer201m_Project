@@ -25,13 +25,13 @@ const Header = () => {
   }
   const searchs = useRef(null);
   const navigate = useNavigate();
-  const handleSearch=()=>{
-      if(searchs.current){
-        navigate(`/tim-kiem/${searchs.current.value}`)
-      }
-      else{
-        navigate(`/tim-kiem`)
-      }
+  const handleSearch = () => {
+    if (searchs.current) {
+      navigate(`/tim-kiem/${searchs.current.value}`)
+    }
+    else {
+      navigate(`/tim-kiem`)
+    }
   }
   return (
     <Container fluid className="fixed-top">
@@ -47,7 +47,7 @@ const Header = () => {
               }}
               className="header-item"
             >
-              <img src="../Images/logo.png" id="logo"></img>
+              <Link to="/"><img src="../Images/logo.png" id="logo"></img></Link>
             </Col>
             <Col
               md={4}

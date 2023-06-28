@@ -6,6 +6,7 @@ import Slider from "./Slider";
 import Footer from "../Footer";
 import PopulationCourse from "./PopulationProduct";
 import Navigation from "../Navigation";
+import HotSaleProduct from "./HotSaleProduct";
 
 
 const Home = () => {
@@ -51,6 +52,7 @@ const Home = () => {
                     </Col>
             </Container>
             <PopulationCourse/>
+            <HotSaleProduct/>
             <Footer/>
         </div>
     )
