@@ -6,14 +6,7 @@
             "Category_ID": 1,
             "Price": 15990000,
             "Sale_Price": 0.05,
-            "Quantity": 10,
-            "Image": [
-                "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2022/8/10/637957658354316100_samsung-galaxy-z-flip4-tim-1.jpg",
-                "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2022/8/10/637957703261967280_samsung-galaxy-z-flip4-tim-2.jpg",
-                "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2022/8/10/637957703260561099_samsung-galaxy-z-flip4-tim-3.jpg",
-                "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2022/8/10/637957703262279890_samsung-galaxy-z-flip4-tim-4.jpg",
-                "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2022/8/10/637957703261029822_samsung-galaxy-z-flip4-tim-5.jpg"
-            ],
+            "Image": "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2022/8/10/637957658354316100_samsung-galaxy-z-flip4-tim-1.jpg",
             "Specifications": {
                 "Screen": "Chính: 6.7 inch, Phụ: 1.9 inch, Dynamic AMOLED 2X, FHD+, 1080 x 2636 Pixels",
                 "Rear_camera": "12.0 MP + 12.0 MP",
@@ -33,13 +26,7 @@
             "Category_ID": 1,
             "Price": 12490000,
             "Sale_Price": 0.3,
-            "Quantity": 10,
-            "Image": [
-                "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2022/7/23/637941779749495327_samsung-galaxy-s22-bora-purple-1.jpg",
-                "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2022/7/23/637941779748870189_samsung-galaxy-s22-bora-purple-2.jpg",
-                "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2022/7/23/637941779746995258_samsung-galaxy-s22-bora-purple-3.jpg",
-                "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2022/7/23/637941779749182644_samsung-galaxy-s22-bora-purple-4.jpg"
-            ],
+            "Image": "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2022/7/23/637941779749495327_samsung-galaxy-s22-bora-purple-1.jpg",
             "Specifications": {
                 "Screen": "6.1 inch, Dynamic AMOLED 2X, FHD+, 1080 x 2340 Pixels",
                 "Rear_camera": "50.0 MP + 12.0 MP + 10.0 MP",
@@ -59,14 +46,7 @@
             "Category_ID": 1,
             "Price": 25990000,
             "Sale_Price": 0.3,
-            "Quantity": 10,
-            "Image": [
-                "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2023/2/2/638108933021851432_samsung-galaxy-s23-ultra-xanh-1.jpg",
-                "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2023/2/17/638122555347721262_samsung-galaxy-s23-ultra-xanh-2.jpg",
-                "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2023/2/17/638122555347096362_samsung-galaxy-s23-ultra-xanh-3.jpg",
-                "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2023/2/17/638122555348189869_samsung-galaxy-s23-ultra-xanh-4.jpg",
-                "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2023/2/17/638122555346625094_samsung-galaxy-s23-ultra-xanh-5.jpg"
-            ],
+            "Image": "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2023/2/2/638108933021851432_samsung-galaxy-s23-ultra-xanh-1.jpg",
             "Specifications": {
                 "Screen": "6.8 inch, Dynamic AMOLED 2X, QHD+, 1440 x 3088 Pixels",
                 "Rear_camera": "200.0 MP + 12.0 MP + 10.0 MP + 10.0 MP",

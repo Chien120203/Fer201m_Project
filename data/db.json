@@ -6,14 +6,7 @@
       "Category_ID": 1,
       "Price": 15990000,
       "SalePrice": 0.05,
-      "Quantity": 10,
-      "Images": [
-        "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2022/8/10/637957658354316100_samsung-galaxy-z-flip4-tim-1.jpg",
-        "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2022/8/10/637957703261967280_samsung-galaxy-z-flip4-tim-2.jpg",
-        "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2022/8/10/637957703260561099_samsung-galaxy-z-flip4-tim-3.jpg",
-        "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2022/8/10/637957703262279890_samsung-galaxy-z-flip4-tim-4.jpg",
-        "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2022/8/10/637957703261029822_samsung-galaxy-z-flip4-tim-5.jpg"
-      ],
+      "Image": "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2022/8/10/637957658354316100_samsung-galaxy-z-flip4-tim-1.jpg",
       "Specifications": {
         "Screen": "Chính: 6.7 inch, Phụ: 1.9 inch, Dynamic AMOLED 2X, FHD+, 1080 x 2636 Pixels",
         "Rear_camera": "12.0 MP + 12.0 MP",
@@ -33,13 +26,7 @@
       "Category_ID": 1,
       "Price": 12490000,
       "SalePrice": 0.3,
-      "Quantity": 10,
-      "Images": [
-        "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2022/7/23/637941779749495327_samsung-galaxy-s22-bora-purple-1.jpg",
-        "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2022/7/23/637941779748870189_samsung-galaxy-s22-bora-purple-2.jpg",
-        "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2022/7/23/637941779746995258_samsung-galaxy-s22-bora-purple-3.jpg",
-        "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2022/7/23/637941779749182644_samsung-galaxy-s22-bora-purple-4.jpg"
-      ],
+      "Image": "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2022/7/23/637941779749495327_samsung-galaxy-s22-bora-purple-1.jpg",
       "Specifications": {
         "Screen": "6.1 inch, Dynamic AMOLED 2X, FHD+, 1080 x 2340 Pixels",
         "Rear_camera": "50.0 MP + 12.0 MP + 10.0 MP",
@@ -59,14 +46,7 @@
       "Category_ID": 1,
       "Price": 25990000,
       "SalePrice": 0.3,
-      "Quantity": 10,
-      "Images": [
-        "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2023/2/2/638108933021851432_samsung-galaxy-s23-ultra-xanh-1.jpg",
-        "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2023/2/17/638122555347721262_samsung-galaxy-s23-ultra-xanh-2.jpg",
-        "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2023/2/17/638122555347096362_samsung-galaxy-s23-ultra-xanh-3.jpg",
-        "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2023/2/17/638122555348189869_samsung-galaxy-s23-ultra-xanh-4.jpg",
-        "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2023/2/17/638122555346625094_samsung-galaxy-s23-ultra-xanh-5.jpg"
-      ],
+      "Image": "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2023/2/2/638108933021851432_samsung-galaxy-s23-ultra-xanh-1.jpg",
       "Specifications": {
         "Screen": "6.8 inch, Dynamic AMOLED 2X, QHD+, 1440 x 3088 Pixels",
         "Rear_camera": "200.0 MP + 12.0 MP + 10.0 MP + 10.0 MP",
@@ -86,14 +66,7 @@
       "Category_ID": 1,
       "Price": 29990000,
       "SalePrice": 0,
-      "Quantity": 10,
-      "Images": [
-        "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2023/4/10/638167221773541058_samsung-galaxy-z-fold4-do-1.jpg",
-        "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2023/4/10/638167221773487338_samsung-galaxy-z-fold4-do-2.jpg",
-        "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2023/4/10/638167221773541058_samsung-galaxy-z-fold4-do-3.jpg",
-        "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2023/4/10/638167221773017443_samsung-galaxy-z-fold4-do-4.jpg",
-        "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2023/4/10/638167221773017443_samsung-galaxy-z-fold4-do-5.jpg"
-      ],
+      "Images": "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2023/4/10/638167221773541058_samsung-galaxy-z-fold4-do-1.jpg",
       "Specifications": {
         "Screen": "Phụ: 6.2 inch, Chính: 7.6 inch, Dynamic AMOLED 2X, WXGA+, Màn hình chính: 2176 x 1812 Pixels",
         "Rear_camera": "50.0 MP + 12.0 MP + 10.0 MP",
@@ -114,13 +87,8 @@
       "Price": 7490000,
       "SalePrice": 0.05,
       "Quantity": 10,
-      "Images": [
-        "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2023/5/23/638204338060434614_samsung-galaxy-a34-den-1.jpg",
-        "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2023/3/15/638144927833361384_samsung-galaxy-a34-den-3.jpg",
-        "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2023/5/23/638204338060747119_samsung-galaxy-a34-den-2.jpg",
-        "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2023/5/23/638204338060590865_samsung-galaxy-a34-den-4.jpg",
-        "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2023/3/15/638144927832252282_samsung-galaxy-a34-den-5.jpg"
-      ],
+      "Images": "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2023/5/23/638204338060434614_samsung-galaxy-a34-den-1.jpg",
+
       "Specifications": {
         "Screen": "Chính: 6.6 inch, Super AMOLED, FHD+, 1080 x 2400 Pixels",
         "Rear_camera": "48.0 MP + 8.0 MP + 5.0 MP",
@@ -140,14 +108,8 @@
       "Category_ID": 1,
       "Price": 9190000,
       "SalePrice": 0.05,
-      "Quantity": 10,
-      "Images": [
-        "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2023/5/23/638204321010051997_samsung-galaxy-a54-5g-den-1.jpg",
-        "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2023/3/15/638144940396733063_samsung-galaxy-a54-5g-den-3.jpg",
-        "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2023/5/23/638204321010209230_samsung-galaxy-a54-5g-den-2.jpg",
-        "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2023/5/23/638204321009255866_samsung-galaxy-a54-5g-den-4.jpg",
-        "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2023/3/15/638144940395951814_samsung-galaxy-a54-5g-den-5.jpg"
-      ],
+      "Images": "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2023/5/23/638204321010051997_samsung-galaxy-a54-5g-den-1.jpg",
+
       "Specifications": {
         "Screen": "Chính: 6.4 inch, Super AMOLED, FHD+, 1080 x 2400 Pixels",
         "Rear_camera": "50.0 MP + 12.0 MP + 5.0 MP",
@@ -167,14 +129,8 @@
       "Category_ID": 1,
       "Price": 3790000,
       "SalePrice": 0.05,
-      "Quantity": 10,
-      "Images": [
-        "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2023/5/23/638204362401987928_samsung-galaxy-a14-4g-den-2.jpg",
-        "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2023/3/3/638134395341470562_samsung-galaxy-a14-4g-den-5.jpg",
-        "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2023/5/23/638204362404830463_samsung-galaxy-a14-4g-den-3.jpg",
-        "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2023/5/23/638204362401887460_samsung-galaxy-a14-4g-den-4.jpg",
-        "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2023/3/3/638134395341162795_samsung-galaxy-a14-4g-den-1.jpg"
-      ],
+      "Images": "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2023/5/23/638204362401987928_samsung-galaxy-a14-4g-den-2.jpg",
+
       "Specifications": {
         "Screen": "6.6 inch, PLS LCD, FHD+, 1080 x 2408 Pixels",
         "Rear_camera": "50.0 MP + 2.0 MP + 2.0 MP",
@@ -194,13 +150,8 @@
       "Category_ID": 1,
       "Price": 4890000,
       "SalePrice": 0.02,
-      "Quantity": 10,
-      "Images": [
-        "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2022/10/19/638017839470367776_samsung-galaxy-a23-5g-den-2.jpg",
-        "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2022/10/19/638017839469512037_samsung-galaxy-a23-5g-den-5.jpg",
-        "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2022/10/19/638017839468843303_samsung-galaxy-a23-5g-den-3.jpg",
-        "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2022/10/19/638017839462986316_samsung-galaxy-a23-5g-den-1.jpg"
-      ],
+      "Images": "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2022/10/19/638017839470367776_samsung-galaxy-a23-5g-den-2.jpg",
+        
       "Specifications": {
         "Screen": "6.6 inch, PLS LCD, FHD+, 1080 x 2408 Pixels",
         "Rear_camera": "50.0 MP + 2.0 MP + 2.0 MP",
@@ -220,14 +171,8 @@
       "Category_ID": 1,
       "Price": 3490000,
       "SalePrice": 0.02,
-      "Quantity": 10,
-      "Images": [
-        "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2023/5/23/638204394273382414_samsung-galaxy-a04s-den-4.jpg",
-        "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2022/9/14/637987530646611531_samsung-galaxy-a04s-den-5.jpg",
-        "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2023/5/23/638204394272841272_samsung-galaxy-a04s-den-3.jpg",
-        "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2023/5/23/638204394278906940_samsung-galaxy-a04s-den-1.jpg",
-        "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2022/9/14/637987530645049161_samsung-galaxy-a04s-den-2.jpg"
-      ],
+      "Images": "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2023/5/23/638204394273382414_samsung-galaxy-a04s-den-4.jpg",
+       
       "Specifications": {
         "Screen": "6.5 inch, PLS LCD, HD+, 720 x 1600 Pixels",
         "Rear_camera": "50.0 MP + 2.0 MP + 2.0 MP",
@@ -247,14 +192,8 @@
       "Category_ID": 1,
       "Price": 2290000,
       "SalePrice": 0.02,
-      "Quantity": 10,
-      "Images": [
-        "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2023/5/23/638204396773490668_samsung-galaxy-a04-xanh-5.jpg",
-        "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2022/10/11/638011087809998171_samsung-galaxy-a04-xanh-3.jpg",
-        "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2023/5/23/638204396770989233_samsung-galaxy-a04-xanh-2.jpg",
-        "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2023/5/23/638204396774170321_samsung-galaxy-a04-xanh-4.jpg",
-        "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2022/10/11/638011087809373150_samsung-galaxy-a04-xanh-1.jpg"
-      ],
+      "Images": "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2023/5/23/638204396773490668_samsung-galaxy-a04-xanh-5.jpg",
+        
       "Specifications": {
         "Screen": "6.5 inch, HD+, 720 x 1600 Pixels",
         "Rear_camera": "50.0 MP + 2.0 MP + 2.0 MP",
@@ -293,18 +232,11 @@
     },
     {
       "ID": 12,
-      "Name": "Xiaomi Redmi 10A 3GB-64GB",
+      "Name": "Xiaomi Redmi 10 2022 4GB-128GB",
       "Category_ID": 2,
       "Price": 3790000,
       "SalePrice": 0.02,
-      "Quantity": 10,
-      "Images": [
-        "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2022/5/10/637877742594774669_xiaomi-redmi-10-2022-xam-1.jpg",
-        "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2022/5/10/637877742594484913_xiaomi-redmi-10-2022-xam-2.jpg",
-        "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2022/5/10/637877742594655382_xiaomi-redmi-10-2022-xam-3.jpg",
-        "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2022/5/10/637877742594655382_xiaomi-redmi-10-2022-xam-4.jpg",
-        "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2022/5/10/637877742594484913_xiaomi-redmi-10-2022-xam-5.jpg"
-      ],
+      "Images": "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2022/5/10/637877742594774669_xiaomi-redmi-10-2022-xam-1.jpg",
       "Specifications": {
         "Screen": "6.5 inch, IPS LCD, FHD+, 1080 x 2400 Pixels",
         "Rear_camera": "50.0 MP + 8.0 MP + 2.0 MP + 2.0 MP",
@@ -320,18 +252,11 @@
     },
     {
       "ID": 13,
-      "Name": "Xiaomi Redmi Note 12 4GB-128GB ",
+      "Name": "Xiaomi Redmi Note 12 4GB-128GB",
       "Category_ID": 2,
-      "Price": 3790000,
+      "Price": 4590000,
       "SalePrice": 0.02,
-      "Quantity": 10,
-      "Images": [
-        "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2023/3/22/638150992294466598_xiaomi-redmi-note-12-xam-5.jpg",
-        "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2023/3/22/638150992294624107_xiaomi-redmi-note-12-xam-3.jpg",
-        "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2023/3/22/638150992293521303_xiaomi-redmi-note-12-xam-2.jpg",
-        "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2023/3/22/638150992294466598_xiaomi-redmi-note-12-xam-1.jpg",
-        "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2023/3/22/638150992293041764_xiaomi-redmi-note-12-xam-4.jpg"
-      ],
+      "Images": "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2023/3/22/638150992294466598_xiaomi-redmi-note-12-xam-5.jpg",
       "Specifications": {
         "Screen": "6.67 inch, AMOLED, FHD+, 1080 x 2400 Pixels",
         "Rear_camera": "50.0 MP + 8.0 MP + 2.0 MP + 2.0 MP",
@@ -351,14 +276,8 @@
       "Category_ID": 2,
       "Price": 8790000,
       "SalePrice": 0.02,
-      "Quantity": 10,
-      "Images": [
-        "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2023/2/20/638125128408536178_xiaomi-13-lite-den-1.jpg",
-        "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2023/2/20/638125128406872246_xiaomi-13-lite-den-2.jpg",
-        "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2023/2/20/638125128407297140_xiaomi-13-lite-den-3.jpg",
-        "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2023/2/20/638125128407297140_xiaomi-13-lite-den-5.jpg",
-        "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2023/2/20/638125128406559868_xiaomi-13-lite-den-4.jpg"
-      ],
+      "Images": "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2023/2/20/638125128408536178_xiaomi-13-lite-den-1.jpg",
+  
       "Specifications": {
         "Screen": "6.55 inch, AMOLED, FHD+, 1080 x 2400 Pixels",
         "Rear_camera": "50.0 MP + 8.0 MP + 2.0 MP",
@@ -378,14 +297,8 @@
       "Category_ID": 2,
       "Price": 1890000,
       "SalePrice": 0.02,
-      "Quantity": 10,
-      "Images": [
-        "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2022/9/30/638001575577748669_xiaomi-redmi-a1-xanh-5.jpg",
-        "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2022/9/30/638001575577123843_xiaomi-redmi-a1-xanh-2.jpg",
-        "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2022/9/30/638001575577279959_xiaomi-redmi-a1-xanh-3.jpg",
-        "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2022/9/30/638001575577279959_xiaomi-redmi-a1-xanh-4.jpg",
-        "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2022/9/30/638001575576187403_xiaomi-redmi-a1-xanh-1.jpg"
-      ],
+      "Images":"https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2022/9/30/638001575577748669_xiaomi-redmi-a1-xanh-5.jpg",
+        
       "Specifications": {
         "Screen": "6.52 inch, HD+, 720 x 1600 Pixels",
         "Rear_camera": "8.0 MP",
@@ -405,14 +318,8 @@
       "Category_ID": 2,
       "Price": 1890000,
       "SalePrice": 0.02,
-      "Quantity": 10,
-      "Images": [
-        "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2023/3/8/638138646675311035_xiaomi-redmi-12c-xam-1.jpg",
-        "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2023/3/8/638138646674864025_xiaomi-redmi-12c-xam-2.jpg",
-        "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2023/3/8/638138646675115995_xiaomi-redmi-12c-xam-3.jpg",
-        "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2023/3/8/638138646674627859_xiaomi-redmi-12c-xam-4.jpg",
-        "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2023/3/8/638138646673521195_xiaomi-redmi-12c-xam-5.jpg"
-      ],
+      "Images": "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2023/3/8/638138646675311035_xiaomi-redmi-12c-xam-1.jpg",
+       
       "Specifications": {
         "Screen": "6.71 inch, IPS LCD, HD+, 720 x 1650 Pixels",
         "Rear_camera": "50.0 MP + 0.08 MP",
@@ -432,13 +339,7 @@
       "Category_ID": 2,
       "Price": 3990000,
       "SalePrice": 0.02,
-      "Quantity": 10,
-      "Images": [
-        "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2022/1/27/637788719726788724_xiaomi-redmi-note-11-xanh-1.jpg",
-        "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2022/1/27/637788719726320348_xiaomi-redmi-note-11-xanh-2.jpg",
-        "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2022/1/27/637788719727101248_xiaomi-redmi-note-11-xanh-3.jpg",
-        "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2022/1/27/637788719726320348_xiaomi-redmi-note-11-xanh-4.jpg"
-      ],
+      "Images":"https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2022/1/27/637788719726788724_xiaomi-redmi-note-11-xanh-1.jpg",
       "Specifications": {
         "Screen": "6.43 inch, AMOLED, FHD+, 1080 x 2400 Pixels",
         "Rear_camera": "50.0 MP + 8.0 MP + 2.0 MP + 2.0 MP",
@@ -458,13 +359,7 @@
       "Category_ID": 2,
       "Price": 4990000,
       "SalePrice": 0.02,
-      "Quantity": 10,
-      "Images": [
-        "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2022/2/14/637804380953725497_xiaomi-redmi-note-11s-xanh-2.jpg",
-        "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2022/2/14/637804380953569173_xiaomi-redmi-note-11s-xanh-3.jpg",
-        "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2022/2/14/637804380953569173_xiaomi-redmi-note-11s-xanh-4.jpg",
-        "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2022/2/14/637804380953412961_xiaomi-redmi-note-11s-xanh-1.jpg"
-      ],
+      "Images": "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2022/2/14/637804380953725497_xiaomi-redmi-note-11s-xanh-2.jpg",
       "Specifications": {
         "Screen": "6.43 inch, AMOLED, FHD+, 1080 x 2400 Pixels",
         "Rear_camera": "108.0 MP + 8.0 MP + 2.0 MP + 2.0 MP",
@@ -484,13 +379,7 @@
       "Category_ID": 2,
       "Price": 7490000,
       "SalePrice": 0.02,
-      "Quantity": 10,
-      "Images": [
-        "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2022/2/14/637804673212874594_2.xiaomi-redmi-note-11-pro-4g-trang-4.jpg",
-        "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2022/2/14/637804673213499589_2.xiaomi-redmi-note-11-pro-4g-trang-3.jpg",
-        "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2022/2/14/637804673213499589_2.xiaomi-redmi-note-11-pro-4g-trang-2.jpg",
-        "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2022/2/14/637804673223655752_2.xiaomi-redmi-note-11-pro-4g-trang-1.jpg"
-      ],
+      "Images": "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2022/2/14/637804673212874594_2.xiaomi-redmi-note-11-pro-4g-trang-4.jpg",
       "Specifications": {
         "Screen": "6.67 inch, AMOLED, FHD+, 1080 x 2400 Pixels",
         "Rear_camera": "108.0 MP + 8.0 MP + 2.0 MP + 2.0 MP",
@@ -510,14 +399,7 @@
       "Category_ID": 2,
       "Price": 17490000,
       "SalePrice": 0.02,
-      "Quantity": 10,
-      "Images": [
-        "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2023/2/20/638125113177912131_xiaomi-13-den-5.jpg",
-        "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2023/2/20/638125113177536951_xiaomi-13-den-3.jpg",
-        "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2023/2/20/638125113177285682_xiaomi-13-den-4.jpg",
-        "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2023/2/20/638125113177912131_xiaomi-13-den-1.jpg",
-        "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2023/2/20/638125113176973257_xiaomi-13-den-2.jpg"
-      ],
+      "Images": "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2023/2/20/638125113177912131_xiaomi-13-den-5.jpg",
       "Specifications": {
         "Screen": "6.36 inch, AMOLED, FHD+, 1080 x 2400 Pixels",
         "Rear_camera": "50.0 MP + 10.0 MP + 12.0 MP",
@@ -537,14 +419,7 @@
       "Category_ID": 3,
       "Price": 10990000,
       "SalePrice": 0.02,
-      "Quantity": 10,
-      "Images": [
-        "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2022/11/10/638036697912517443_vivo-v25-pro-5g-xanh-5.jpg",
-        "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2022/11/1/638029226814135898_vivo-v25-pro-5g-xanh-4.jpg",
-        "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2022/11/10/638036697912302156_vivo-v25-pro-5g-xanh-3.jpg",
-        "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2022/11/10/638036699326710321_vivo-v25-pro-5g-xanh-1.jpg",
-        "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2022/11/1/638029226813667067_vivo-v25-pro-5g-xanh-2.jpg"
-      ],
+      "Images": "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2022/11/10/638036697912517443_vivo-v25-pro-5g-xanh-5.jpg",
       "Specifications": {
         "Screen": "Chính: 6.56 inch, Chính: AMOLED, FHD+, 1080 x 2376 Pixel",
         "Rear_camera": "64.0 MP + 8.0 MP + 2.0 MP",
@@ -564,14 +439,7 @@
       "Category_ID": 3,
       "Price": 9390000,
       "SalePrice": 0.02,
-      "Quantity": 10,
-      "Images": [
-        "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2022/9/14/637987658871975174_vivo-v25e-den-1.jpg",
-        "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2022/9/14/637987658871037581_vivo-v25e-den-2.jpg",
-        "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2022/9/14/637987658871193920_vivo-v25e-den-3.jpg",
-        "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2022/9/14/637987658871662599_vivo-v25e-den-4.jpg",
-        "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2022/9/14/637987658869475958_vivo-v25e-den-5.jpg"
-      ],
+      "Images": "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2022/9/14/637987658871975174_vivo-v25e-den-1.jpg",
       "Specifications": {
         "Screen": "6.44 inch, AMOLED, FHD+, 1080 x 2040 Pixel",
         "Rear_camera": "64.0 MP + 8.0 MP + 2.0 MP",
@@ -591,14 +459,7 @@
       "Category_ID": 3,
       "Price": 8490000,
       "SalePrice": 0.02,
-      "Quantity": 10,
-      "Images": [
-        "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2022/9/14/637987654398636993_vivo-v25e-vang-1.jpg",
-        "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2022/9/14/637987654398011997_vivo-v25e-vang-2.jpg",
-        "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2022/9/14/637987654398636993_vivo-v25e-vang-3.jpg",
-        "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2022/9/14/637987654398480767_vivo-v25e-vang-4.jpg",
-        "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2022/9/14/637987654397074596_vivo-v25e-vang-5.jpg"
-      ],
+      "Images": "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2022/9/14/637987654398636993_vivo-v25e-vang-1.jpg",
       "Specifications": {
         "Screen": "6.44 inch, AMOLED, FHD+, 1080 x 2040 Pixel",
         "Rear_camera": "64.0 MP + 8.0 MP + 2.0 MP",
@@ -618,14 +479,7 @@
       "Category_ID": 3,
       "Price": 6990000,
       "SalePrice": 0.02,
-      "Quantity": 10,
-      "Images": [
-        "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2022/10/18/638016883147092027_vivo-y35-vang-3.jpg",
-        "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2022/10/18/638016883146309342_vivo-y35-vang-1.jpg",
-        "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2022/10/18/638016883145208659_vivo-y35-vang-4.jpg",
-        "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2022/10/18/638016883144256822_vivo-y35-vang-2.jpg",
-        "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2022/10/18/638016883143540631_vivo-y35-vang-5.jpg"
-      ],
+      "Images": "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2022/10/18/638016883147092027_vivo-y35-vang-3.jpg",
       "Specifications": {
         "Screen": "Chính: 6.58 inch, Chính: LCD, FHD+, 2408 x 1080 Pixels",
         "Rear_camera": "50.0 MP + 2.0 MP + 2.0 MP",
@@ -645,14 +499,7 @@
       "Category_ID": 3,
       "Price": 5990000,
       "SalePrice": 0.01,
-      "Quantity": 10,
-      "Images": [
-        "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2022/9/9/637983398316214932_vivo-y22s-xanh-7.jpg",
-        "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2022/9/9/637983398315433788_vivo-y22s-xanh-6.jpg",
-        "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2022/8/15/637961779017076277_vivo-y22s-xanh-1.jpg",
-        "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2022/9/9/637983398315746205_vivo-y22s-xanh-8.jpg",
-        "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2022/8/15/637961779016763701_vivo-y22s-xanh-2.jpg"
-      ],
+      "Images": "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2022/9/9/637983398316214932_vivo-y22s-xanh-7.jpg",
       "Specifications": {
         "Screen": "Chính: 6.55 inch, Chính: LCD, HD+, 720 x 1612 Pixels",
         "Rear_camera": "50.0 MP + 2.0 MP",
@@ -672,14 +519,7 @@
       "Category_ID": 3,
       "Price": 4490000,
       "SalePrice": 0.01,
-      "Quantity": 10,
-      "Images": [
-        "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2022/7/21/637939995440901432_vivo-t1x-xanh-1.jpg",
-        "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2022/7/21/637939995438088872_vivo-t1x-xanh-2.jpg",
-        "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2022/7/21/637939997025297340_vivo-t1x-xanh-3.jpg",
-        "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2022/7/21/637939995439182671_vivo-t1x-xanh-4.jpg",
-        "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2022/7/21/637939995425276231_vivo-t1x-xanh-5.jpg"
-      ],
+      "Images": "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2022/7/21/637939995440901432_vivo-t1x-xanh-1.jpg",
       "Specifications": {
         "Screen": "Chính: 6.58 inch, Chính: LCD, FHD+, 2408 x 1080 Pixels",
         "Rear_camera": "50.0 MP + 2.0 MP + 2.0 MP",
@@ -699,14 +539,7 @@
       "Category_ID": 3,
       "Price": 4490000,
       "SalePrice": 0.01,
-      "Quantity": 10,
-      "Images": [
-        "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2022/9/9/637983383787837357_vivo-y16-vang-6.jpg",
-        "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2022/9/9/637983383787528657_vivo-y16-vang-7.jpg",
-        "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2022/8/29/637973623420693075_vivo-y16-vang-2.jpg",
-        "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2022/9/9/637983383787528657_vivo-y16-vang-8.jpg",
-        "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2022/8/29/637973623420068240_vivo-y16-vang-1.jpg"
-      ],
+      "Images": "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2022/9/9/637983383787837357_vivo-y16-vang-6.jpg",
       "Specifications": {
         "Screen": "Chính: 6.51 inch, LCD, HD+, 720 x 1600 Pixels",
         "Rear_camera": "13.0 MP + 2.0 MP",
@@ -726,14 +559,7 @@
       "Category_ID": 3,
       "Price": 3490000,
       "SalePrice": 0.02,
-      "Quantity": 10,
-      "Images": [
-        "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2021/10/25/637707822857276078_00779950-vivo-y15s-trang-xanh-1.jpg",
-        "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2021/10/25/637707822856963587_00779950-vivo-y15s-trang-xanh-2.jpg",
-        "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2021/10/25/637707822855869782_00779950-vivo-y15s-trang-xanh-3.jpg",
-        "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2021/10/25/637707822860869927_00779950-vivo-y15s-trang-xanh-4.jpg",
-        "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2021/10/25/637707822857588559_00779950-vivo-y15s-trang-xanh-5.jpg"
-      ],
+      "Images": "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2021/10/25/637707822857276078_00779950-vivo-y15s-trang-xanh-1.jpg",
       "Specifications": {
         "Screen": "6.51 inch, IPS LCD, HD+, 720 x 1600 Pixels",
         "Rear_camera": "13.0 MP + 2.0 MP",
@@ -753,14 +579,7 @@
       "Category_ID": 3,
       "Price": 2790000,
       "SalePrice": 0.02,
-      "Quantity": 10,
-      "Images": [
-        "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2022/11/28/638052549038602052_vivo-y02-xanh-5.jpg",
-        "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2022/11/28/638052549038602052_vivo-y02-xanh-4.jpg",
-        "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2022/11/28/638052549038276135_vivo-y02-xanh-3.jpg",
-        "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2022/11/28/638052549037807412_vivo-y02-xanh-1.jpg",
-        "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2022/11/28/638052549038915168_vivo-y02-xanh-2.jpg"
-      ],
+      "Images": "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2022/11/28/638052549038602052_vivo-y02-xanh-5.jpg",
       "Specifications": {
         "Screen": "Chính: 6.51 inch, Chính: LCD, HD+, 720 x 1600 Pixels",
         "Rear_camera": "8.0 MP",
@@ -780,14 +599,7 @@
       "Category_ID": 3,
       "Price": 3490000,
       "SalePrice": 0.02,
-      "Quantity": 10,
-      "Images": [
-        "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2022/7/22/637940794898480222_vivo-y02s-3gb-32gb-xanh-1.jpg",
-        "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2022/7/22/637940794897386586_vivo-y02s-3gb-32gb-xanh-2.jpg",
-        "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2022/7/22/637940794897230231_vivo-y02s-3gb-32gb-xanh-3.jpg",
-        "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2022/7/22/637940794897855406_vivo-y02s-3gb-32gb-xanh-4.jpg",
-        "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2022/7/22/637940794893480185_vivo-y02s-3gb-32gb-xanh-5.jpg"
-      ],
+      "Images": "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2022/7/22/637940794898480222_vivo-y02s-3gb-32gb-xanh-1.jpg",
       "Specifications": {
         "Screen": "6.51 inch, IPS LCD, HD+, 720 x 1600 Pixels",
         "Rear_camera": "8.0 MP",
