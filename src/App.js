@@ -12,6 +12,7 @@ import ShoppingCard from "./components/Client/ShoppingCard";
 import Logout from "./components/common/Logout/Logout";
 import Purchase from "./components/Client/Purchase";
 import Search from "./components/Client/Search";
+import DashBoard from "./components/admin/DashBoard";
 function App() {
   return (
     <BrowserRouter>
@@ -39,6 +40,7 @@ function App() {
           element={<Purchase />}
         />
         <Route path="/logout" element={<Logout />} />
+        <Route path="/dashboard" element={<DashBoard/>} />
       </Routes>
     </BrowserRouter>
   );
