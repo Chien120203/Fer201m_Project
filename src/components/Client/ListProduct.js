@@ -5,7 +5,14 @@ import Navigation from "./Navigation";
 import { useEffect, useState } from "react";
 import { Link, useParams } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBatteryFull, faCamera, faMemory, faMicrochip, faMobile, faMobileScreen } from "@fortawesome/free-solid-svg-icons";
+import {
+  faBatteryFull,
+  faCamera,
+  faMemory,
+  faMicrochip,
+  faMobile,
+  faMobileScreen,
+} from "@fortawesome/free-solid-svg-icons";
 const ListProduct = () => {
   const { catId } = useParams();
   const [category, setCategory] = useState([]);
@@ -229,14 +236,26 @@ const ListProduct = () => {
                       <Col md={4} key={p.ID}>
                         <div className="product">
                           <div className="product-img">
-                            <img src={p.Images[0]} alt="Card image" />
+                            <img src={p.Images} alt="Card image" />
                             <div className="productinfo">
                               <Row>
                                 <Col md={12}>
-                                  <p><FontAwesomeIcon icon={faMobileScreen} />: {p.Specifications.Screen}</p>
-                                  <p><FontAwesomeIcon icon={faMemory} />: {p.Specifications.RAM}</p>
-                                  <p><FontAwesomeIcon icon={faMicrochip} />: {p.Specifications.CPU}</p>
-                                  <p><FontAwesomeIcon icon={faBatteryFull} />: {p.Specifications.Battery_capacity}</p>
+                                  <p>
+                                    <FontAwesomeIcon icon={faMobileScreen} />:{" "}
+                                    {p.Specifications.Screen}
+                                  </p>
+                                  <p>
+                                    <FontAwesomeIcon icon={faMemory} />:{" "}
+                                    {p.Specifications.RAM}
+                                  </p>
+                                  <p>
+                                    <FontAwesomeIcon icon={faMicrochip} />:{" "}
+                                    {p.Specifications.CPU}
+                                  </p>
+                                  <p>
+                                    <FontAwesomeIcon icon={faBatteryFull} />:{" "}
+                                    {p.Specifications.Battery_capacity}
+                                  </p>
                                 </Col>
                               </Row>
                             </div>
