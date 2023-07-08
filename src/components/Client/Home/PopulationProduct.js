@@ -97,7 +97,7 @@ const PopulationCourse = () => {
           return (
             <div className="product">
               <div className="product-img">
-                <img src={p.Images[0]} alt="Card image" />
+                <img src={p.Images} alt="Card image" />
                 <div className="productinfo">
                   <Row>
                     <Col md={12}>
