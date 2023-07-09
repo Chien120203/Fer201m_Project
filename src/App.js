@@ -13,6 +13,8 @@ import Logout from "./components/common/Logout/Logout";
 import Purchase from "./components/Client/Purchase";
 import Search from "./components/Client/Search";
 import DashBoard from "./components/admin/DashBoard";
+import AdminListProduct from "./components/admin/AdminListProduct";
+import EditProduct from "./components/admin/EditProduct";
 function App() {
   return (
     <BrowserRouter>
@@ -25,7 +27,6 @@ function App() {
           element={<ProductDetail />}
         />
         <Route path="/" element={<Home />} />
-        {/* <Route path='/about' element={<About />} /> */}
         <Route path="/login" element={<Login />} />
         <Route path="/signup" element={<Signup />} />
         <Route path="/shoppingcard" element={<ShoppingCard />} />
@@ -39,8 +40,13 @@ function App() {
           path="/dien-thoai/purchase/:TYPE"
           element={<Purchase />}
         />
+        <Route
+          path="/chi-tiet-san-pham/:ProductID"
+          element={<EditProduct />}
+        />
         <Route path="/logout" element={<Logout />} />
         <Route path="/dashboard" element={<DashBoard/>} />
+        <Route path="/productmanagement" element={<AdminListProduct/>} />
       </Routes>
     </BrowserRouter>
   );

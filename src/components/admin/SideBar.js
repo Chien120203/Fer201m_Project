@@ -15,7 +15,7 @@ const SideBar = () => {
                         <p style={{ marginLeft: "30px" }}>Dashboard</p>
                     </div>
                 </NavLink></li>
-                <li><NavLink to="/adminproduct"><div className='navlink-container'>
+                <li><NavLink to="/productmanagement"><div className='navlink-container'>
                     <div className='icon-container'>
                         <FontAwesomeIcon icon={faMobile} />
                     </div>
