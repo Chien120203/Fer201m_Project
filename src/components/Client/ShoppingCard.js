@@ -30,52 +30,76 @@ const ShoppingCard = () => {
   useEffect(() => {
     setProductIds(cookies.productIds || []);
   }, [cookies.productIds]);
-  const keys = Object.keys(productIds);
+
   useEffect(() => {
     fetch("http://localhost:9999/Product")
       .then((response) => response.json())
       .then((data) => {
-        const list = data.filter((p) => {
-          return keys.some((key) => p.ID.toString() == key);
-        });
-        setListProduct(list);
+        fetch("http://localhost:9999/Color")
+          .then((res) => res.json())
+          .then((dataColor) => {
+            let listPrCol = [];
+            data.map((p) => {
+              dataColor.map((col) => {
+                if (col.ProductId == p.ID) {
+                  Object.entries(productIds).map((color) => {
+                    if (p.ID == +color[0]) {
+                      Object.entries(color[1]).map((value) => {
+                        if (col.id == +value[0]) {
+                          listPrCol.push({
+                            ...p,
+                            colorName: col.ColorName,
+                            imageColor: col.Images[0],
+                            quantity: value[1],
+                            colorID: +value[0],
+                          });
+                        }
+                      });
+                    }
+                  });
+                }
+              });
+            });
+            setListProduct(listPrCol);
+          });
       });
   }, [productIds]);
 
-  const getQuantity = (id) => {
-    return productIds[id] || 0;
+  const getQuantity = (id, colId) => {
+    let pro = listProduct.find((p) => p.colorID == colId);
+    return pro.quantity;
   };
-  const updateProduct = (id, quantity) => {
+
+  const updateProduct = (id, colId, quantity) => {
+    let pro = listProduct.find((p) => p.ID == id && p.colorID == colId);
     const updatedListProductIds = { ...productIds };
-    updatedListProductIds[id] = quantity;
+    let colorId = pro.colorID;
+    updatedListProductIds[id][colorId] = quantity;
     setProductIds(updatedListProductIds);
     setCookie("productIds", updatedListProductIds, { path: "/" });
   };
-  const minusQuantity = (id) => {
-    let quantity = getQuantity(id);
+
+  const minusQuantity = (id, colId) => {
+    let quantity = getQuantity(id, colId);
     if (quantity > 0) {
-      updateProduct(id, quantity - 1);
+      updateProduct(id, colId, quantity - 1);
     }
   };
-  const plusQuantity = (id) => {
-    let quantity = getQuantity(id);
+  const plusQuantity = (id, colId) => {
+    let quantity = getQuantity(id, colId);
     if (quantity > 0) {
-      updateProduct(id, quantity + 1);
+      updateProduct(id, colId, quantity + 1);
     }
   };
-  const deleteProduct = (id) => {
-    const updatedProductIds = Object.keys(productIds).filter(
-      (key) => key !== id.toString()
-    );
-    const updatedIdsObject = updatedProductIds.reduce((obj, key) => {
-      obj[key] = productIds[key];
-      return obj;
-    }, {});
-    setProductIds(updatedIdsObject);
-    setCookie("productIds", updatedIdsObject, { path: "/" });
+  const deleteProduct = (id, colId) => {
+    let pro = listProduct.find((p) => p.ID == id && p.colorID == colId);
+    const updatedListProductIds = { ...productIds };
+    let colorId = pro.colorID;
+    delete updatedListProductIds[id][colorId];
+    setProductIds(updatedListProductIds);
+    setCookie("productIds", updatedListProductIds, { path: "/" });
   };
 
-  console.log(productIds);
   return (
     <div>
       <Header />
@@ -97,7 +121,7 @@ const ShoppingCard = () => {
               return (
                 <div className="d-flex justify-content-between w-100 mb-3">
                   <div className="d-flex w-50 ">
-                    <img src={product.Images[0]} width={80} height={80} />
+                    <img src={product.imageColor} width={80} height={80} />
                     <Link
                       to={`/dien-thoai/product-detail/${product.ID}`}
                       className="product-name"
@@ -105,19 +129,20 @@ const ShoppingCard = () => {
                       <h5>{product.Name}</h5>
                     </Link>
                   </div>
-
                   <div className="d-flex flex-column w-25">
                     <div className="d-flex justify-content-center">
                       <button
                         className="btn-minus"
-                        onClick={() => minusQuantity(product.ID)}
-                        disabled={getQuantity(product.ID) == 1}
+                        onClick={() =>
+                          minusQuantity(product.ID, product.colorID)
+                        }
+                        disabled={getQuantity(product.ID, product.colorID) == 1}
                       >
                         <FontAwesomeIcon icon={faMinus} />
                       </button>
                       <input
                         type="text"
-                        value={getQuantity(product.ID)}
+                        value={getQuantity(product.ID, product.colorID)}
                         style={{
                           border: "1px solid #e1e4e6",
                           width: "13%",
@@ -128,8 +153,10 @@ const ShoppingCard = () => {
                       />
                       <button
                         className="btn-plus"
-                        onClick={() => plusQuantity(product.ID)}
-                        disabled={getQuantity(product.ID) == 4}
+                        onClick={() =>
+                          plusQuantity(product.ID, product.colorID)
+                        }
+                        disabled={getQuantity(product.ID, product.colorID) == 4}
                       >
                         <FontAwesomeIcon icon={faPlus} />
                       </button>
@@ -137,7 +164,9 @@ const ShoppingCard = () => {
                     <div className="d-flex justify-content-center mt-2">
                       <button
                         className="btn-delete"
-                        onClick={() => deleteProduct(product.ID)}
+                        onClick={() =>
+                          deleteProduct(product.ID, product.colorID)
+                        }
                       >
                         <FontAwesomeIcon icon={faTrashAlt} />
                         Xoá
@@ -153,7 +182,7 @@ const ShoppingCard = () => {
                         }).format(
                           (1 - product.SalePrice) *
                             product.Price *
-                            getQuantity(product.ID)
+                            getQuantity(product.ID, product.colorID)
                         )}
                       </p>
                       <p
@@ -167,7 +196,10 @@ const ShoppingCard = () => {
                         {new Intl.NumberFormat("vi-VN", {
                           style: "currency",
                           currency: "VND",
-                        }).format(product.Price * getQuantity(product.ID))}
+                        }).format(
+                          product.Price *
+                            getQuantity(product.ID, product.colorID)
+                        )}
                       </p>
                     </div>
                   </div>

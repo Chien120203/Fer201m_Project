@@ -73,3 +73,12 @@
 .spec-value {
   color: #888;
 }
+
+.color-option image {
+  box-sizing: border-box;
+}
+.color-option div:first-child:hover {
+  box-sizing: border-box;
+  border: 1px solid rgb(234, 34, 34);
+  border-radius: 6px;
+}

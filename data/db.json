@@ -17,7 +17,7 @@
         "Battery_capacity": "3700 mAh",
         "Operating_system": "Android 12",
         "Origin": "Việt Nam",
-        "Release time": "08/2022"
+        "ReleaseTime": "08/2022"
       }
     },
     {
@@ -37,7 +37,7 @@
         "Battery_capacity": "3700 mAh",
         "Operating_system": "Android 12",
         "Origin": "Việt Nam / Trung Quốc",
-        "Release time": "08/2022"
+        "ReleaseTime": "08/2022"
       }
     },
     {
@@ -57,7 +57,7 @@
         "Battery_capacity": "5000 mAh",
         "Operating_system": "Android 13.0",
         "Origin": "Việt Nam / Trung Quốc",
-        "Release time": "02/2023"
+        "ReleaseTime": "02/2023"
       }
     },
     {
@@ -77,7 +77,7 @@
         "Battery_capacity": "4400 mAh",
         "Operating_system": "Android 12",
         "Origin": "Việt Nam",
-        "Release time": "04/2023"
+        "ReleaseTime": "04/2023"
       }
     },
     {
@@ -98,7 +98,7 @@
         "Battery_capacity": "5000 mAh",
         "Operating_system": "Android 13.0",
         "Origin": "Trung Quốc / Việt Nam",
-        "Release time": "3/2023"
+        "ReleaseTime": "3/2023"
       }
     },
     {
@@ -118,7 +118,7 @@
         "Battery_capacity": "5000 mAh",
         "Operating_system": "Android 12",
         "Origin": "Trung Quốc / Việt Nam",
-        "Release time": "3/2023"
+        "ReleaseTime": "3/2023"
       }
     },
     {
@@ -138,7 +138,7 @@
         "Battery_capacity": "5000 mAh",
         "Operating_system": "Android 12",
         "Origin": "Trung Quốc / Việt Nam",
-        "Release time": "3/2023"
+        "ReleaseTime": "3/2023"
       }
     },
     {
@@ -158,7 +158,7 @@
         "Battery_capacity": "5000 mAh",
         "Operating_system": "Android 12",
         "Origin": "Trung Quốc / Việt Nam",
-        "Release time": "3/2023"
+        "ReleaseTime": "3/2023"
       }
     },
     {
@@ -178,7 +178,7 @@
         "Battery_capacity": "5000 mAh",
         "Operating_system": "Android 12",
         "Origin": "Trung Quốc / Việt Nam",
-        "Release time": "2022"
+        "ReleaseTime": "2022"
       }
     },
     {
@@ -198,7 +198,7 @@
         "Battery_capacity": "5000 mAh",
         "Operating_system": "Android 12",
         "Origin": "Trung Quốc / Việt Nam",
-        "Release time": "2022"
+        "ReleaseTime": "2022"
       }
     },
     {
@@ -221,7 +221,7 @@
         "Battery_capacity": "5000 mAh",
         "Operating_system": "Android 11",
         "Origin": "Trung Quốc",
-        "Release time": "2022"
+        "ReleaseTime": "2022"
       }
     },
     {
@@ -241,7 +241,7 @@
         "Battery_capacity": "5000 mAh",
         "Operating_system": "Android 11",
         "Origin": "Trung Quốc",
-        "Release time": "2022"
+        "ReleaseTime": "2022"
       }
     },
     {
@@ -261,7 +261,7 @@
         "Battery_capacity": "5000 mAh",
         "Operating_system": "Android 11",
         "Origin": "Trung Quốc",
-        "Release time": "2022"
+        "ReleaseTime": "2022"
       }
     },
     {
@@ -281,7 +281,7 @@
         "Battery_capacity": "4500 mAh",
         "Operating_system": "Android 12",
         "Origin": "Trung Quốc",
-        "Release time": "2022"
+        "ReleaseTime": "2022"
       }
     },
     {
@@ -301,7 +301,7 @@
         "Battery_capacity": "5000 mAh",
         "Operating_system": "Android GO",
         "Origin": "Trung Quốc",
-        "Release time": "2022"
+        "ReleaseTime": "2022"
       }
     },
     {
@@ -321,7 +321,7 @@
         "Battery_capacity": "5000 mAh",
         "Operating_system": "Android 12 (MIUI 13)",
         "Origin": "Trung Quốc",
-        "Release time": "01/01/2023"
+        "ReleaseTime": "01/01/2023"
       }
     },
     {
@@ -341,7 +341,7 @@
         "Battery_capacity": "5000 mAh",
         "Operating_system": "Android 11",
         "Origin": "Trung Quốc",
-        "Release time": "01/2023"
+        "ReleaseTime": "01/2023"
       }
     },
     {
@@ -361,7 +361,7 @@
         "Battery_capacity": "5000 mAh",
         "Operating_system": "Android 11",
         "Origin": "Trung Quốc",
-        "Release time": "01/2023"
+        "ReleaseTime": "01/2023"
       }
     },
     {
@@ -381,7 +381,7 @@
         "Battery_capacity": "5000 mAh",
         "Operating_system": "Android 11",
         "Origin": "Trung Quốc",
-        "Release time": "02/2023"
+        "ReleaseTime": "02/2023"
       }
     },
     {
@@ -401,7 +401,7 @@
         "Battery_capacity": "4500 mAh",
         "Operating_system": "Android 13.0",
         "Origin": "Trung Quốc",
-        "Release time": "02/2023"
+        "ReleaseTime": "02/2023"
       }
     },
     {
@@ -421,7 +421,7 @@
         "Battery_capacity": "4830 mAh",
         "Operating_system": "Android 12",
         "Origin": "Trung Quốc",
-        "Release time": "11/2022"
+        "ReleaseTime": "11/2022"
       }
     },
     {
@@ -441,7 +441,7 @@
         "Battery_capacity": "4500 mAh",
         "Operating_system": "Android 12",
         "Origin": "Trung Quốc",
-        "Release time": "10/2022"
+        "ReleaseTime": "10/2022"
       }
     },
     {
@@ -461,7 +461,7 @@
         "Battery_capacity": "4500 mAh",
         "Operating_system": "Android 12",
         "Origin": "Trung Quốc",
-        "Release time": "10/2022"
+        "ReleaseTime": "10/2022"
       }
     },
     {
@@ -481,7 +481,7 @@
         "Battery_capacity": "5000 mAh",
         "Operating_system": "Android 12",
         "Origin": "Trung Quốc",
-        "Release time": "10/2022"
+        "ReleaseTime": "10/2022"
       }
     },
     {
@@ -501,7 +501,7 @@
         "Battery_capacity": "5000 mAh",
         "Operating_system": "Android 12",
         "Origin": "Trung Quốc",
-        "Release time": "09/2022"
+        "ReleaseTime": "09/2022"
       }
     },
     {
@@ -521,7 +521,7 @@
         "Battery_capacity": "5000 mAh",
         "Operating_system": "Android 11",
         "Origin": "Trung Quốc",
-        "Release time": "07/2022"
+        "ReleaseTime": "07/2022"
       }
     },
     {
@@ -541,7 +541,7 @@
         "Battery_capacity": "5000 mAh",
         "Operating_system": "Android 12",
         "Origin": "Trung Quốc",
-        "Release time": "09/2022"
+        "ReleaseTime": "09/2022"
       }
     },
     {
@@ -561,7 +561,7 @@
         "Battery_capacity": "5000 mAh",
         "Operating_system": "Android 11",
         "Origin": "Trung Quốc",
-        "Release time": "09/2022"
+        "ReleaseTime": "09/2022"
       }
     },
     {
@@ -581,7 +581,7 @@
         "Battery_capacity": "5000 mAh",
         "Operating_system": "Android 12",
         "Origin": "Trung Quốc",
-        "Release time": "12/2022"
+        "ReleaseTime": "12/2022"
       }
     },
     {
@@ -601,7 +601,7 @@
         "Battery_capacity": "5000 mAh",
         "Operating_system": "Android 12",
         "Origin": "Trung Quốc",
-        "Release time": "12/2022"
+        "ReleaseTime": "12/2022"
       }
     },
     {
@@ -623,7 +623,7 @@
         "Thẻ sim": "2 - 1 eSIM, 1 Nano SIM",
         "Operating_system": "iOS 14",
         "Origin": "Trung Quốc",
-        "Release time": "09/2019"
+        "ReleaseTime": "09/2019"
       }
     },
     {
@@ -644,7 +644,7 @@
         "Thẻ sim": "2 - 1 eSIM, 1 Nano SIM",
         "Operating_system": "iOS 14",
         "Origin": "Trung Quốc",
-        "Release time": "10/2020"
+        "ReleaseTime": "10/2020"
       }
     },
     {
@@ -666,7 +666,7 @@
         "Thẻ sim": "1 - 1 eSIM, 1 Nano SIM",
         "Operating_system": "iOS 15",
         "Origin": "Trung Quốc",
-        "Release time": "09/2021"
+        "ReleaseTime": "09/2021"
       }
     },
     {
@@ -686,7 +686,7 @@
         "Thẻ sim": "1 - 1 eSIM, 1 Nano SIM",
         "Operating_system": "iOS 16",
         "Origin": "Trung Quốc",
-        "Release time": "09/2022"
+        "ReleaseTime": "09/2022"
       }
     },
     {
@@ -706,7 +706,7 @@
         "Thẻ sim": "1 - 1 eSIM, 1 Nano SIM",
         "Operating_system": "iOS 16",
         "Origin": "Trung Quốc",
-        "Release time": "09/2022"
+        "ReleaseTime": "09/2022"
       }
     },
     {
@@ -726,7 +726,7 @@
         "Thẻ sim": "1 - 1 eSIM, 1 Nano SIM",
         "Operating_system": "iOS 16",
         "Origin": "Trung Quốc",
-        "Release time": "09/2022"
+        "ReleaseTime": "09/2022"
       }
     },
     {
@@ -746,7 +746,7 @@
         "Thẻ sim": "1 - 1 eSIM, 1 Nano SIM",
         "Operating_system": "iOS 16",
         "Origin": "Trung Quốc",
-        "Release time": "09/2022"
+        "ReleaseTime": "09/2022"
       }
     },
     {
@@ -768,7 +768,7 @@
         "Thẻ sim": "2 - 2 Nano SIM",
         "Operating_system": "Android 13.0 (ColorOS 13)",
         "Origin": "Trung Quốc",
-        "Release time": "02/2023"
+        "ReleaseTime": "02/2023"
       }
     },
     {
@@ -790,7 +790,7 @@
         "Thẻ sim": "2 - 2 Nano SIM",
         "Operating_system": "Android 12 (ColorOS 12.1)",
         "Origin": "Trung Quốc",
-        "Release time": "04/2022"
+        "ReleaseTime": "04/2022"
       }
     },
     {
@@ -812,7 +812,7 @@
         "Thẻ sim": "2 - 2 Nano SIM",
         "Operating_system": "Android 11",
         "Origin": "Trung Quốc",
-        "Release time": "03/2022"
+        "ReleaseTime": "03/2022"
       }
     },
     {
@@ -834,7 +834,7 @@
         "Thẻ sim": "2 - 2 Nano SIM",
         "Operating_system": "Android 12 (ColorOS 12.1)",
         "Origin": "Trung Quốc",
-        "Release time": "6/2022"
+        "ReleaseTime": "6/2022"
       }
     },
     {
@@ -856,7 +856,7 @@
         "Thẻ sim": "2 - 2 Nano SIM",
         "Operating_system": "Android 12 (ColorOS 12.1)",
         "Origin": "Trung Quốc",
-        "Release time": "10/2022"
+        "ReleaseTime": "10/2022"
       }
     },
     {
@@ -878,7 +878,7 @@
         "Thẻ sim": "2 - 2 Nano SIM",
         "Operating_system": "Android 12 (ColorOS 12.1)",
         "Origin": "Trung Quốc",
-        "Release time": "10/2022"
+        "ReleaseTime": "10/2022"
       }
     },
     {
@@ -900,7 +900,7 @@
         "Thẻ sim": "2 - 2 Nano SIM",
         "Operating_system": "Android 11",
         "Origin": "Trung Quốc",
-        "Release time": "07/2021"
+        "ReleaseTime": "07/2021"
       }
     },
     {
@@ -922,7 +922,7 @@
         "Thẻ sim": "2 - 2 Nano SIM hoặc 1 eSIM, 1 Nano SIM",
         "Operating_system": "Android 12 (ColorOS 12)",
         "Origin": "Trung Quốc",
-        "Release time": "05/2022"
+        "ReleaseTime": "05/2022"
       }
     },
     {
@@ -944,7 +944,7 @@
         "Thẻ sim": "2 - 2 Nano SIM",
         "Operating_system": "Android 11",
         "Origin": "Trung Quốc",
-        "Release time": "2021"
+        "ReleaseTime": "2021"
       }
     },
     {
@@ -966,7 +966,7 @@
         "Thẻ sim": "2 - 2 Nano SIM",
         "Operating_system": "Android 11 (ColorOS 12)",
         "Origin": "Trung Quốc",
-        "Release time": "03/2022"
+        "ReleaseTime": "03/2022"
       }
     },
     {
@@ -987,7 +987,7 @@
         "Thẻ sim": "2 - 2 Nano SIM",
         "Operating_system": "Android 11",
         "Origin": "Trung Quốc",
-        "Release time": "07/2021"
+        "ReleaseTime": "07/2021"
       }
     },
     {
@@ -1009,7 +1009,7 @@
         "Thẻ sim": "2 - 2 Nano SIM",
         "Operating_system": "Android 11",
         "Origin": "Trung Quốc",
-        "Release time": "11/2021"
+        "ReleaseTime": "11/2021"
       }
     },
     {
@@ -1031,7 +1031,7 @@
         "Thẻ sim": "2 - 2 Nano SIM",
         "Operating_system": "Android 13.0 (ColorOS 13)",
         "Origin": "Trung Quốc",
-        "Release time": "03/2023"
+        "ReleaseTime": "03/2023"
       }
     },
     {
@@ -1050,7 +1050,7 @@
         "Battery_capacity": "1450 mAh",
         "Operating_system": "Nokia S30+",
         "Origin": "Trung Quốc",
-        "Release time": "10/2022"
+        "ReleaseTime": "10/2022"
       }
     },
     {
@@ -1070,7 +1070,7 @@
         "Battery_capacity": "5050 mAh",
         "Operating_system": "Android 12",
         "Origin": "Trung Quốc",
-        "Release time": "25/02/2023"
+        "ReleaseTime": "25/02/2023"
       }
     },
     {
@@ -1089,7 +1089,7 @@
         "Battery_capacity": "1020 mAh",
         "Operating_system": "Nokia S30+",
         "Origin": "Trung Quốc",
-        "Release time": "06/2021"
+        "ReleaseTime": "06/2021"
       }
     },
     {
@@ -1107,7 +1107,7 @@
         "Battery_capacity": "1020 mAh",
         "Operating_system": "Nokia S30+",
         "Origin": "Trung Quốc",
-        "Release time": "06/2021"
+        "ReleaseTime": "06/2021"
       }
     },
     {
@@ -1144,7 +1144,7 @@
         "Battery_capacity": "1150 mAh",
         "Operating_system": "Nokia S30+",
         "Origin": "Trung Quốc",
-        "Release time": "01/2021"
+        "ReleaseTime": "01/2021"
       }
     },
     {
@@ -1163,7 +1163,7 @@
         "Battery_capacity": "1450 mAh",
         "Operating_system": "Nokia S30+",
         "Origin": "Trung Quốc",
-        "Release time": "9/2022"
+        "ReleaseTime": "9/2022"
       }
     },
     {
@@ -1182,7 +1182,7 @@
         "Battery_capacity": "1450 mAh",
         "Operating_system": "Nokia S30+",
         "Origin": "Trung Quốc",
-        "Release time": "08/2022"
+        "ReleaseTime": "08/2022"
       }
     }
   ],
@@ -1531,7 +1531,7 @@
       "id": 5,
       "ProductId": 2,
       "ColorName": "Tím",
-      "Image": [
+      "Images": [
         "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2022/7/23/637941779749495327_samsung-galaxy-s22-bora-purple-1.jpg",
         "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2022/7/23/637941779748870189_samsung-galaxy-s22-bora-purple-2.jpg",
         "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2022/7/23/637941779746995258_samsung-galaxy-s22-bora-purple-3.jpg",
@@ -1543,7 +1543,7 @@
       "id": 6,
       "ProductId": 2,
       "ColorName": "Xanh",
-      "Image": [
+      "Images": [
         "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2022/2/10/637800490165751486_samsung-galaxy-s22-xanh-1.jpg",
         "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2022/2/10/637800490168251580_samsung-galaxy-s22-xanh-2.jpg",
         "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2022/2/10/637800490168095254_samsung-galaxy-s22-xanh-3.jpg",
@@ -1556,7 +1556,7 @@
       "id": 7,
       "ProductId": 2,
       "ColorName": "Đen",
-      "Image": [
+      "Images": [
         "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2022/2/10/637800498484893706_samsung-galaxy-s22-den-12.jpg",
         "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2022/2/10/637800498488331169_samsung-galaxy-s22-den-2.jpg",
         "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2022/2/10/637800498482237371_samsung-galaxy-s22-den-3.jpg",
@@ -1569,7 +1569,7 @@
       "id": 8,
       "ProductId": 3,
       "ColorName": "Xanh",
-      "Image": [
+      "Images": [
         "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2023/2/2/638108933021851432_samsung-galaxy-s23-ultra-xanh-1.jpg",
         "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2023/2/17/638122555347721262_samsung-galaxy-s23-ultra-xanh-2.jpg",
         "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2023/2/17/638122555347096362_samsung-galaxy-s23-ultra-xanh-3.jpg",
@@ -1582,7 +1582,7 @@
       "id": 9,
       "ProductId": 3,
       "ColorName": "Đen",
-      "Image": [
+      "Images": [
         "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2023/2/2/638108941585078058_samsung-galaxy-s23-ultra-den-1.jpg",
         "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2023/2/17/638122552532122734_samsung-galaxy-s23-ultra-den-2.jpg",
         "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2023/2/17/638122552531139428_samsung-galaxy-s23-ultra-den-3.jpg",
@@ -1596,7 +1596,7 @@
       "id": 10,
       "ProductId": 3,
       "ColorName": "Kem",
-      "Image": [
+      "Images": [
         "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2023/2/2/638108945003723972_samsung-galaxy-s23-ultra-kem-1.jpg",
         "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2023/2/17/638122557391864458_samsung-galaxy-s23-ultra-vang-2.jpg",
         "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2023/2/17/638122557391218604_samsung-galaxy-s23-ultra-vang-3.jpg",
@@ -1610,7 +1610,7 @@
       "id": 11,
       "ProductId": 3,
       "ColorName": "Tím",
-      "Image": [
+      "Images": [
         "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2023/2/2/638108937882519991_samsung-galaxy-s23-ultra-tim-1.jpg",
         "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2023/2/17/638122553820300451_samsung-galaxy-s23-ultra-tim-2.jpg",
         "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2023/2/17/638122553819519472_samsung-galaxy-s23-ultra-tim-3.jpg",
