@@ -18,7 +18,7 @@ const Navigation = () => {
                     {
                         category.map((c) => {
                             return (
-                                <NavLink to={`/dien-thoai/${c.ID}`}>{c.Category_Name}</NavLink>
+                                <NavLink to={`/dien-thoai/${c.id}`}>{c.Category_Name}</NavLink>
                             )
                         })
                     }

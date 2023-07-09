@@ -84,7 +84,7 @@ const AdminListProduct = () => {
                                             {
                                                 Category.map((c) => {
                                                     return (
-                                                        <option value={c.ID}>{c.Category_Name}</option>
+                                                        <option value={c.id}>{c.Category_Name}</option>
                                                     )
                                                 })
                                             }
@@ -123,17 +123,17 @@ const AdminListProduct = () => {
                                                     paggingProducts.map((p) => {
                                                         return (
                                                             <tr>
-                                                                <td>{p.ID}</td>
+                                                                <td>{p.id}</td>
                                                                 <td>{p.Name}</td>
                                                                 <td>{
                                                                     Category.map((c) => {
-                                                                        if (c.ID == p.Category_ID) return c.Category_Name
+                                                                        if (c.id == p.Category_ID) return c.Category_Name
                                                                     })
                                                                 }</td>
                                                                 <td>{p.Price}</td>
                                                                 <td>{p.SalePrice}</td>
                                                                 <td></td>
-                                                                <td><button className='btn btn-success'>Change Status</button>&nbsp;&nbsp;<Link to={`/chi-tiet-san-pham/${p.ID}`} title='edit'><FontAwesomeIcon icon={faPenToSquare} /></Link></td>
+                                                                <td><button className='btn btn-success'>Change Status</button>&nbsp;&nbsp;<Link to={`/chi-tiet-san-pham/${p.id}`} title='edit'><FontAwesomeIcon icon={faPenToSquare} /></Link></td>
                                                             </tr>
                                                         )
                                                     })

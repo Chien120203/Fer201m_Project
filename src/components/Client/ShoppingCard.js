@@ -41,9 +41,9 @@ const ShoppingCard = () => {
             let listPrCol = [];
             data.map((p) => {
               dataColor.map((col) => {
-                if (col.ProductId == p.ID) {
+                if (col.ProductId == p.id) {
                   Object.entries(productIds).map((color) => {
-                    if (p.ID == +color[0]) {
+                    if (p.id == +color[0]) {
                       Object.entries(color[1]).map((value) => {
                         if (col.id == +value[0]) {
                           listPrCol.push({
@@ -71,7 +71,7 @@ const ShoppingCard = () => {
   };
 
   const updateProduct = (id, colId, quantity) => {
-    let pro = listProduct.find((p) => p.ID == id && p.colorID == colId);
+    let pro = listProduct.find((p) => p.id == id && p.colorID == colId);
     const updatedListProductIds = { ...productIds };
     let colorId = pro.colorID;
     updatedListProductIds[id][colorId] = quantity;
@@ -92,7 +92,7 @@ const ShoppingCard = () => {
     }
   };
   const deleteProduct = (id, colId) => {
-    let pro = listProduct.find((p) => p.ID == id && p.colorID == colId);
+    let pro = listProduct.find((p) => p.id == id && p.colorID == colId);
     const updatedListProductIds = { ...productIds };
     let colorId = pro.colorID;
     delete updatedListProductIds[id][colorId];
@@ -123,7 +123,7 @@ const ShoppingCard = () => {
                   <div className="d-flex w-50 ">
                     <img src={product.imageColor} width={80} height={80} />
                     <Link
-                      to={`/dien-thoai/product-detail/${product.ID}`}
+                      to={`/dien-thoai/product-detail/${product.id}`}
                       className="product-name"
                     >
                       <h5>{product.Name}</h5>
@@ -134,15 +134,15 @@ const ShoppingCard = () => {
                       <button
                         className="btn-minus"
                         onClick={() =>
-                          minusQuantity(product.ID, product.colorID)
+                          minusQuantity(product.id, product.colorID)
                         }
-                        disabled={getQuantity(product.ID, product.colorID) == 1}
+                        disabled={getQuantity(product.id, product.colorID) == 1}
                       >
                         <FontAwesomeIcon icon={faMinus} />
                       </button>
                       <input
                         type="text"
-                        value={getQuantity(product.ID, product.colorID)}
+                        value={getQuantity(product.id, product.colorID)}
                         style={{
                           border: "1px solid #e1e4e6",
                           width: "13%",
@@ -154,9 +154,9 @@ const ShoppingCard = () => {
                       <button
                         className="btn-plus"
                         onClick={() =>
-                          plusQuantity(product.ID, product.colorID)
+                          plusQuantity(product.id, product.colorID)
                         }
-                        disabled={getQuantity(product.ID, product.colorID) == 4}
+                        disabled={getQuantity(product.id, product.colorID) == 4}
                       >
                         <FontAwesomeIcon icon={faPlus} />
                       </button>
@@ -165,7 +165,7 @@ const ShoppingCard = () => {
                       <button
                         className="btn-delete"
                         onClick={() =>
-                          deleteProduct(product.ID, product.colorID)
+                          deleteProduct(product.id, product.colorID)
                         }
                       >
                         <FontAwesomeIcon icon={faTrashAlt} />
@@ -182,7 +182,7 @@ const ShoppingCard = () => {
                         }).format(
                           (1 - product.SalePrice) *
                             product.Price *
-                            getQuantity(product.ID, product.colorID)
+                            getQuantity(product.id, product.colorID)
                         )}
                       </p>
                       <p
@@ -198,7 +198,7 @@ const ShoppingCard = () => {
                           currency: "VND",
                         }).format(
                           product.Price *
-                            getQuantity(product.ID, product.colorID)
+                            getQuantity(product.id, product.colorID)
                         )}
                       </p>
                     </div>

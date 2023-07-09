@@ -1,7 +1,7 @@
-import { Col, Container, Row } from 'react-bootstrap'
+import { Col, Container, Row, Button } from 'react-bootstrap'
 import SideBar from './SideBar'
 import { useParams } from 'react-router-dom'
-import { useEffect, useState } from 'react';
+import { useEffect, useState, useRef } from 'react';
 const EditProduct = () => {
     const defaultProduct = {
         ID: 1,
@@ -26,12 +26,29 @@ const EditProduct = () => {
     const { ProductID } = useParams();
     const [Product, setProduct] = useState(defaultProduct);
     const [Category, setCategory] = useState([]);
+    const name = useRef();
+    const category = useRef();
+    const price = useRef();
+    const saleprice = useRef();
+    const beginImage = useRef();
+    const image = useRef();
+    const screen = useRef();
+    const rearCamera = useRef();
+    const ram = useRef();
+    const internalMemory = useRef();
+    const cpu = useRef();
+    const batteryCapacity = useRef();
+    const operatingSystem = useRef();
+    const origin = useRef();
+    const releaseTime = useRef();
     useEffect(() => {
         fetch("http://localhost:9999/Product")
             .then((res) => res.json())
             .then((result) => {
                 result.map((r) => {
-                    if (r.ID == ProductID) setProduct(r);
+                    if (r.id == ProductID) {
+                        setProduct(r);
+                    }
                 })
             });
     }, [])
@@ -45,9 +62,6 @@ const EditProduct = () => {
 
     return (
         <div>
-            {
-                console.log(Product)
-            }
             <Container fluid>
                 <Row>
                     <SideBar />
@@ -58,19 +72,19 @@ const EditProduct = () => {
                         <div className='admin-content'>
                             <Row>
                                 <Col md={6}>
-                                    <div class="form-group">
-                                        <label for="ID">ID:</label>
-                                        <input type="text" class="form-control" id="ID" value={Product.ID} readOnly />
+                                    <div className="form-group">
+                                        <label htmlFor="ID">ID:</label>
+                                        <input type="text" className="form-control" id="ID" value={Product.id} readOnly />
                                     </div>
                                 </Col>
                                 <Col md={6}>
-                                    <div class="form-group">
-                                        <label for="category">Category:</label>
-                                        <select class="form-control" id="category">
+                                    <div className="form-group">
+                                        <label htmlFor="category">Category:</label>
+                                        <select className="form-control" id="category" ref={category}>
                                             {
                                                 Category.map((c) => {
                                                     return (
-                                                        <option selected={c.ID == Product.Category_ID} value={c.ID}>{c.Category_Name}</option>
+                                                        <option selected={c.id == Product.Category_ID} value={c.id}>{c.Category_Name}</option>
                                                     )
                                                 })
                                             }
@@ -78,137 +92,138 @@ const EditProduct = () => {
                                     </div>
                                 </Col>
                                 <Col md={12}>
-                                    <div class="form-group">
-                                        <label for="name">Name:</label>
-                                        <input type="text" class="form-control" id="name" defaultValue={Product.Name} />
+                                    <div className="form-group">
+                                        <label htmlFor="name">Name:</label>
+                                        <input type="text" className="form-control" id="name" defaultValue={Product.Name} ref={name}/>
                                     </div>
                                 </Col>
                                 <Col md={6}>
-                                    <div class="form-group">
-                                        <label for="price">Price:</label>
-                                        <input type="number" class="form-control" id="price" defaultValue={Product.Price} />
+                                    <div className="form-group">
+                                        <label htmlFor="price">Price:</label>
+                                        <input type="number" className="form-control" id="price" defaultValue={Product.Price} ref={price}/>
                                     </div>
                                 </Col>
                                 <Col md={6}>
-                                    <div class="form-group">
-                                        <label for="saleprice">SalePrice:</label>
-                                        <input type="number" class="form-control" id="saleprice" defaultValue={Product.SalePrice} />
+                                    <div className="form-group">
+                                        <label htmlFor="saleprice">SalePrice:</label>
+                                        <input type="number" className="form-control" id="saleprice" defaultValue={Product.SalePrice} ref={saleprice}/>
                                     </div>
                                 </Col>
                                 <Col md={6}>
                                     <img src={Product.Images} style={{ width: "100%" }} />
-                                    <div class="form-group">
-                                        <label for="image">Image:</label>
-                                        <input type="file" class="form-control" id="image" />
+                                    <div className="form-group">
+                                        <label htmlFor="image">Image:</label>
+                                        <input type="hidden" defaultValue={Product.Images} ref={beginImage}/>
+                                        <input type="file" className="form-control" id="image" ref={image}/>
                                     </div>
                                 </Col>
                                 <Col md={6}>
                                     <Container fluid>
                                         <Row>
                                             <Col style={{ padding: "0" }} md={12}>
-                                                <div class="form-group">
+                                                <div className="form-group">
                                                     <Row>
-                                                        <Col md={3} style={{lineHeight:"30px"}}>
-                                                            <label for="screen">Screen:</label>
+                                                        <Col md={3} style={{ lineHeight: "30px" }}>
+                                                            <label htmlFor="screen">Screen:</label>
                                                         </Col>
                                                         <Col md={9}>
-                                                            <input type="text" class="form-control" id="screen" defaultValue={Product.Specifications.Screen} />
+                                                            <input type="text" className="form-control" id="screen" defaultValue={Product.Specifications.Screen} ref={screen}/>
                                                         </Col>
                                                     </Row>
                                                 </div>
                                             </Col>
                                             <Col style={{ padding: "0" }} md={12}>
-                                                <div class="form-group">
+                                                <div className="form-group">
                                                     <Row>
-                                                        <Col md={3} style={{lineHeight:"30px"}}>
-                                                            <label for="Rear_camera">Rear camera:</label>
+                                                        <Col md={3} style={{ lineHeight: "30px" }}>
+                                                            <label htmlFor="Rear_camera">Rear camera:</label>
                                                         </Col>
                                                         <Col md={9}>
-                                                            <input type="text" class="form-control" id="Rear_camera" defaultValue={Product.Specifications.Rear_camera} />
+                                                            <input type="text" className="form-control" id="Rear_camera" defaultValue={Product.Specifications.Rear_camera} ref={rearCamera}/>
                                                         </Col>
                                                     </Row>
                                                 </div>
                                             </Col>
                                             <Col style={{ padding: "0" }} md={12}>
-                                                <div class="form-group">
+                                                <div className="form-group">
                                                     <Row>
-                                                        <Col md={3} style={{lineHeight:"30px"}}>
-                                                            <label for="RAM">RAM:</label>
+                                                        <Col md={3} style={{ lineHeight: "30px" }}>
+                                                            <label htmlFor="RAM">RAM:</label>
                                                         </Col>
                                                         <Col md={9}>
-                                                            <input type="text" class="form-control" id="RAM" defaultValue={Product.Specifications.RAM} />
+                                                            <input type="text" className="form-control" id="RAM" defaultValue={Product.Specifications.RAM} ref={ram} />
                                                         </Col>
                                                     </Row>
                                                 </div>
                                             </Col>
                                             <Col style={{ padding: "0" }} md={12}>
-                                                <div class="form-group">
+                                                <div className="form-group">
                                                     <Row>
-                                                        <Col md={3} style={{lineHeight:"30px"}}>
-                                                            <label for="Internal_memory">Internal memory:</label>
+                                                        <Col md={3} style={{ lineHeight: "30px" }}>
+                                                            <label htmlFor="Internal_memory">Internal memory:</label>
                                                         </Col>
                                                         <Col md={9}>
-                                                            <input type="text" class="form-control" id="Internal_memory" defaultValue={Product.Specifications.Internal_memory} />
+                                                            <input type="text" className="form-control" id="Internal_memory" defaultValue={Product.Specifications.Internal_memory} ref={internalMemory}/>
                                                         </Col>
                                                     </Row>
                                                 </div>
                                             </Col>
                                             <Col style={{ padding: "0" }} md={12}>
-                                                <div class="form-group">
+                                                <div className="form-group">
                                                     <Row>
-                                                        <Col md={3} style={{lineHeight:"30px"}}>
-                                                            <label for="CPU">CPU:</label>
+                                                        <Col md={3} style={{ lineHeight: "30px" }}>
+                                                            <label htmlFor="CPU">CPU:</label>
                                                         </Col>
                                                         <Col md={9}>
-                                                            <input type="text" class="form-control" id="CPU" defaultValue={Product.Specifications.CPU} />
+                                                            <input type="text" className="form-control" id="CPU" defaultValue={Product.Specifications.CPU} ref={cpu}/>
                                                         </Col>
                                                     </Row>
                                                 </div>
                                             </Col>
                                             <Col style={{ padding: "0" }} md={12}>
-                                                <div class="form-group">
+                                                <div className="form-group">
                                                     <Row>
-                                                        <Col md={3} style={{lineHeight:"30px"}}>
-                                                            <label for="Battery_capacity">Battery capacity:</label>
+                                                        <Col md={3} style={{ lineHeight: "30px" }}>
+                                                            <label htmlFor="Battery_capacity">Battery capacity:</label>
                                                         </Col>
                                                         <Col md={9}>
-                                                            <input type="text" class="form-control" id="Battery_capacity" defaultValue={Product.Specifications.Battery_capacity} />
+                                                            <input type="text" className="form-control" id="Battery_capacity" defaultValue={Product.Specifications.Battery_capacity} ref={batteryCapacity}/>
                                                         </Col>
                                                     </Row>
                                                 </div>
                                             </Col>
                                             <Col style={{ padding: "0" }} md={12}>
-                                                <div class="form-group">
+                                                <div className="form-group">
                                                     <Row>
-                                                        <Col md={3} style={{lineHeight:"30px"}}>
-                                                            <label for="Operating_system">Operating system:</label>
+                                                        <Col md={3} style={{ lineHeight: "30px" }}>
+                                                            <label htmlFor="Operating_system">Operating system:</label>
                                                         </Col>
                                                         <Col md={9}>
-                                                            <input type="text" class="form-control" id="Operating_system" defaultValue={Product.Specifications.Operating_system} />
+                                                            <input type="text" className="form-control" id="Operating_system" defaultValue={Product.Specifications.Operating_system} ref={operatingSystem}/>
                                                         </Col>
                                                     </Row>
                                                 </div>
                                             </Col>
                                             <Col style={{ padding: "0" }} md={12}>
-                                                <div class="form-group">
+                                                <div className="form-group">
                                                     <Row>
-                                                        <Col md={3} style={{lineHeight:"30px"}}>
-                                                            <label for="Origin">Origin:</label>
+                                                        <Col md={3} style={{ lineHeight: "30px" }}>
+                                                            <label htmlFor="Origin">Origin:</label>
                                                         </Col>
                                                         <Col md={9}>
-                                                            <input type="text" class="form-control" id="Origin" defaultValue={Product.Specifications.Origin} />
+                                                            <input type="text" className="form-control" id="Origin" defaultValue={Product.Specifications.Origin} ref={origin}/>
                                                         </Col>
                                                     </Row>
                                                 </div>
                                             </Col>
                                             <Col style={{ padding: "0" }} md={12}>
-                                                <div class="form-group">
+                                                <div className="form-group">
                                                     <Row>
-                                                        <Col md={3} style={{lineHeight:"30px"}}>
-                                                            <label for="Release_time">Release time:</label>
+                                                        <Col md={3} style={{ lineHeight: "30px" }}>
+                                                            <label htmlFor="Release_time">Release time:</label>
                                                         </Col>
                                                         <Col md={9}>
-                                                            <input type="text" class="form-control" id="Release_time" defaultValue={Product.Specifications.Release_time} />
+                                                            <input type="text" className="form-control" id="Release_time" defaultValue={Product.Specifications.Release_time} ref={releaseTime}/>
                                                         </Col>
                                                     </Row>
                                                 </div>
@@ -217,6 +232,7 @@ const EditProduct = () => {
                                     </Container>
                                 </Col>
                             </Row>
+                            <Button onClick={()=>console.log(image.current.value)}>Save</Button>
                         </div>
                     </Col>
                 </Row>

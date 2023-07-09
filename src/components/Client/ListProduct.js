@@ -117,14 +117,14 @@ const ListProduct = () => {
                   <Col md={6}>
                     <input
                       type="radio"
-                      id={c.ID}
-                      value={c.ID}
+                      id={c.id}
+                      value={c.id}
                       name="category"
                       onClick={(e) => {
                         setCategoryId(e.target.value);
                       }}
                     />
-                    <label for={c.ID} style={{ marginLeft: "5px" }}>
+                    <label for={c.id} style={{ marginLeft: "5px" }}>
                       {c.Category_Name}
                     </label>
                   </Col>
@@ -233,7 +233,7 @@ const ListProduct = () => {
                 <Row>
                   {Product.map((p) => {
                     return (
-                      <Col md={4} key={p.ID}>
+                      <Col md={4} key={p.id}>
                         <div className="product">
                           <div className="product-img">
                             <img src={p.Images} alt="Card image" />
@@ -279,7 +279,7 @@ const ListProduct = () => {
                               </div>
                             </div>
                             <Link
-                              to={`/dien-thoai/product-detail/${p.ID}`}
+                              to={`/dien-thoai/product-detail/${p.id}`}
                               className="btn btn-dark"
                               style={{ marginTop: "20px" }}
                             >

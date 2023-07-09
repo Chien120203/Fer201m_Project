@@ -31,7 +31,7 @@ const Search = () => {
                 <Row>
                     {listProduct.map((p) => {
                         return (
-                            <Col md={4} key={p.ID}>
+                            <Col md={4} key={p.id}>
                                 <div className="product">
                                     <div className="product-img">
                                         <img src={p.Images[0]} alt="Card image" />
@@ -65,7 +65,7 @@ const Search = () => {
                                             </div>
                                         </div>
                                         <Link
-                                            to={`/dien-thoai/product-detail/${p.ID}`}
+                                            to={`/dien-thoai/product-detail/${p.id}`}
                                             className="btn btn-dark"
                                             style={{ marginTop: "20px" }}
                                         >

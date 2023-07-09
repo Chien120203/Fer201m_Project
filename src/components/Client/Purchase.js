@@ -37,10 +37,10 @@ const Purchase = () => {
             .then((data) => {
                 if (TYPE == 1) {
                     setListProduct(data.filter((d) => {
-                        return d.ID == ID;
+                        return d.id == ID;
                     }))
                     const selectedProduct = data.filter((d) => {
-                        return d.ID == ID;
+                        return d.id == ID;
                     })
                     let sum = 0;
                     selectedProduct.map((a) => {
@@ -50,12 +50,12 @@ const Purchase = () => {
                 }
                 else {
                     const list = data.filter((p) => {
-                        return keys.some((key) => p.ID.toString() == key);
+                        return keys.some((key) => p.id.toString() == key);
                     });
                     setListProduct(list);
                     let sum = 0;
                     list.map((a) => {
-                        sum = sum + (a.Price*(1-a.SalePrice)) * cookies.productIds[a.ID]
+                        sum = sum + (a.Price*(1-a.SalePrice)) * cookies.productIds[a.id]
                     })
                     setTotalPrice(sum);
                 }
@@ -66,7 +66,7 @@ const Purchase = () => {
     };
     const getTotalPrice = () => {
         let sum = listProduct.reduce((a, b) => {
-            return (a.Price*(1-a.SalePrice)*getQuantity(a.ID)) + (b.Price*(1-b.SalePrice)*getQuantity(b.ID)) ;
+            return (a.Price*(1-a.SalePrice)*getQuantity(a.id)) + (b.Price*(1-b.SalePrice)*getQuantity(b.id)) ;
         })
         setTotalPrice(sum);
     }
@@ -159,9 +159,9 @@ const Purchase = () => {
                 })
             listProduct.map((product) => {
                 const newOrder = {
-                    product_id: product.ID,
-                    Quantity: getQuantity(product.ID),
-                    Price: (product.Price*(1-product.SalePrice)) * getQuantity(product.ID),
+                    product_id: product.id,
+                    Quantity: getQuantity(product.id),
+                    Price: (product.Price*(1-product.SalePrice)) * getQuantity(product.id),
                     OrderDetailId: Id
                 }
                 fetch("http://localhost:9999/Order", {
@@ -175,7 +175,7 @@ const Purchase = () => {
                     .then((response) => {
                         return response.json();
                     })
-                deleteProduct(product.ID)
+                deleteProduct(product.id)
             })
             navigate('/')
         }
@@ -263,7 +263,7 @@ const Purchase = () => {
                                                 <Col md={3}>
                                                     <button
                                                         className="btn-delete"
-                                                        onClick={() => deleteProduct(l.ID)}
+                                                        onClick={() => deleteProduct(l.id)}
                                                     >
                                                         <FontAwesomeIcon icon={faTrashAlt} />
                                                         Xoá
@@ -282,14 +282,14 @@ const Purchase = () => {
                                                     <p>Số lượng:
                                                         <button
                                                             className="btn-minus"
-                                                            onClick={() => minusQuantity(l.ID)}
-                                                            disabled={getQuantity(l.ID) == 1}
+                                                            onClick={() => minusQuantity(l.id)}
+                                                            disabled={getQuantity(l.id) == 1}
                                                         >
                                                             <FontAwesomeIcon icon={faMinus} />
                                                         </button>
                                                         <input
                                                             type="text"
-                                                            value={getQuantity(l.ID)}
+                                                            value={getQuantity(l.id)}
                                                             style={{
                                                                 border: "1px solid #e1e4e6",
                                                                 width: "13%",
@@ -300,8 +300,8 @@ const Purchase = () => {
                                                         />
                                                         <button
                                                             className="btn-plus"
-                                                            onClick={() => plusQuantity(l.ID)}
-                                                            disabled={getQuantity(l.ID) == 4}
+                                                            onClick={() => plusQuantity(l.id)}
+                                                            disabled={getQuantity(l.id) == 4}
                                                         >
                                                             <FontAwesomeIcon icon={faPlus} />
                                                         </button></p>

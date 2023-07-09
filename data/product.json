@@ -1,7 +1,7 @@
 {
   "Product": [
     {
-      "ID": 1,
+      "id": 1,
       "Name": "Samsung Galaxy Z Flip4 5G 128GB",
       "Category_ID": 1,
       "Price": 15990000,
@@ -21,7 +21,7 @@
       }
     },
     {
-      "ID": 2,
+      "id": 2,
       "Name": "Samsung Galaxy S22 5G 128GB",
       "Category_ID": 1,
       "Price": 12490000,
@@ -41,7 +41,7 @@
       }
     },
     {
-      "ID": 3,
+      "id": 3,
       "Name": "Samsung Galaxy S23 Ultra 5G 256GB",
       "Category_ID": 1,
       "Price": 25990000,
@@ -61,7 +61,7 @@
       }
     },
     {
-      "ID": 4,
+      "id": 4,
       "Name": "Samsung Galaxy Z Fold4 5G 256GB",
       "Category_ID": 1,
       "Price": 29990000,
@@ -81,7 +81,7 @@
       }
     },
     {
-      "ID": 5,
+      "id": 5,
       "Name": "Samsung Galaxy A34 5G",
       "Category_ID": 1,
       "Price": 7490000,
@@ -102,7 +102,7 @@
       }
     },
     {
-      "ID": 6,
+      "id": 6,
       "Name": "Samsung Galaxy A54 5G 128GB",
       "Category_ID": 1,
       "Price": 9190000,
@@ -122,7 +122,7 @@
       }
     },
     {
-      "ID": 7,
+      "id": 7,
       "Name": "Samsung Galaxy A14 4G",
       "Category_ID": 1,
       "Price": 3790000,
@@ -142,7 +142,7 @@
       }
     },
     {
-      "ID": 8,
+      "id": 8,
       "Name": "Samsung Galaxy A23 5G",
       "Category_ID": 1,
       "Price": 4890000,
@@ -162,7 +162,7 @@
       }
     },
     {
-      "ID": 9,
+      "id": 9,
       "Name": "Samsung Galaxy A04s",
       "Category_ID": 1,
       "Price": 3490000,
@@ -182,7 +182,7 @@
       }
     },
     {
-      "ID": 10,
+      "id": 10,
       "Name": "Samsung Galaxy A04",
       "Category_ID": 1,
       "Price": 2290000,
@@ -202,7 +202,7 @@
       }
     },
     {
-      "ID": 11,
+      "id": 11,
       "Name": "Xiaomi Redmi 10A 3GB-64GB",
       "Category_ID": 2,
       "Price": 2590000,
@@ -225,7 +225,7 @@
       }
     },
     {
-      "ID": 12,
+      "id": 12,
       "Name": "Xiaomi Redmi 10 2022 4GB-128GB",
       "Category_ID": 2,
       "Price": 3790000,
@@ -245,7 +245,7 @@
       }
     },
     {
-      "ID": 13,
+      "id": 13,
       "Name": "Xiaomi Redmi Note 12 4GB-128GB",
       "Category_ID": 2,
       "Price": 4590000,
@@ -265,7 +265,7 @@
       }
     },
     {
-      "ID": 14,
+      "id": 14,
       "Name": "Xiaomi 13 Lite 8GB-128GB",
       "Category_ID": 2,
       "Price": 8790000,
@@ -285,7 +285,7 @@
       }
     },
     {
-      "ID": 15,
+      "id": 15,
       "Name": "Xiaomi Redmi A1 2GB-32GB",
       "Category_ID": 2,
       "Price": 1890000,
@@ -305,7 +305,7 @@
       }
     },
     {
-      "ID": 16,
+      "id": 16,
       "Name": "Xiaomi Redmi 12C 4GB - 64GB",
       "Category_ID": 2,
       "Price": 1890000,
@@ -325,7 +325,7 @@
       }
     },
     {
-      "ID": 17,
+      "id": 17,
       "Name": "Xiaomi Redmi Note 11 4GB - 128GB ",
       "Category_ID": 2,
       "Price": 3990000,
@@ -345,7 +345,7 @@
       }
     },
     {
-      "ID": 18,
+      "id": 18,
       "Name": "Xiaomi Redmi Note 11S 8GB - 128GB",
       "Category_ID": 2,
       "Price": 4990000,
@@ -365,7 +365,7 @@
       }
     },
     {
-      "ID": 19,
+      "id": 19,
       "Name": "Xiaomi Redmi Note 11 Pro 8GB - 128GB",
       "Category_ID": 2,
       "Price": 7490000,
@@ -385,7 +385,7 @@
       }
     },
     {
-      "ID": 20,
+      "id": 20,
       "Name": "Xiaomi 13 8GB-256GB",
       "Category_ID": 2,
       "Price": 17490000,
@@ -405,7 +405,7 @@
       }
     },
     {
-      "ID": 21,
+      "id": 21,
       "Name": "Vivo V25 Pro 5G 8GB-128GB",
       "Category_ID": 3,
       "Price": 10990000,
@@ -425,7 +425,7 @@
       }
     },
     {
-      "ID": 22,
+      "id": 22,
       "Name": "Vivo V25 5G 8GB-128GB",
       "Category_ID": 3,
       "Price": 9390000,
@@ -445,7 +445,7 @@
       }
     },
     {
-      "ID": 23,
+      "id": 23,
       "Name": "Vivo V25 5G 8GB-128GB",
       "Category_ID": 3,
       "Price": 8490000,
@@ -465,7 +465,7 @@
       }
     },
     {
-      "ID": 24,
+      "id": 24,
       "Name": "Vivo Y35 8GB-128GB",
       "Category_ID": 3,
       "Price": 6990000,
@@ -485,7 +485,7 @@
       }
     },
     {
-      "ID": 25,
+      "id": 25,
       "Name": "Vivo Y22s 8GB-128GB",
       "Category_ID": 3,
       "Price": 5990000,
@@ -505,7 +505,7 @@
       }
     },
     {
-      "ID": 26,
+      "id": 26,
       "Name": "Vivo T1x 4GB-64GB",
       "Category_ID": 3,
       "Price": 4490000,
@@ -525,7 +525,7 @@
       }
     },
     {
-      "ID": 27,
+      "id": 27,
       "Name": "Vivo Y16 4GB-128GB",
       "Category_ID": 3,
       "Price": 4490000,
@@ -545,7 +545,7 @@
       }
     },
     {
-      "ID": 28,
+      "id": 28,
       "Name": "Vivo Y15s 3GB - 32GB",
       "Category_ID": 3,
       "Price": 3490000,
@@ -565,7 +565,7 @@
       }
     },
     {
-      "ID": 29,
+      "id": 29,
       "Name": "Vivo Y02 2GB-32GB",
       "Category_ID": 3,
       "Price": 2790000,
@@ -585,7 +585,7 @@
       }
     },
     {
-      "ID": 30,
+      "id": 30,
       "Name": "Vivo Y02s 3GB-32GB",
       "Category_ID": 3,
       "Price": 3490000,
@@ -605,7 +605,7 @@
       }
     },
     {
-      "ID": 31,
+      "id": 31,
       "Name": "iPhone 11 64GB",
       "Category_ID": 4,
       "Price": 10480000,
@@ -627,7 +627,7 @@
       }
     },
     {
-      "ID": 32,
+      "id": 32,
       "Name": "iPhone 12 64GB",
       "Category_ID": 4,
       "Price": 14990000,
@@ -648,7 +648,7 @@
       }
     },
     {
-      "ID": 33,
+      "id": 33,
       "Name": "iPhone 13 128GB",
       "Category_ID": 4,
       "Price": 16790000,
@@ -670,7 +670,7 @@
       }
     },
     {
-      "ID": 34,
+      "id": 34,
       "Name": "iPhone 14 128GB",
       "Category_ID": 4,
       "Price": 19180000,
@@ -690,7 +690,7 @@
       }
     },
     {
-      "ID": 35,
+      "id": 35,
       "Name": "iPhone 14 Plus 128GB",
       "Category_ID": 4,
       "Price": 21680000,
@@ -710,7 +710,7 @@
       }
     },
     {
-      "ID": 36,
+      "id": 36,
       "Name": "iPhone 14 Pro 128GB",
       "Category_ID": 4,
       "Price": 24880000,
@@ -730,7 +730,7 @@
       }
     },
     {
-      "ID": 37,
+      "id": 37,
       "Name": "iPhone 14 Pro Max 128GB",
       "Category_ID": 4,
       "Price": 26580000,
@@ -750,7 +750,7 @@
       }
     },
     {
-      "ID": 38,
+      "id": 38,
       "Name": "OPPO Reno8 T 5G 128GB",
       "Category_ID": 5,
       "Price": 9490000,
@@ -772,7 +772,7 @@
       }
     },
     {
-      "ID": 39,
+      "id": 39,
       "Name": "OPPO Reno8 4G 8GB - 256GB",
       "Category_ID": 5,
       "Price": 6990000,
@@ -794,7 +794,7 @@
       }
     },
     {
-      "ID": 40,
+      "id": 40,
       "Name": "OPPO A55 4GB-64GB",
       "Category_ID": 5,
       "Price": 3690000,
@@ -816,7 +816,7 @@
       }
     },
     {
-      "ID": 41,
+      "id": 41,
       "Name": "OPPO A57 4GB-128GB",
       "Category_ID": 5,
       "Price": 4190000,
@@ -838,7 +838,7 @@
       }
     },
     {
-      "ID": 42,
+      "id": 42,
       "Name": "OPPO A17 4GB-64GB",
       "Category_ID": 5,
       "Price": 3690000,
@@ -860,7 +860,7 @@
       }
     },
     {
-      "ID": 43,
+      "id": 43,
       "Name": "OPPO A17k 3GB-64GB",
       "Category_ID": 5,
       "Price": 2990000,
@@ -882,7 +882,7 @@
       }
     },
     {
-      "ID": 44,
+      "id": 44,
       "Name": "Oppo Reno6 5G",
       "Category_ID": 5,
       "Price": 6990000,
@@ -904,7 +904,7 @@
       }
     },
     {
-      "ID": 45,
+      "id": 45,
       "Name": "OPPO Find X5 Pro 12GB - 256GB",
       "Category_ID": 5,
       "Price": 22990000,
@@ -926,7 +926,7 @@
       }
     },
     {
-      "ID": 46,
+      "id": 46,
       "Name": "OPPO A95 8GB-128GB",
       "Category_ID": 5,
       "Price": 5490000,
@@ -948,7 +948,7 @@
       }
     },
     {
-      "ID": 47,
+      "id": 47,
       "Name": "OPPO Reno7 Z 5G 8GB - 128GB",
       "Category_ID": 5,
       "Price": 6490000,
@@ -970,7 +970,7 @@
       }
     },
     {
-      "ID": 48,
+      "id": 48,
       "Name": "OPPO Reno6 Z 5G",
       "Category_ID": 5,
       "Price": 5990000,
@@ -991,7 +991,7 @@
       }
     },
     {
-      "ID": 49,
+      "id": 49,
       "Name": "OPPO A16k 3GB-32GB",
       "Category_ID": 5,
       "Price": 2490000,
@@ -1013,7 +1013,7 @@
       }
     },
     {
-      "ID": 50,
+      "id": 50,
       "Name": "OPPO Find N2 Flip",
       "Category_ID": 5,
       "Price": 19990000,
@@ -1035,7 +1035,7 @@
       }
     },
     {
-      "ID": 51,
+      "id": 51,
       "Name": "Nokia 5710 XpressAudio",
       "Category_ID": 6,
       "Price": 1390000,
@@ -1054,7 +1054,7 @@
       }
     },
     {
-      "ID": 52,
+      "id": 52,
       "Name": "Nokia G22 4GB-128GB",
       "Category_ID": 6,
       "Price": 3690000,
@@ -1074,7 +1074,7 @@
       }
     },
     {
-      "ID": 53,
+      "id": 53,
       "Name": "Nokia 110 DS 4G",
       "Category_ID": 6,
       "Price": 720000,
@@ -1093,7 +1093,7 @@
       }
     },
     {
-      "ID": 54,
+      "id": 54,
       "Name": "Nokia 105 DS 4G",
       "Category_ID": 6,
       "Price": 670000,
@@ -1111,7 +1111,7 @@
       }
     },
     {
-      "ID": 55,
+      "id": 55,
       "Name": "Nokia C30 3GB-32GB",
       "Category_ID": 6,
       "Price": 1990000,
@@ -1130,7 +1130,7 @@
       }
     },
     {
-      "ID": 56,
+      "id": 56,
       "Name": "Nokia 215 DS 4G",
       "Category_ID": 6,
       "Price": 990000,
@@ -1148,7 +1148,7 @@
       }
     },
     {
-      "ID": 57,
+      "id": 57,
       "Name": "Nokia 2660 Flip 4G",
       "Category_ID": 6,
       "Price": 1590000,
@@ -1167,7 +1167,7 @@
       }
     },
     {
-      "ID": 58,
+      "id": 58,
       "Name": "Nokia 8210 4G",
       "Category_ID": 6,
       "Price": 1590000,
