@@ -3528,5 +3528,53 @@
       ],
       "Quantity": "10"
     }
+  ],
+  "Order": [
+    {
+      "product_id": 1,
+      "Quantity": 1,
+      "Price": 15190500,
+      "Color": "Vàng",
+      "OrderDetailId": 0,
+      "id": 1
+    },
+    {
+      "product_id": 2,
+      "Quantity": 2,
+      "Price": 17486000,
+      "Color": "Xanh",
+      "OrderDetailId": 0,
+      "id": 2
+    },
+    {
+      "product_id": 2,
+      "Quantity": 1,
+      "Price": 8743000,
+      "Color": "Đen",
+      "OrderDetailId": 0,
+      "id": 3
+    },
+    {
+      "product_id": 9,
+      "Quantity": 1,
+      "Price": 3420200,
+      "Color": "Xanh",
+      "OrderDetailId": 0,
+      "id": 4
+    }
+  ],
+  "OrderDetail": [
+    {
+      "firstName": "dao",
+      "lastName": "khai",
+      "phone": "39393",
+      "address": "HN",
+      "email": "dao@gmail.com",
+      "purchaseMethod": "Thanh toán bằng ZaloPay",
+      "userId": null,
+      "totalPrice": 44839700,
+      "status": 1,
+      "id": 1
+    }
   ]
 }

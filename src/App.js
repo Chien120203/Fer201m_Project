@@ -33,7 +33,7 @@ function App() {
         <Route path="/tim-kiem/:searchname" element={<Search />} />
         <Route path="/tim-kiem" element={<Search />} />
         <Route
-          path="dien-thoai/purchase/:ID/:TYPE"
+          path="dien-thoai/purchase/:ID/:COLORID/:TYPE"
           element={<Purchase />}
         />
         <Route

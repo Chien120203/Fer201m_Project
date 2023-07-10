@@ -214,7 +214,7 @@ const ProductDetail = () => {
                   <Link
                     className="w-100 buy-btn btn"
                     onClick={() => handlePurchase(product)}
-                    to={`/dien-thoai/purchase/${product.id}/1`}
+                    to={`/dien-thoai/purchase/${product.id}/${colorObj.id}/1`}
                   >
                     <span className="text-uppercase">Mua Ngay</span>
                     <br></br>

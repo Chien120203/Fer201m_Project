@@ -14,7 +14,7 @@ import {
     faTrashAlt,
 } from "@fortawesome/free-solid-svg-icons";
 const Purchase = () => {
-    const { ID, TYPE } = useParams();
+    const { ID, COLORID, TYPE } = useParams();
     const [cookies, setCookie] = useCookies(["productIds"]);
     const [productIds, setProductIds] = useState([]);
     const [listProduct, setListProduct] = useState([]);
@@ -26,7 +26,7 @@ const Purchase = () => {
     const address = useRef(null);
     const [purchaseMethods, setPurchaseMethods] = useState("Thanh toán khi nhận hàng");
     const navigate = useNavigate();
-    const [quantity,setQuantity] = useState(1);
+    const [quantity, setQuantity] = useState(1);
     useEffect(() => {
         setProductIds(cookies.productIds || []);
     }, [cookies.productIds]);
@@ -35,76 +35,92 @@ const Purchase = () => {
         fetch("http://localhost:9999/Product")
             .then((response) => response.json())
             .then((data) => {
-                if (TYPE == 1) {
-                    setListProduct(data.filter((d) => {
-                        return d.id == ID;
-                    }))
-                    const selectedProduct = data.filter((d) => {
-                        return d.id == ID;
-                    })
-                    let sum = 0;
-                    selectedProduct.map((a) => {
-                        sum += (a.Price+(1-a.SalePrice))*quantity;
-                    })
-                    setTotalPrice(sum);
-                }
-                else {
-                    const list = data.filter((p) => {
-                        return keys.some((key) => p.id.toString() == key);
+                fetch("http://localhost:9999/Color")
+                    .then((res) => res.json())
+                    .then((dataColor) => {
+                        let listPrCol = [];
+                        if (TYPE == 1) {
+                            let product = data.find((a) => {
+                                return a.id == ID;
+                            })
+                            let color = dataColor.find((a) => {
+                                return a.id == COLORID;
+                            })
+                            console.log(COLORID)
+                            listPrCol.push({
+                                ...product,
+                                colorName: color.ColorName,
+                                imageColor: color.Images[0],
+                                quantity: 1,
+                                colorID: color.id
+                            })
+
+                        }
+                        else {
+                            data.map((p) => {
+                                dataColor.map((col) => {
+                                    if (col.ProductId == p.id) {
+                                        Object.entries(productIds).map((color) => {
+                                            if (p.id == +color[0]) {
+                                                Object.entries(color[1]).map((value) => {
+                                                    if (col.id == +value[0]) {
+                                                        listPrCol.push({
+                                                            ...p,
+                                                            colorName: col.ColorName,
+                                                            imageColor: col.Images[0],
+                                                            quantity: value[1],
+                                                            colorID: +value[0],
+                                                        });
+                                                    }
+                                                });
+                                            }
+                                        });
+                                    }
+                                });
+                            });
+                        }
+                        let sum = 0;
+                        for (let i = 0; i < listPrCol.length; i++) {
+                            sum = sum + listPrCol[i].Price * (1 - listPrCol[i].SalePrice) * listPrCol[i].quantity
+                        }
+                        setTotalPrice(sum);
+                        setListProduct(listPrCol);
                     });
-                    setListProduct(list);
-                    let sum = 0;
-                    list.map((a) => {
-                        sum = sum + (a.Price*(1-a.SalePrice)) * cookies.productIds[a.id]
-                    })
-                    setTotalPrice(sum);
-                }
+
             });
     }, [productIds]);
-    const getQuantity = (id) => {
-        return productIds[id] || 1;
+    const getQuantity = (id, colId) => {
+        let pro = listProduct.find((p) => p.colorID == colId);
+        return pro.quantity;
     };
-    const getTotalPrice = () => {
-        let sum = listProduct.reduce((a, b) => {
-            return (a.Price*(1-a.SalePrice)*getQuantity(a.id)) + (b.Price*(1-b.SalePrice)*getQuantity(b.id)) ;
-        })
-        setTotalPrice(sum);
-    }
-    const minusQuantity = (id) => {
-        let quantity = getQuantity(id);
+    const minusQuantity = (id, colId) => {
+        let quantity = getQuantity(id, colId);
         if (quantity > 0) {
-            updateProduct(id, quantity - 1);
+            updateProduct(id, colId, quantity - 1);
         }
     };
-    const plusQuantity = (id) => {
-        let quantity = getQuantity(id);
+    const plusQuantity = (id, colId) => {
+        let quantity = getQuantity(id, colId);
         if (quantity > 0) {
-            updateProduct(id, quantity + 1);
+            updateProduct(id, colId, quantity + 1);
         }
-        // getTotalPrice();
     };
-    const updateProduct = (id, quantity) => {
+    const updateProduct = (id, colId, quantity) => {
+        let pro = listProduct.find((p) => p.id == id && p.colorID == colId);
         const updatedListProductIds = { ...productIds };
-        updatedListProductIds[id] = quantity;
+        let colorId = pro.colorID;
+        updatedListProductIds[id][colorId] = quantity;
         setProductIds(updatedListProductIds);
-        setQuantity(quantity+1);
         setCookie("productIds", updatedListProductIds, { path: "/" });
     };
-    const deleteProduct = (id) => {
-        if (TYPE == 2) {
-            const updatedProductIds = Object.keys(productIds).filter(
-                (key) => key !== id.toString()
-            );
-            const updatedIdsObject = updatedProductIds.reduce((obj, key) => {
-                obj[key] = productIds[key];
-                return obj;
-            }, {});
-            setProductIds(updatedIdsObject);
-            setCookie("productIds", updatedIdsObject, { path: "/" });
-        }
-        else {
-            setListProduct([]);
-            setTotalPrice(0);
+    const deleteProduct = (id, colId) => {
+        if (listProduct.length > 1) {
+            let pro = listProduct.find((p) => p.id == id && p.colorID == colId);
+            const updatedListProductIds = { ...productIds };
+            let colorId = pro.colorID;
+            delete updatedListProductIds[id][colorId];
+            setProductIds(updatedListProductIds);
+            setCookie("productIds", updatedListProductIds, { path: "/" });
         }
     };
 
@@ -117,7 +133,6 @@ const Purchase = () => {
         fetch("http://localhost:9999/OrderDetail")
             .then((response) => response.json())
             .then((data) => {
-                // setOrderDetailId(data.length + 1);
                 getOrderDetailIDD(data.length + 1)
                 console.log(`data: ${data.length}`);
             });
@@ -134,6 +149,8 @@ const Purchase = () => {
         }
         else {
             const user = JSON.parse(sessionStorage.getItem("user"));
+            let userid = 0;
+            if(user == null) userid = null; else userid = user.id;
             const newOrderDetail = {
                 firstName: firstName.current.value.trim(),
                 lastName: lastName.current.value.trim(),
@@ -141,8 +158,9 @@ const Purchase = () => {
                 address: address.current.value.trim(),
                 email: email.current.value.trim(),
                 purchaseMethod: purchaseMethods,
-                userId: user.id,
-                totalPrice: totalPrice
+                userId: userid,
+                totalPrice: totalPrice,
+                status: 1
             };
             getOrderDetailId();
             // console.log(`id: ${Id}`);
@@ -160,8 +178,9 @@ const Purchase = () => {
             listProduct.map((product) => {
                 const newOrder = {
                     product_id: product.id,
-                    Quantity: getQuantity(product.id),
-                    Price: (product.Price*(1-product.SalePrice)) * getQuantity(product.id),
+                    Quantity: product.quantity,
+                    Price: (product.Price * (1 - product.SalePrice)) * product.quantity,
+                    Color: product.colorName,
                     OrderDetailId: Id
                 }
                 fetch("http://localhost:9999/Order", {
@@ -175,7 +194,7 @@ const Purchase = () => {
                     .then((response) => {
                         return response.json();
                     })
-                deleteProduct(product.id)
+                deleteProduct(product.id, product.colorID)
             })
             navigate('/')
         }
@@ -263,7 +282,7 @@ const Purchase = () => {
                                                 <Col md={3}>
                                                     <button
                                                         className="btn-delete"
-                                                        onClick={() => deleteProduct(l.id)}
+                                                        onClick={() => deleteProduct(l.id, l.colorID)}
                                                     >
                                                         <FontAwesomeIcon icon={faTrashAlt} />
                                                         Xoá
@@ -276,20 +295,20 @@ const Purchase = () => {
                                                     <p style={{ marginBottom: "5px" }}>Giá: {new Intl.NumberFormat("vi-VN", {
                                                         style: "currency",
                                                         currency: "VND",
-                                                    }).format(((l.Price*(1-l.SalePrice)) * getQuantity()))}</p>
+                                                    }).format(((l.Price * (1 - l.SalePrice)) * l.quantity))}</p>
                                                 </Col>
                                                 <Col md={6} style={{ textAlign: "right" }}>
                                                     <p>Số lượng:
                                                         <button
                                                             className="btn-minus"
-                                                            onClick={() => minusQuantity(l.id)}
-                                                            disabled={getQuantity(l.id) == 1}
+                                                            onClick={() => minusQuantity(l.id, l.colorID)}
+                                                            disabled={l.quantity == 1}
                                                         >
                                                             <FontAwesomeIcon icon={faMinus} />
                                                         </button>
                                                         <input
                                                             type="text"
-                                                            value={getQuantity(l.id)}
+                                                            value={l.quantity}
                                                             style={{
                                                                 border: "1px solid #e1e4e6",
                                                                 width: "13%",
@@ -300,11 +319,14 @@ const Purchase = () => {
                                                         />
                                                         <button
                                                             className="btn-plus"
-                                                            onClick={() => plusQuantity(l.id)}
-                                                            disabled={getQuantity(l.id) == 4}
+                                                            onClick={() => plusQuantity(l.id, l.colorID)}
+                                                            disabled={l.quantity == 4}
                                                         >
                                                             <FontAwesomeIcon icon={faPlus} />
                                                         </button></p>
+                                                </Col>
+                                                <Col md={6}>
+                                                    <p>Màu sắc: {l.colorName}</p>
                                                 </Col>
                                             </Row>
                                         </Col>
