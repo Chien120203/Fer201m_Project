@@ -32,19 +32,19 @@ const ProductDetail = () => {
     fetch("http://localhost:9999/Product")
       .then((response) => response.json())
       .then((data) => {
-        let p = data.find((pr) => pr.ID == ID);
+        let p = data.find((pr) => pr.id == ID);
         setProduct(p);
 
         fetch("http://localhost:9999/Category")
           .then((response) => response.json())
           .then((data1) => {
-            let cate = data1.find((c) => c.ID == p.Category_ID);
+            let cate = data1.find((c) => c.id == p.Category_ID);
             setCategory(cate);
 
             fetch("http://localhost:9999/Color")
               .then((response) => response.json())
               .then((data) => {
-                let dataColor = data.filter((item) => item.ProductId == p.ID);
+                let dataColor = data.filter((item) => item.ProductId == p.id);
                 setImages(dataColor);
                 setColorObj(dataColor[0]);
               });
@@ -53,7 +53,7 @@ const ProductDetail = () => {
   }, []);
 
   const handlePurchase = (product) => {
-    const productId = product.ID;
+    const productId = product.id;
     const color = colorObj.id;
     const existingProductIds = cookies.productIds || {};
 
@@ -72,7 +72,7 @@ const ProductDetail = () => {
         [color]: 1,
       };
     }
-
+    console.log(existingProductIds);
     setCookie("productIds", existingProductIds, { path: "/" });
   };
 
@@ -81,9 +81,6 @@ const ProductDetail = () => {
   };
 
   if (typeof listImages != "undefined" && listImages.length > 0) {
-    {
-      console.log(listImages);
-    }
     return (
       <div>
         <Header />
@@ -217,7 +214,7 @@ const ProductDetail = () => {
                   <Link
                     className="w-100 buy-btn btn"
                     onClick={() => handlePurchase(product)}
-                    to={`/dien-thoai/purchase/${product.ID}/1`}
+                    to={`/dien-thoai/purchase/${product.id}/1`}
                   >
                     <span className="text-uppercase">Mua Ngay</span>
                     <br></br>
