@@ -19,6 +19,8 @@ const Purchase = () => {
     const [productIds, setProductIds] = useState([]);
     const [listProduct, setListProduct] = useState([]);
     const [totalPrice, setTotalPrice] = useState(0);
+    const [orderDetailId, setOrderDetailId] = useState(0);
+    const [listColor, setListColor] = useState([]);
     const firstName = useRef(null);
     const lastName = useRef(null);
     const email = useRef(null);
@@ -26,7 +28,6 @@ const Purchase = () => {
     const address = useRef(null);
     const [purchaseMethods, setPurchaseMethods] = useState("Thanh toán khi nhận hàng");
     const navigate = useNavigate();
-    const [quantity, setQuantity] = useState(1);
     useEffect(() => {
         setProductIds(cookies.productIds || []);
     }, [cookies.productIds]);
@@ -89,6 +90,20 @@ const Purchase = () => {
 
             });
     }, [productIds]);
+    useEffect(() => {
+        fetch("http://localhost:9999/Color")
+            .then((response) => response.json())
+            .then((data) => {
+                setListColor(data);
+            });
+    }, [])
+    useEffect(() => {
+        fetch("http://localhost:9999/OrderDetail")
+            .then((response) => response.json())
+            .then((data) => {
+                setOrderDetailId(data.length + 1);
+            });
+    }, [])
     const getQuantity = (id, colId) => {
         let pro = listProduct.find((p) => p.colorID == colId);
         return pro.quantity;
@@ -123,20 +138,6 @@ const Purchase = () => {
             setCookie("productIds", updatedListProductIds, { path: "/" });
         }
     };
-
-    var Id = 0;
-    const getOrderDetailIDD = (a) => {
-        Id = a;
-        console.log(`nhay vaoday: ${Id}`);
-    }
-    const getOrderDetailId = () => {
-        fetch("http://localhost:9999/OrderDetail")
-            .then((response) => response.json())
-            .then((data) => {
-                getOrderDetailIDD(data.length + 1)
-                console.log(`data: ${data.length}`);
-            });
-    }
     const handlePurchase = () => {
         if (listProduct.length === 0) {
             if (window.confirm("Bạn chưa chọn sản phẩm nào") == true) {
@@ -150,7 +151,7 @@ const Purchase = () => {
         else {
             const user = JSON.parse(sessionStorage.getItem("user"));
             let userid = 0;
-            if(user == null) userid = null; else userid = user.id;
+            if (user == null) userid = null; else userid = user.id;
             const newOrderDetail = {
                 firstName: firstName.current.value.trim(),
                 lastName: lastName.current.value.trim(),
@@ -162,8 +163,6 @@ const Purchase = () => {
                 totalPrice: totalPrice,
                 status: 1
             };
-            getOrderDetailId();
-            // console.log(`id: ${Id}`);
             fetch("http://localhost:9999/OrderDetail", {
                 method: "POST",
                 headers: {
@@ -175,13 +174,14 @@ const Purchase = () => {
                 .then((response) => {
                     return response.json();
                 })
+
             listProduct.map((product) => {
                 const newOrder = {
                     product_id: product.id,
                     Quantity: product.quantity,
                     Price: (product.Price * (1 - product.SalePrice)) * product.quantity,
                     Color: product.colorName,
-                    OrderDetailId: Id
+                    OrderDetailId: orderDetailId
                 }
                 fetch("http://localhost:9999/Order", {
                     method: "POST",
@@ -194,9 +194,23 @@ const Purchase = () => {
                     .then((response) => {
                         return response.json();
                     })
-                deleteProduct(product.id, product.colorID)
+                deleteProduct(product.id, product.colorID);
+                const colorUpdate = listColor.find((a) => {
+                    return a.id == product.colorID;
+                })
+                colorUpdate.Quantity = colorUpdate.Quantity - 1;
+                fetch(`http://localhost:9999/Color/${colorUpdate.id}`, {
+                    method: "PUT",
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify(colorUpdate)
+                })
+                    .then((data) => {
+                        return data.json();
+                    })
             })
-            navigate('/')
+            navigate('/dien-thoai')
         }
     }
     return (

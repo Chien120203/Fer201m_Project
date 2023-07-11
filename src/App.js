@@ -15,6 +15,9 @@ import Search from "./components/Client/Search";
 import DashBoard from "./components/admin/DashBoard";
 import AdminListProduct from "./components/admin/AdminListProduct";
 import EditProduct from "./components/admin/EditProduct";
+import OrderManagement from "./components/admin/OrderManagement";
+import OrderDetail from "./components/admin/OrderDetails";
+import CreateProduct from "./components/admin/CreateProduct";
 function App() {
   return (
     <BrowserRouter>
@@ -47,6 +50,9 @@ function App() {
         <Route path="/logout" element={<Logout />} />
         <Route path="/dashboard" element={<DashBoard/>} />
         <Route path="/productmanagement" element={<AdminListProduct/>} />
+        <Route path="/adminorders" element={<OrderManagement/>} />
+        <Route path="/chi-tiet-don-hang/:id" element={<OrderDetail/>} />
+        <Route path="/createproduct" element={<CreateProduct/>} />
       </Routes>
     </BrowserRouter>
   );

@@ -78,7 +78,7 @@ const AdminListProduct = () => {
                         <div className='admin-content'>
                             <Container>
                                 <Row style={{ marginBottom: "20px" }}>
-                                    <Col md={6}>
+                                    <Col md={4}>
                                         <select onChange={(e) => filterByCategory(e)}>
                                             <option value="all">-- Filter By Category --</option>
                                             {
@@ -104,6 +104,11 @@ const AdminListProduct = () => {
                                                 </Button>
                                             </div>
                                         </div>
+                                    </Col>
+                                    <Col md={2}>
+                                        <Link to="/createproduct"><Button className='btn-success'>
+                                            Create
+                                        </Button></Link>
                                     </Col>
                                 </Row>
                                 <Row>
