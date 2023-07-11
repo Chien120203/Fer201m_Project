@@ -1502,7 +1502,7 @@
         "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2022/8/10/637957703262279890_samsung-galaxy-z-flip4-tim-4.jpg",
         "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2022/8/10/637957703261029822_samsung-galaxy-z-flip4-tim-5.jpg"
       ],
-      "Quantity": 10
+      "Quantity": 9
     },
     {
       "id": 2,
@@ -1568,7 +1568,7 @@
         "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2022/2/10/637800490165751486_samsung-galaxy-s22-xanh-4.jpg",
         "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2022/2/10/637800490166689038_samsung-galaxy-s22-xanh-5.jpg"
       ],
-      "Quantity": 10
+      "Quantity": 9
     },
     {
       "id": 7,
@@ -2513,7 +2513,7 @@
         "https://images.fpt.shop/unsafe/fit-in/585x390/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2022/12/6/638059237853240136_iphone-12-xanhla-6.jpg",
         "https://images.fpt.shop/unsafe/fit-in/585x390/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2022/12/6/638059237855486250_iphone-12-xanhla-7.jpg"
       ],
-      "Quantity": 10
+      "Quantity": 9
     },
     {
       "id": 80,
@@ -2543,7 +2543,7 @@
         "https://images.fpt.shop/unsafe/fit-in/585x390/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2022/12/6/638059219870196020_iphone-12-den-6.jpg",
         "https://images.fpt.shop/unsafe/fit-in/585x390/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2022/12/6/638059219871602235_iphone-12-den-7.jpg"
       ],
-      "Quantity": 10
+      "Quantity": 9
     },
     {
       "id": 82,
@@ -2785,7 +2785,7 @@
         "https://images.fpt.shop/unsafe/fit-in/585x390/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/2/23/638127667775140076_iphone-14-plus-5.jpg",
         "https://images.fpt.shop/unsafe/fit-in/585x390/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/2/23/638127675898102452_iphone-14-plus-trang-6.jpg"
       ],
-      "Quantity": 10
+      "Quantity": 9
     },
     {
       "id": 99,
@@ -2955,7 +2955,7 @@
         "https://images.fpt.shop/unsafe/fit-in/585x390/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/2/25/638129176877756103_iphone-14pro-14prm-4.jpg",
         "https://images.fpt.shop/unsafe/fit-in/585x390/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/2/25/638129176745783085_iphone-14prm-trang-3.jpg"
       ],
-      "Quantity": 10
+      "Quantity": 8
     },
     {
       "id": 109,
@@ -3149,7 +3149,7 @@
         "https://images.fpt.shop/unsafe/fit-in/585x390/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2022/10/17/638016280150741437_oppo-a17-xanh-4.jpg",
         "https://images.fpt.shop/unsafe/fit-in/585x390/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2022/10/17/638016280148515330_oppo-a17-xanh-5.jpg"
       ],
-      "Quantity": 10
+      "Quantity": 9
     },
     {
       "id": 123,
@@ -3563,6 +3563,70 @@
       "Color": "Xanh",
       "OrderDetailId": 1,
       "id": 2
+    },
+    {
+      "product_id": 1,
+      "Quantity": 1,
+      "Price": 15190500,
+      "Color": "Tím",
+      "OrderDetailId": 4,
+      "id": 3
+    },
+    {
+      "product_id": 2,
+      "Quantity": 1,
+      "Price": 8743000,
+      "Color": "Xanh",
+      "OrderDetailId": 5,
+      "id": 4
+    },
+    {
+      "product_id": 32,
+      "Quantity": 2,
+      "Price": 24883400,
+      "Color": "Đen",
+      "OrderDetailId": 6,
+      "id": 5
+    },
+    {
+      "product_id": 42,
+      "Quantity": 2,
+      "Price": 6789600,
+      "Color": "Xanh",
+      "OrderDetailId": 6,
+      "id": 6
+    },
+    {
+      "product_id": 37,
+      "Quantity": 1,
+      "Price": 23656200,
+      "Color": "Bạc",
+      "OrderDetailId": 7,
+      "id": 7
+    },
+    {
+      "product_id": 32,
+      "Quantity": 1,
+      "Price": 12441700,
+      "Color": "Xanh lá",
+      "OrderDetailId": 8,
+      "id": 8
+    },
+    {
+      "product_id": 35,
+      "Quantity": 1,
+      "Price": 18861600,
+      "Color": "Trắng",
+      "OrderDetailId": 8,
+      "id": 9
+    },
+    {
+      "product_id": 37,
+      "Quantity": 2,
+      "Price": 47312400,
+      "Color": "Bạc",
+      "OrderDetailId": 8,
+      "id": 10
     }
   ],
   "OrderDetail": [
@@ -3601,6 +3665,66 @@
       "totalPrice": 39124000,
       "status": 0,
       "id": 3
+    },
+    {
+      "firstName": "hh",
+      "lastName": "hh",
+      "phone": "8383838",
+      "address": "HN",
+      "email": "@kdkdkd",
+      "purchaseMethod": "Thanh toán bằng Momo",
+      "userId": null,
+      "totalPrice": 15190500,
+      "status": 1,
+      "id": 4
+    },
+    {
+      "firstName": "hh",
+      "lastName": "hh",
+      "phone": "23",
+      "address": "45",
+      "email": "@",
+      "purchaseMethod": "Thanh toán bằng ZaloPay",
+      "userId": null,
+      "totalPrice": 8743000,
+      "status": 1,
+      "id": 5
+    },
+    {
+      "firstName": "hh",
+      "lastName": "hh",
+      "phone": "2344",
+      "address": "HN",
+      "email": "@",
+      "purchaseMethod": "Thanh toán bằng ZaloPay",
+      "userId": null,
+      "totalPrice": 31673000,
+      "status": 1,
+      "id": 6
+    },
+    {
+      "firstName": "dao",
+      "lastName": "khai",
+      "phone": "123123",
+      "address": "12423453412",
+      "email": "123@123",
+      "purchaseMethod": "Thanh toán khi nhận hàng",
+      "userId": null,
+      "totalPrice": 23656200,
+      "status": 1,
+      "id": 7
+    },
+    {
+      "firstName": "aa",
+      "lastName": "aa",
+      "phone": "34343",
+      "address": "HNN",
+      "email": "@",
+      "purchaseMethod": "Thanh toán bằng ZaloPay",
+      "userId": null,
+      "totalPrice": 78615700,
+      "status": 1,
+      "id": 8
     }
   ]
 }

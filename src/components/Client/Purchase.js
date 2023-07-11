@@ -87,7 +87,6 @@ const Purchase = () => {
                         setTotalPrice(sum);
                         setListProduct(listPrCol);
                     });
-
             });
     }, [productIds]);
     useEffect(() => {
@@ -125,8 +124,16 @@ const Purchase = () => {
         const updatedListProductIds = { ...productIds };
         let colorId = pro.colorID;
         updatedListProductIds[id][colorId] = quantity;
-        setProductIds(updatedListProductIds);
-        setCookie("productIds", updatedListProductIds, { path: "/" });
+        if(TYPE == 1){
+            pro.quantity = quantity;
+            setTotalPrice(pro.quantity*pro.Price * (1 - pro.SalePrice))
+            setListProduct([pro]);
+        }
+        else{
+            setProductIds(updatedListProductIds);
+            setCookie("productIds", updatedListProductIds, { path: "/" });
+        }
+       
     };
     const deleteProduct = (id, colId) => {
         if (listProduct.length > 1) {
@@ -210,11 +217,14 @@ const Purchase = () => {
                         return data.json();
                     })
             })
-            navigate('/dien-thoai')
+            navigate('/dien-thoai/all')
         }
     }
     return (
         <div>
+            {
+                console.log(listProduct)
+            }
             <Header />
             <Container style={{ marginTop: "100px" }}>
                 <Row>
