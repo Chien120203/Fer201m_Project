@@ -136,14 +136,12 @@ const Purchase = () => {
        
     };
     const deleteProduct = (id, colId) => {
-        if (listProduct.length > 1) {
             let pro = listProduct.find((p) => p.id == id && p.colorID == colId);
             const updatedListProductIds = { ...productIds };
             let colorId = pro.colorID;
             delete updatedListProductIds[id][colorId];
             setProductIds(updatedListProductIds);
             setCookie("productIds", updatedListProductIds, { path: "/" });
-        }
     };
     const handlePurchase = () => {
         if (listProduct.length === 0) {
