@@ -35,23 +35,37 @@ const ShoppingCard = () => {
     fetch("http://localhost:9999/Product")
       .then((response) => response.json())
       .then((data) => {
+        // fetch để lấy data của product
         fetch("http://localhost:9999/Color")
           .then((res) => res.json())
           .then((dataColor) => {
+            // fetch để lấy data color
             let listPrCol = [];
             data.map((p) => {
+              //chạy vòng lặp cho thằng product
               dataColor.map((col) => {
+                // chạy vòng lặp cho thằng color
                 if (col.ProductId == p.id) {
+                  // check để lọc ra những thằng color có product id trùng với product id trong color đó
                   Object.entries(productIds).map((color) => {
+                    // bây giờ chạy cái list trong cookie để lấy thông tin về màu với số lượng
+                    // trong cái thằng array này nó chứa các object, mỗi object có 2 thuộc tính cái thuôc tính đầu tiên là product id, thuộc tính thứ
+                    // hai đó là một cái array nữa chưa cái mã màu color id đấy, với thằng quantity của product có cái mã màu đó
                     if (p.id == +color[0]) {
+                      // color[0] chính là để biểu thị cho product id
+                      // nếu thằng product id mà trùng với thằng
                       Object.entries(color[1]).map((value) => {
+                        // cái này để lặp trong cái thằng mã màu đấy
                         if (col.id == +value[0]) {
+                          //  nếu mà cái thằng col.id trong cái thằng Color fetch bên trên kia kìa có mã màu trùng với
+                          // mã màu của cái thằng value này thì tạo đối tượng để đẩy vào list
                           listPrCol.push({
+                            // tạo đối tượng có thuộc tính là tất cả thuộc tính của product và mấy cái linh tinh bên dướ
                             ...p,
-                            colorName: col.ColorName,
-                            imageColor: col.Images[0],
-                            quantity: value[1],
-                            colorID: +value[0],
+                            colorName: col.ColorName, // lấy tene màu
+                            imageColor: col.Images[0], // lấy cái ảnh đại diện của sản phẩm có màu đấy
+                            quantity: value[1], // lấy sôs lượng sản phẩm
+                            colorID: +value[0], // lấy cả color id để có việc dùng bên dưới nữa lúc mà tăng giảm số lượng sản phẩm hay xoá là cần nó
                           });
                         }
                       });
@@ -64,7 +78,7 @@ const ShoppingCard = () => {
           });
       });
   }, [productIds]);
-
+  console.log(Object.entries(productIds));
   const getQuantity = (id, colId) => {
     let pro = listProduct.find((p) => p.colorID == colId);
     return pro.quantity;
