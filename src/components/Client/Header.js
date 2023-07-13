@@ -64,42 +64,29 @@ const Header = () => {
               </div>
             </Col>
             <Col md={5} style={{ height: "50px", textAlign: "right" }}>
-              <div style={{ display: "flex", justifyContent: "space-around" }}>
-                <Link
-                  style={{
-                    textAlign: "center",
-                    display: "inline-block",
-                    marginRight: "10px",
-                  }}
-                  to={"/shoppingcard"}
-                >
-                  <FontAwesomeIcon
-                    icon={faShoppingCart}
-                    style={{ color: "white" }}
-                  />
-                  <p style={{ color: "white" }}>Giỏ hàng</p>
-                </Link>
+              <div>
                 {
                   checkLogin() ? (
-                    <div>
+                    <div style={{ display: "flex", justifyContent: "space-around" }}>
                       <Link
                         style={{
                           textAlign: "center",
                           display: "inline-block",
-                          marginRight: "100px",
+                          marginRight: "10px",
                         }}
+                        to={"/shoppingcard"}
                       >
+                        <FontAwesomeIcon
+                          icon={faShoppingCart}
+                          style={{ color: "white" }}
+                        />
+                        <p style={{ color: "white" }}>Giỏ hàng</p>
+                      </Link>
+                      <Link>
                         <FontAwesomeIcon icon={faUser} style={{ color: "white" }} />
                         <p style={{ color: "white" }}>Tài khoản</p>
                       </Link>
-                      <Link
-                        style={{
-                          textAlign: "center",
-                          display: "inline-block",
-                          marginRight: "100px",
-                        }}
-                        to={"/logout"}
-                      >
+                      <Link to={"/logout"}>
                         <FontAwesomeIcon
                           icon={faSignOut}
                           style={{ color: "white" }}
@@ -108,29 +95,29 @@ const Header = () => {
                       </Link>
                     </div>
                   ) : (
-                    <div>
+                    <div style={{ display: "flex", justifyContent: "space-around" }}>
                       <Link
                         style={{
                           textAlign: "center",
                           display: "inline-block",
-                          marginRight: "100px",
+                          marginRight: "10px",
                         }}
-                        to={"/login"}
+                        to={"/shoppingcard"}
                       >
+                        <FontAwesomeIcon
+                          icon={faShoppingCart}
+                          style={{ color: "white" }}
+                        />
+                        <p style={{ color: "white" }}>Giỏ hàng</p>
+                      </Link>
+                      <Link to={"/login"} style={{textAlign:"center"}}>
                         <FontAwesomeIcon
                           icon={faSignInAlt}
                           style={{ color: "white" }}
                         />
                         <p style={{ color: "white" }}>Đăng Nhập</p>
                       </Link>
-                      <Link
-                        style={{
-                          textAlign: "center",
-                          display: "inline-block",
-                          marginRight: "100px",
-                        }}
-                        to={"/signup"}
-                      >
+                      <Link to={"/signup"} style={{textAlign:"center"}}>
                         <FontAwesomeIcon
                           icon={faUserPlus}
                           style={{ color: "white" }}

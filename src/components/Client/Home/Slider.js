@@ -3,7 +3,7 @@ import { Carousel, CarouselItem, Container } from "react-bootstrap";
 
 const Slider = () => {
     return (
-        <Container style={{backgroundColor: "white", borderRadius: "5px", paddingTop:"10px"}}>
+        <Container style={{backgroundColor: "white", borderRadius: "5px", paddingTop:"10px"}} className="slideshow">
             <Carousel style={{height: "400px"}}>
                 <CarouselItem>
                     <img

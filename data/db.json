@@ -1515,7 +1515,7 @@
         "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2022/8/10/637957700438168293_samsung-galaxy-z-flip4-vang-5.jpg",
         "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2022/8/10/637957700436762112_samsung-galaxy-z-flip4-vang-4.jpg"
       ],
-      "Quantity": 10
+      "Quantity": 9
     },
     {
       "id": 3,
@@ -3627,6 +3627,14 @@
       "Color": "Bạc",
       "OrderDetailId": 8,
       "id": 10
+    },
+    {
+      "product_id": 1,
+      "Quantity": 1,
+      "Price": 15190500,
+      "Color": "Vàng",
+      "OrderDetailId": 9,
+      "id": 11
     }
   ],
   "OrderDetail": [
@@ -3725,6 +3733,18 @@
       "totalPrice": 78615700,
       "status": 1,
       "id": 8
+    },
+    {
+      "firstName": "khai",
+      "lastName": "dao",
+      "phone": "93939393",
+      "address": "HN",
+      "email": "djdj@gmail.com",
+      "purchaseMethod": "Thanh toán bằng ZaloPay",
+      "userId": null,
+      "totalPrice": 15190500,
+      "status": 1,
+      "id": 9
     }
   ]
 }

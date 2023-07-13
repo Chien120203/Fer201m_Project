@@ -124,24 +124,24 @@ const Purchase = () => {
         const updatedListProductIds = { ...productIds };
         let colorId = pro.colorID;
         updatedListProductIds[id][colorId] = quantity;
-        if(TYPE == 1){
+        if (TYPE == 1) {
             pro.quantity = quantity;
-            setTotalPrice(pro.quantity*pro.Price * (1 - pro.SalePrice))
+            setTotalPrice(pro.quantity * pro.Price * (1 - pro.SalePrice))
             setListProduct([pro]);
         }
-        else{
+        else {
             setProductIds(updatedListProductIds);
             setCookie("productIds", updatedListProductIds, { path: "/" });
         }
-       
+
     };
     const deleteProduct = (id, colId) => {
-            let pro = listProduct.find((p) => p.id == id && p.colorID == colId);
-            const updatedListProductIds = { ...productIds };
-            let colorId = pro.colorID;
-            delete updatedListProductIds[id][colorId];
-            setProductIds(updatedListProductIds);
-            setCookie("productIds", updatedListProductIds, { path: "/" });
+        let pro = listProduct.find((p) => p.id == id && p.colorID == colId);
+        const updatedListProductIds = { ...productIds };
+        let colorId = pro.colorID;
+        delete updatedListProductIds[id][colorId];
+        setProductIds(updatedListProductIds);
+        setCookie("productIds", updatedListProductIds, { path: "/" });
     };
     const handlePurchase = () => {
         if (listProduct.length === 0) {
