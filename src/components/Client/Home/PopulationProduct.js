@@ -140,7 +140,7 @@ const PopulationCourse = () => {
                   </div>
                 </div>
                 <Link
-                  to={`/dien-thoai/product-detail/${p.ID}`}
+                  to={`/dien-thoai/product-detail/${p.id}`}
                   className="btn btn-dark mua-ngay"
                 >
                   Mua Ngay
