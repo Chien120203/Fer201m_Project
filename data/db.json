@@ -1555,7 +1555,7 @@
         "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2022/7/23/637941779746995258_samsung-galaxy-s22-bora-purple-3.jpg",
         "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2022/7/23/637941779749182644_samsung-galaxy-s22-bora-purple-4.jpg"
       ],
-      "Quantity": 10
+      "Quantity": 8
     },
     {
       "id": 6,
@@ -1783,7 +1783,7 @@
         "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2023/5/23/638204362401887460_samsung-galaxy-a14-4g-den-4.jpg",
         "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2023/3/3/638134395341162795_samsung-galaxy-a14-4g-den-1.jpg"
       ],
-      "Quantity": 10
+      "Quantity": 9
     },
     {
       "id": 23,
@@ -3635,6 +3635,30 @@
       "Color": "Vàng",
       "OrderDetailId": 9,
       "id": 11
+    },
+    {
+      "product_id": 2,
+      "Quantity": 1,
+      "Price": 8743000,
+      "Color": "Tím",
+      "OrderDetailId": 10,
+      "id": 12
+    },
+    {
+      "product_id": 2,
+      "Quantity": 1,
+      "Price": 8743000,
+      "Color": "Tím",
+      "OrderDetailId": 11,
+      "id": 13
+    },
+    {
+      "product_id": 7,
+      "Quantity": 1,
+      "Price": 3600500,
+      "Color": "Đen",
+      "OrderDetailId": 11,
+      "id": 14
     }
   ],
   "OrderDetail": [
@@ -3745,6 +3769,30 @@
       "totalPrice": 15190500,
       "status": 1,
       "id": 9
+    },
+    {
+      "firstName": "h",
+      "lastName": "h",
+      "phone": "34234324",
+      "address": "HNN",
+      "email": "@",
+      "purchaseMethod": "Thanh toán khi nhận hàng",
+      "userId": null,
+      "totalPrice": 8743000,
+      "status": 1,
+      "id": 10
+    },
+    {
+      "firstName": "hh",
+      "lastName": "hh",
+      "phone": "3993939",
+      "address": "HN",
+      "email": "@",
+      "purchaseMethod": "Thanh toán khi nhận hàng",
+      "userId": null,
+      "totalPrice": 12343500,
+      "status": 1,
+      "id": 11
     }
   ]
 }

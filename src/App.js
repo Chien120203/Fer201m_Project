@@ -4,6 +4,7 @@ import ListProduct from "./components/Client/ListProduct";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./App.css";
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
+import 'bootstrap/dist/js/bootstrap.js';
 import Home from "./components/Client/Home/Home";
 import Login from "./components/common/Login/Login";
 import Signup from "./components/common/Register/Register";
@@ -18,6 +19,7 @@ import EditProduct from "./components/admin/EditProduct";
 import OrderManagement from "./components/admin/OrderManagement";
 import OrderDetail from "./components/admin/OrderDetails";
 import CreateProduct from "./components/admin/CreateProduct";
+import Order from "./components/Client/Order";
 function App() {
   return (
     <BrowserRouter>
@@ -53,6 +55,7 @@ function App() {
         <Route path="/adminorders" element={<OrderManagement/>} />
         <Route path="/chi-tiet-don-hang/:id" element={<OrderDetail/>} />
         <Route path="/createproduct" element={<CreateProduct/>} />
+        <Route path="/order" element={<Order/>} />
       </Routes>
     </BrowserRouter>
   );
