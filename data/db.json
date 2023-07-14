@@ -3581,6 +3581,240 @@
       "id": 4
     },
     {
+<<<<<<< HEAD
+      "product_id": 1,
+      "Quantity": 2,
+      "Price": 30381000,
+      "Color": "Tím",
+      "OrderDetailId": 0,
+      "id": 5
+    },
+    {
+      "product_id": 3,
+      "Quantity": 1,
+      "Price": 18193000,
+      "Color": "Xanh",
+      "OrderDetailId": 0,
+      "id": 6
+    },
+    {
+      "product_id": 1,
+      "Quantity": 4,
+      "Price": 60762000,
+      "Color": "Vàng",
+      "OrderDetailId": 0,
+      "id": 7
+    },
+    {
+      "product_id": 1,
+      "Quantity": 3,
+      "Price": 45571500,
+      "Color": "Xanh",
+      "OrderDetailId": 0,
+      "id": 8
+    },
+    {
+      "product_id": 1,
+      "Quantity": 1,
+      "Price": 15190500,
+      "Color": "Xám",
+      "OrderDetailId": 0,
+      "id": 9
+    },
+    {
+      "product_id": 3,
+      "Quantity": 1,
+      "Price": 18193000,
+      "Color": "Đen",
+      "OrderDetailId": 0,
+      "id": 10
+    },
+    {
+      "product_id": 3,
+      "Quantity": 1,
+      "Price": 18193000,
+      "Color": "Kem",
+      "OrderDetailId": 0,
+      "id": 11
+    },
+    {
+      "product_id": 2,
+      "Quantity": 1,
+      "Price": 8743000,
+      "Color": "Tím",
+      "OrderDetailId": 0,
+      "id": 12
+    },
+    {
+      "product_id": 2,
+      "Quantity": 1,
+      "Price": 8743000,
+      "Color": "Xanh",
+      "OrderDetailId": 0,
+      "id": 13
+    },
+    {
+      "product_id": 3,
+      "Quantity": 1,
+      "Price": 18193000,
+      "Color": "Tím",
+      "OrderDetailId": 0,
+      "id": 14
+    },
+    {
+      "product_id": 1,
+      "Quantity": 1,
+      "Price": 15190500,
+      "Color": "Tím",
+      "OrderDetailId": 0,
+      "id": 15
+    },
+    {
+      "product_id": 2,
+      "Quantity": 1,
+      "Price": 8743000,
+      "Color": "Tím",
+      "OrderDetailId": 0,
+      "id": 16
+    },
+    {
+      "product_id": 1,
+      "Quantity": 1,
+      "Price": 15190500,
+      "Color": "Vàng",
+      "OrderDetailId": 0,
+      "id": 17
+    },
+    {
+      "product_id": 1,
+      "Quantity": 1,
+      "Price": 15190500,
+      "Color": "Vàng",
+      "OrderDetailId": 0,
+      "id": 18
+    },
+    {
+      "product_id": 4,
+      "Quantity": 1,
+      "Price": 29990000,
+      "Color": "Đỏ",
+      "OrderDetailId": 0,
+      "id": 19
+    },
+    {
+      "product_id": 5,
+      "Quantity": 1,
+      "Price": 7115500,
+      "Color": "Đen",
+      "OrderDetailId": 0,
+      "id": 20
+    },
+    {
+      "product_id": 11,
+      "Quantity": 1,
+      "Price": 2538200,
+      "Color": "Xám",
+      "OrderDetailId": 0,
+      "id": 21
+    },
+    {
+      "product_id": 1,
+      "Quantity": 2,
+      "Price": 30381000,
+      "Color": "Tím",
+      "id": 22
+    },
+    {
+      "product_id": 4,
+      "Quantity": 1,
+      "Price": 29990000,
+      "Color": "Đỏ",
+      "id": 23
+    },
+    {
+      "product_id": 5,
+      "Quantity": 2,
+      "Price": 14231000,
+      "Color": "Đen",
+      "id": 24
+    },
+    {
+      "product_id": 11,
+      "Quantity": 1,
+      "Price": 2538200,
+      "Color": "Xám",
+      "id": 25
+    },
+    {
+      "product_id": 1,
+      "Quantity": 1,
+      "Price": 15190500,
+      "Color": "Tím",
+      "id": 26
+    },
+    {
+      "product_id": 6,
+      "Quantity": 1,
+      "Price": 8730500,
+      "Color": "Đen",
+      "id": 27
+    },
+    {
+      "product_id": 8,
+      "Quantity": 1,
+      "Price": 4792200,
+      "Color": "Đen",
+      "id": 28
+    },
+    {
+      "product_id": 1,
+      "Quantity": 1,
+      "Price": 15190500,
+      "Color": "Tím",
+      "id": 29
+    },
+    {
+      "product_id": 2,
+      "Quantity": 3,
+      "Price": 26229000,
+      "Color": "Tím",
+      "id": 30
+    },
+    {
+      "product_id": 2,
+      "Quantity": 1,
+      "Price": 8743000,
+      "Color": "Xanh",
+      "id": 31
+    },
+    {
+      "product_id": 2,
+      "Quantity": 1,
+      "Price": 8743000,
+      "Color": "Đen",
+      "id": 32
+    },
+    {
+      "product_id": 3,
+      "Quantity": 1,
+      "Price": 18193000,
+      "Color": "Xanh",
+      "id": 33
+    },
+    {
+      "product_id": 4,
+      "Quantity": 1,
+      "Price": 29990000,
+      "Color": "Đỏ",
+      "id": 34
+    },
+    {
+      "product_id": 6,
+      "Quantity": 1,
+      "Price": 8730500,
+      "Color": "Đen",
+      "id": 35
+=======
       "product_id": 32,
       "Quantity": 2,
       "Price": 24883400,
@@ -3675,6 +3909,29 @@
       "id": 1
     },
     {
+<<<<<<< HEAD
+      "firstName": "chien",
+      "lastName": "dam",
+      "phone": "03223232232",
+      "address": "ac",
+      "email": "dsadadsa@gmail.com",
+      "purchaseMethod": "Thanh toán khi nhận hàng",
+      "userId": null,
+      "totalPrice": 418404000,
+      "status": 1,
+      "id": 2
+    },
+    {
+      "firstName": "hh",
+      "lastName": "hh",
+      "phone": "393939393",
+      "address": "HN",
+      "email": "@",
+      "purchaseMethod": "Thanh toán khi nhận hàng",
+      "userId": null,
+      "totalPrice": 23933500,
+      "status": 1,
+=======
       "firstName": "khdai",
       "lastName": "dao",
       "phone": "292929292",
@@ -3696,15 +3953,23 @@
       "userId": null,
       "totalPrice": 39124000,
       "status": 0,
+>>>>>>> d67a251db2f6e250e4c0958659fa625ff76bd31f
       "id": 3
     },
     {
       "firstName": "hh",
       "lastName": "hh",
+<<<<<<< HEAD
+      "phone": "38938383",
+      "address": "HN",
+      "email": "@",
+      "purchaseMethod": "Thanh toán khi nhận hàng",
+=======
       "phone": "8383838",
       "address": "HN",
       "email": "@kdkdkd",
       "purchaseMethod": "Thanh toán bằng Momo",
+>>>>>>> d67a251db2f6e250e4c0958659fa625ff76bd31f
       "userId": null,
       "totalPrice": 15190500,
       "status": 1,
@@ -3713,28 +3978,55 @@
     {
       "firstName": "hh",
       "lastName": "hh",
+<<<<<<< HEAD
+      "phone": "342423423",
+      "address": "HN",
+      "email": "@",
+      "purchaseMethod": "Thanh toán khi nhận hàng",
+      "userId": null,
+      "totalPrice": 52296000,
+=======
       "phone": "23",
       "address": "45",
       "email": "@",
       "purchaseMethod": "Thanh toán bằng ZaloPay",
       "userId": null,
       "totalPrice": 8743000,
+>>>>>>> d67a251db2f6e250e4c0958659fa625ff76bd31f
       "status": 1,
       "id": 5
     },
     {
       "firstName": "hh",
       "lastName": "hh",
+<<<<<<< HEAD
+      "phone": "9393933",
+=======
       "phone": "2344",
+>>>>>>> d67a251db2f6e250e4c0958659fa625ff76bd31f
       "address": "HN",
       "email": "@",
       "purchaseMethod": "Thanh toán bằng ZaloPay",
       "userId": null,
+<<<<<<< HEAD
+      "totalPrice": 22306000,
+=======
       "totalPrice": 31673000,
+>>>>>>> d67a251db2f6e250e4c0958659fa625ff76bd31f
       "status": 1,
       "id": 6
     },
     {
+<<<<<<< HEAD
+      "firstName": "hh",
+      "lastName": "hh",
+      "phone": "232323232",
+      "address": "HN",
+      "email": "@",
+      "purchaseMethod": "Thanh toán khi nhận hàng",
+      "userId": null,
+      "totalPrice": 22306000,
+=======
       "firstName": "dao",
       "lastName": "khai",
       "phone": "123123",
@@ -3743,10 +4035,21 @@
       "purchaseMethod": "Thanh toán khi nhận hàng",
       "userId": null,
       "totalPrice": 23656200,
+>>>>>>> d67a251db2f6e250e4c0958659fa625ff76bd31f
       "status": 1,
       "id": 7
     },
     {
+<<<<<<< HEAD
+      "firstName": "hh",
+      "lastName": "hh",
+      "phone": "2432432432",
+      "address": "HN",
+      "email": "@",
+      "purchaseMethod": "Thanh toán khi nhận hàng",
+      "userId": null,
+      "totalPrice": 2538200,
+=======
       "firstName": "aa",
       "lastName": "aa",
       "phone": "34343",
@@ -3755,10 +4058,47 @@
       "purchaseMethod": "Thanh toán bằng ZaloPay",
       "userId": null,
       "totalPrice": 78615700,
+>>>>>>> d67a251db2f6e250e4c0958659fa625ff76bd31f
       "status": 1,
       "id": 8
     },
     {
+<<<<<<< HEAD
+      "firstName": "abs",
+      "lastName": "bad",
+      "phone": "23234234234",
+      "address": "adsca",
+      "email": "chiendsa@md",
+      "purchaseMethod": "Thanh toán khi nhận hàng",
+      "userId": null,
+      "totalPrice": 77140200,
+      "status": 1,
+      "id": 9
+    },
+    {
+      "firstName": "ccc",
+      "lastName": "ccc",
+      "phone": "2222",
+      "address": "csad",
+      "email": "cccc",
+      "purchaseMethod": "Thanh toán khi nhận hàng",
+      "userId": null,
+      "totalPrice": 28713200,
+      "status": 1,
+      "id": 10
+    },
+    {
+      "firstName": "dcsd",
+      "lastName": "csc",
+      "phone": "2123",
+      "address": "ads",
+      "email": "cdcs",
+      "purchaseMethod": "Thanh toán khi nhận hàng",
+      "userId": null,
+      "totalPrice": 115819000,
+      "status": 1,
+      "id": 11
+=======
       "firstName": "khai",
       "lastName": "dao",
       "phone": "93939393",
