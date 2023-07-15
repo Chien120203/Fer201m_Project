@@ -95,134 +95,141 @@ const ListProduct = () => {
       <Container style={{ marginTop: "100px", marginBottom: "100px" }}>
         <Row>
           <Col md={3}>
-            <h5>Hãng sản xuất</h5>
-            <Row>
-              <Col md={6}>
-                <input
-                  type="radio"
-                  value="all"
-                  name="category"
-                  id="all"
-                  defaultChecked={true}
-                  onClick={(e) => {
-                    setCategoryId(e.target.value);
-                  }}
-                />
-                <label for="all" style={{ marginLeft: "5px" }}>
-                  Tất cả
-                </label>
-              </Col>
-              {category.map((c) => {
-                return (
-                  <Col md={6}>
-                    <input
-                      type="radio"
-                      id={c.id}
-                      value={c.id}
-                      name="category"
-                      onClick={(e) => {
-                        setCategoryId(e.target.value);
-                      }}
-                    />
-                    <label for={c.id} style={{ marginLeft: "5px" }}>
-                      {c.Category_Name}
-                    </label>
-                  </Col>
-                );
-              })}
-            </Row>
-            <h5>Mức giá</h5>
-            <Row>
-              <Col>
-                <ul style={{ listStyle: "none", padding: 0 }}>
-                  <li>
-                    <input
-                      type="radio"
-                      value="all"
-                      name="price"
-                      id="allprice"
-                      defaultChecked={true}
-                      onClick={() => {
-                        setPrice(0);
-                      }}
-                    />
-                    <label for="allprice" style={{ marginLeft: "5px" }}>
-                      Tất cả
-                    </label>
-                  </li>
-                  <li>
-                    <input
-                      type="radio"
-                      value="all"
-                      name="price"
-                      id="below2"
-                      onClick={() => {
-                        setPrice(1);
-                      }}
-                    />
-                    <label for="below2" style={{ marginLeft: "5px" }}>
-                      Dưới 2 triệu
-                    </label>
-                  </li>
-                  <li>
-                    <input
-                      type="radio"
-                      value="all"
-                      name="price"
-                      id="2to4"
-                      onClick={() => {
-                        setPrice(2);
-                      }}
-                    />
-                    <label for="2to4" style={{ marginLeft: "5px" }}>
-                      Từ 2-4 triệu
-                    </label>
-                  </li>
-                  <li>
-                    <input
-                      type="radio"
-                      value="all"
-                      name="price"
-                      id="4to7"
-                      onClick={() => {
-                        setPrice(3);
-                      }}
-                    />
-                    <label for="4to7" style={{ marginLeft: "5px" }}>
-                      Từ 4-7 triệu
-                    </label>
-                  </li>
-                  <li>
-                    <input
-                      type="radio"
-                      value="all"
-                      name="price"
-                      id="7to13"
-                      onClick={() => {
-                        setPrice(4);
-                      }}
-                    />
-                    <label for="7to13" style={{ marginLeft: "5px" }}>
-                      Từ 7-13 triệu
-                    </label>
-                  </li>
-                  <li>
-                    <input
-                      type="radio"
-                      value="all"
-                      name="price"
-                      id="morethan13"
-                      onClick={() => {
-                        setPrice(5);
-                      }}
-                    />
-                    <label for="morethan13" style={{ marginLeft: "5px" }}>
-                      Trên 13 triệu
-                    </label>
-                  </li>
-                </ul>
-              </Col>
-            </Row>
+            <nav className="navbar navbar-expand-md navbar-light bglight" style={{padding:"0"}}>
+              <div className="collapse navbar-collapse"
+                id="navbarSupportedContent">
+                <Container style={{padding:"0"}}>
+                  <h5>Hãng sản xuất</h5>
+                  <Row >
+                    <Col md={6}>
+                      <input
+                        type="radio"
+                        value="all"
+                        name="category"
+                        id="all"
+                        defaultChecked={true}
+                        onClick={(e) => {
+                          setCategoryId(e.target.value);
+                        }}
+                      />
+                      <label for="all" style={{ marginLeft: "5px" }}>
+                        Tất cả
+                      </label>
+                    </Col>
+                    {category.map((c) => {
+                      return (
+                        <Col md={6}>
+                          <input
+                            type="radio"
+                            id={c.id}
+                            value={c.id}
+                            name="category"
+                            onClick={(e) => {
+                              setCategoryId(e.target.value);
+                            }}
+                          />
+                          <label for={c.id} style={{ marginLeft: "5px" }}>
+                            {c.Category_Name}
+                          </label>
+                        </Col>
+                      );
+                    })}
+                  </Row>
+                  <h5>Mức giá</h5>
+                  <Row style={{width:" 100%"}}>
+                    <Col>
+                      <ul style={{ listStyle: "none", padding: 0 }}>
+                        <li>
+                          <input
+                            type="radio"
+                            value="all"
+                            name="price"
+                            id="allprice"
+                            defaultChecked={true}
+                            onClick={() => {
+                              setPrice(0);
+                            }}
+                          />
+                          <label for="allprice" style={{ marginLeft: "5px" }}>
+                            Tất cả
+                          </label>
+                        </li>
+                        <li>
+                          <input
+                            type="radio"
+                            value="all"
+                            name="price"
+                            id="below2"
+                            onClick={() => {
+                              setPrice(1);
+                            }}
+                          />
+                          <label for="below2" style={{ marginLeft: "5px" }}>
+                            Dưới 2 triệu
+                          </label>
+                        </li>
+                        <li>
+                          <input
+                            type="radio"
+                            value="all"
+                            name="price"
+                            id="2to4"
+                            onClick={() => {
+                              setPrice(2);
+                            }}
+                          />
+                          <label for="2to4" style={{ marginLeft: "5px" }}>
+                            Từ 2-4 triệu
+                          </label>
+                        </li>
+                        <li>
+                          <input
+                            type="radio"
+                            value="all"
+                            name="price"
+                            id="4to7"
+                            onClick={() => {
+                              setPrice(3);
+                            }}
+                          />
+                          <label for="4to7" style={{ marginLeft: "5px" }}>
+                            Từ 4-7 triệu
+                          </label>
+                        </li>
+                        <li>
+                          <input
+                            type="radio"
+                            value="all"
+                            name="price"
+                            id="7to13"
+                            onClick={() => {
+                              setPrice(4);
+                            }}
+                          />
+                          <label for="7to13" style={{ marginLeft: "5px" }}>
+                            Từ 7-13 triệu
+                          </label>
+                        </li>
+                        <li>
+                          <input
+                            type="radio"
+                            value="all"
+                            name="price"
+                            id="morethan13"
+                            onClick={() => {
+                              setPrice(5);
+                            }}
+                          />
+                          <label for="morethan13" style={{ marginLeft: "5px" }}>
+                            Trên 13 triệu
+                          </label>
+                        </li>
+                      </ul>
+                    </Col>
+                  </Row>
+                </Container>
+              </div>
+            </nav>
           </Col>
           <Col md={9}>
             <Row>

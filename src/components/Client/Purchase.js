@@ -24,6 +24,7 @@ const Purchase = () => {
   const email = useRef(null);
   const phoneNumber = useRef(null);
   const address = useRef(null);
+  const [orderDetailId, setOrderDetailId] = useState(0);
   const [purchaseMethods, setPurchaseMethods] = useState(
     "Thanh toán khi nhận hàng"
   );
@@ -92,6 +93,13 @@ const Purchase = () => {
           });
       });
   }, [productIds]);
+  useEffect(() => {
+    fetch("http://localhost:9999/OrderDetail")
+      .then((response) => response.json())
+      .then((data) => {
+        setOrderDetailId(data.length + 1);
+      });
+  }, [])
   const getQuantity = (id, colId) => {
     let pro = listProduct.find((p) => p.colorID == colId);
     return pro.quantity;
@@ -131,14 +139,6 @@ const Purchase = () => {
   const getOrderDetailIDD = (a) => {
     Id = a;
     console.log(`nhay vaoday: ${Id}`);
-  };
-  const getOrderDetailId = () => {
-    fetch("http://localhost:9999/OrderDetail")
-      .then((response) => response.json())
-      .then((data) => {
-        getOrderDetailIDD(data.length + 1);
-        console.log(`data: ${data.length}`);
-      });
   };
   const handlePurchase = async () => {
     try {
@@ -188,7 +188,7 @@ const Purchase = () => {
             Quantity: product.quantity,
             Price: product.Price * (1 - product.SalePrice) * product.quantity,
             Color: product.colorName,
-            OrderDetailId: orderDetail.Id,
+            OrderDetailId: orderDetailId,
           };
 
           const orderResponse = await fetch("http://localhost:9999/Order", {
