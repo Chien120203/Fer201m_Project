@@ -1184,24 +1184,6 @@
         "Origin": "Trung Quốc",
         "Release_time": "08/2022"
       }
-    },
-    {
-      "Name": "sa",
-      "Category_ID": "1",
-      "Price": "12344",
-      "SalePrice": "0.5",
-      "Images": "C:\\fakepath\\vivo.png",
-      "Specifications": {
-        "Screen": "ffff",
-        "RAM": "ffff",
-        "Internal_memory": "fff",
-        "CPU": "fff",
-        "Battery_capacity": "fff",
-        "Operating_system": "fff",
-        "Origin": "fff",
-        "Release_time": "fff"
-      },
-      "id": 59
     }
   ],
   "Category": [
@@ -1244,7 +1226,7 @@
       "phone": "984-864-0283",
       "address": "8213 Milwaukee Alley",
       "email": "ddust0@wp.com",
-      "dateOfBirth": "9/29/2002",
+      "dateOfBirth": "2002-09-29",
       "account": "AF89520724",
       "roll": 1,
       "password": "=.*a)=.*2)h{8,}"
@@ -1256,7 +1238,7 @@
       "phone": "527-139-9281",
       "address": "825 Cambridge Center",
       "email": "acastelletti1@wufoo.com",
-      "dateOfBirth": "11/22/1969",
+      "dateOfBirth": "1969-11-22",
       "account": "CQ93719869",
       "roll": 1,
       "password": "=.*M=.*7)k{8,}"
@@ -1268,7 +1250,7 @@
       "phone": "883-721-8360",
       "address": "63279 Oriole Pass",
       "email": "ejeannin2@weebly.com",
-      "dateOfBirth": "6/11/1964",
+      "dateOfBirth": "1964-06-11",
       "account": "MS66652092",
       "roll": 1,
       "password": "=.*e)=.*3Z{8,}"
@@ -1280,7 +1262,7 @@
       "phone": "576-573-0278",
       "address": "39 Susan Terrace",
       "email": "pemsley3@nymag.com",
-      "dateOfBirth": "8/30/1903",
+      "dateOfBirth": "1903-08-30",
       "account": "CE65036430",
       "roll": 1,
       "password": "=.*c)=.*3\\{8,}"
@@ -1292,19 +1274,20 @@
       "phone": "176-736-4719",
       "address": "0 Warbler Circle",
       "email": "sdawson4@dailymotion.com",
-      "dateOfBirth": "10/26/1926",
+      "dateOfBirth": "1926-10-26",
       "account": "YZ11597177",
       "roll": 1,
       "password": "=.*q)=.*5d{8,}"
     },
     {
+      "status": 1,
       "id": "OS0571",
       "firstName": "Cindelyn",
       "lastName": "Sleany",
       "phone": "445-416-0144",
       "address": "66126 Maryland Court",
       "email": "csleany0@google.co.uk",
-      "dateOfBirth": "3/21/2000",
+      "dateOfBirth": "2000-03-21",
       "account": "RM59284163",
       "roll": 0,
       "password": "=.*W)=.*3)b{8,}"
@@ -1316,21 +1299,23 @@
       "phone": "364-569-2035",
       "address": "67050 Lotheville Trail",
       "email": "dgaskell1@aol.com",
-      "dateOfBirth": "5/14/1964",
+      "dateOfBirth": "1964-05-14",
       "account": "PH13552618",
       "roll": 0,
+      "status": 1,
       "password": "=.*W)=.*8h{8,}"
     },
     {
       "id": "TH4341",
-      "firstName": "Wilona",
-      "lastName": "Sherbrooke",
-      "phone": "972-655-4988",
+      "firstName": "Chien",
+      "lastName": "Dam Quang",
+      "phone": "0030303033",
       "address": "19 Clemons Circle",
       "email": "wsherbrooke2@dyndns.org",
-      "dateOfBirth": "3/7/1915",
+      "dateOfBirth": "1997-10-20",
       "account": "HK33503365",
       "roll": 0,
+      "status": 1,
       "password": "=.*H)=.*0)\\{8,}"
     },
     {
@@ -1340,9 +1325,10 @@
       "phone": "470-783-7604",
       "address": "62 Northport Parkway",
       "email": "hbarrick3@shareasale.com",
-      "dateOfBirth": "11/11/2020",
+      "dateOfBirth": "2020-11-11",
       "account": "BB18435473",
       "roll": 0,
+      "status": 1,
       "password": "=.*w)=.*4g{8,}"
     },
     {
@@ -1352,9 +1338,10 @@
       "phone": "535-519-7359",
       "address": "47 Spohn Center",
       "email": "htacker4@cpanel.net",
-      "dateOfBirth": "7/25/1975",
+      "dateOfBirth": "2003-02-01",
       "account": "BJ66719012",
       "roll": 0,
+      "status": 0,
       "password": "=.*S=.*8t{8,}"
     },
     {
@@ -1364,21 +1351,23 @@
       "phone": "226-467-9062",
       "address": "005 Stoughton Place",
       "email": "astokes5@woothemes.com",
-      "dateOfBirth": "12/2/1958",
+      "dateOfBirth": "1958-12-02",
       "account": "MY45735698",
       "roll": 0,
+      "status": 1,
       "password": "=.*E=.*8\\{8,}"
     },
     {
       "id": "JT7203",
-      "firstName": "Aigneis",
-      "lastName": "Trank",
+      "firstName": "Dam",
+      "lastName": "Chien",
       "phone": "365-789-4204",
-      "address": "0192 Truax Circle",
+      "address": "Ha Noi",
       "email": "atrank6@ca.gov",
-      "dateOfBirth": "2/10/1949",
+      "dateOfBirth": "1949-02-10",
       "account": "PX78063658",
       "roll": 0,
+      "status": 1,
       "password": "=.*C=.*8I{8,}"
     },
     {
@@ -1388,106 +1377,11 @@
       "phone": "804-462-5258",
       "address": "112 Continental Center",
       "email": "ldundon7@people.com.cn",
-      "dateOfBirth": "12/19/2009",
+      "dateOfBirth": "2009-12-19",
       "account": "FT94096949",
       "roll": 0,
+      "status": 1,
       "password": "=.*d)=.*6\\{8,}"
-    },
-    {
-      "id": "GL1666",
-      "firstName": "Herrick",
-      "lastName": "Crosseland",
-      "phone": "999-744-8329",
-      "address": "758 Crownhardt Pass",
-      "email": "hcrosseland8@vk.com",
-      "dateOfBirth": "8/22/2003",
-      "account": "SU10730180",
-      "roll": 0,
-      "password": "=.*P)=.*0N{8,}"
-    },
-    {
-      "id": "SB5442",
-      "firstName": "Eudora",
-      "lastName": "Oxterby",
-      "phone": "330-383-0332",
-      "address": "9 Cody Avenue",
-      "email": "eoxterby9@yellowbook.com",
-      "dateOfBirth": "2/1/1933",
-      "account": "SM97058083",
-      "roll": 0,
-      "password": "=.*F=.*2d{8,}"
-    },
-    {
-      "id": "UV1703",
-      "firstName": "Cally",
-      "lastName": "Boggon",
-      "phone": "968-410-8440",
-      "address": "8 Elgar Street",
-      "email": "cboggona@mozilla.com",
-      "dateOfBirth": "6/29/1989",
-      "account": "SA46023240",
-      "roll": 0,
-      "password": "=.*b=.*2N{8,}"
-    },
-    {
-      "id": "PA0359",
-      "firstName": "Shell",
-      "lastName": "Amer",
-      "phone": "291-114-5470",
-      "address": "0948 Walton Terrace",
-      "email": "samerb@paginegialle.it",
-      "dateOfBirth": "10/6/1922",
-      "account": "LA92855952",
-      "roll": 0,
-      "password": "=.*E)=.*4)I{8,}"
-    },
-    {
-      "id": "KP8875",
-      "firstName": "Peyter",
-      "lastName": "Madill",
-      "phone": "579-747-3215",
-      "address": "14142 Carey Trail",
-      "email": "pmadillc@foxnews.com",
-      "dateOfBirth": "4/14/1913",
-      "account": "FK93399247",
-      "roll": 0,
-      "password": "=.*u)=.*6)d{8,}"
-    },
-    {
-      "id": "IX6348",
-      "firstName": "Katti",
-      "lastName": "Brookes",
-      "phone": "968-672-2603",
-      "address": "52460 Lunder Point",
-      "email": "kbrookesd@vkontakte.ru",
-      "dateOfBirth": "11/6/1902",
-      "account": "SQ47750050",
-      "roll": 0,
-      "password": "=.*Z)=.*3)\\{8,}"
-    },
-    {
-      "id": "HN4624",
-      "firstName": "Merrill",
-      "lastName": "Haydon",
-      "phone": "621-484-2669",
-      "address": "1287 Comanche Lane",
-      "email": "mhaydone@sciencedaily.com",
-      "dateOfBirth": "8/28/1909",
-      "account": "LI43381479",
-      "roll": 0,
-      "password": "=.*P)=.*4)w{8,}"
-    },
-    {
-      "id": "CK1584",
-      "firstName": "Tobiah",
-      "lastName": "MacKenney",
-      "phone": "540-779-6845",
-      "address": "02 Mockingbird Road",
-      "email": "tmackenneyf@yolasite.com",
-      "dateOfBirth": "1/15/1923",
-      "account": "LB96578074",
-      "roll": 0,
-      "password": "=.*h)=.*5)d{8,}"
     }
   ],
   "Color": [
@@ -1502,7 +1396,7 @@
         "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2022/8/10/637957703262279890_samsung-galaxy-z-flip4-tim-4.jpg",
         "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2022/8/10/637957703261029822_samsung-galaxy-z-flip4-tim-5.jpg"
       ],
-      "Quantity": 9
+      "Quantity": "10"
     },
     {
       "id": 2,
@@ -1515,7 +1409,7 @@
         "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2022/8/10/637957700438168293_samsung-galaxy-z-flip4-vang-5.jpg",
         "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2022/8/10/637957700436762112_samsung-galaxy-z-flip4-vang-4.jpg"
       ],
-      "Quantity": 9
+      "Quantity": "10"
     },
     {
       "id": 3,
@@ -1529,7 +1423,7 @@
         "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2022/8/10/637957697656088373_samsung-galaxy-z-flip4-xanh-5.jpg",
         "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2022/8/10/637957697654057091_samsung-galaxy-z-flip4-xanh-6.jpg"
       ],
-      "Quantity": 10
+      "Quantity": "10"
     },
     {
       "id": 4,
@@ -1543,7 +1437,7 @@
         "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2022/8/10/637957705399190579_samsung-galaxy-z-flip4-xam-5.jpg",
         "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2022/8/10/637957705397784495_samsung-galaxy-z-flip4-xam-6.jpg"
       ],
-      "Quantity": 10
+      "Quantity": "10"
     },
     {
       "id": 5,
@@ -1555,7 +1449,7 @@
         "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2022/7/23/637941779746995258_samsung-galaxy-s22-bora-purple-3.jpg",
         "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2022/7/23/637941779749182644_samsung-galaxy-s22-bora-purple-4.jpg"
       ],
-      "Quantity": 10
+      "Quantity": "10"
     },
     {
       "id": 6,
@@ -1568,7 +1462,7 @@
         "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2022/2/10/637800490165751486_samsung-galaxy-s22-xanh-4.jpg",
         "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2022/2/10/637800490166689038_samsung-galaxy-s22-xanh-5.jpg"
       ],
-      "Quantity": 9
+      "Quantity": "10"
     },
     {
       "id": 7,
@@ -1581,7 +1475,7 @@
         "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2022/2/10/637800498484581502_samsung-galaxy-s22-den-4.jpg",
         "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2022/2/10/637800498482393649_samsung-galaxy-s22-den-5.jpg"
       ],
-      "Quantity": 10
+      "Quantity": "10"
     },
     {
       "id": 8,
@@ -1594,7 +1488,7 @@
         "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2023/2/17/638122555348189869_samsung-galaxy-s23-ultra-xanh-4.jpg",
         "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2023/2/17/638122555346625094_samsung-galaxy-s23-ultra-xanh-5.jpg"
       ],
-      "Quantity": 10
+      "Quantity": "10"
     },
     {
       "id": 9,
@@ -1608,7 +1502,7 @@
         "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2023/2/17/638122552530982554_samsung-galaxy-s23-ultra-den-5.jpg",
         "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2023/2/17/638122552530025434_samsung-galaxy-s23-ultra-den-6.jpg"
       ],
-      "Quantity": 10
+      "Quantity": "10"
     },
     {
       "id": 10,
@@ -1622,7 +1516,7 @@
         "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2023/2/17/638122557391061748_samsung-galaxy-s23-ultra-vang-5.jpg",
         "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2023/2/17/638122557389911691_samsung-galaxy-s23-ultra-vang-6.jpg"
       ],
-      "Quantity": 10
+      "Quantity": "10"
     },
     {
       "id": 11,
@@ -1636,7 +1530,7 @@
         "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2023/2/17/638122553819363190_samsung-galaxy-s23-ultra-tim-5.jpg",
         "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2023/2/17/638122553818425630_samsung-galaxy-s23-ultra-vang-6.jpg"
       ],
-      "Quantity": 10
+      "Quantity": "10"
     },
     {
       "id": 12,
@@ -1650,7 +1544,7 @@
         "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2023/4/10/638167221773017443_samsung-galaxy-z-fold4-do-5.jpg",
         "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2023/4/10/638167221772697488_samsung-galaxy-z-fold4-do-6.jpg"
       ],
-      "Quantity": 10
+      "Quantity": "10"
     },
     {
       "id": 13,
@@ -1664,7 +1558,7 @@
         "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2022/8/10/637957717267662603_samsung-galaxy-z-fold4-xanh-5.jpg",
         "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2022/8/10/637957717265006368_samsung-galaxy-z-fold4-xanh-6.jpg"
       ],
-      "Quantity": 10
+      "Quantity": "10"
     },
     {
       "id": 14,
@@ -1678,7 +1572,7 @@
         "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2022/8/10/637957721237095589_samsung-galaxy-z-fold4-kem-5.jpg",
         "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2022/8/10/637957721234751791_samsung-galaxy-z-fold4-kem-6.jpg"
       ],
-      "Quantity": 10
+      "Quantity": "10"
     },
     {
       "id": 15,
@@ -1692,7 +1586,7 @@
         "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2022/8/10/637957713445413115_samsung-galaxy-z-fold4-den-5.jpg",
         "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2022/8/10/637957713443381857_samsung-galaxy-z-fold4-den-6.jpg"
       ],
-      "Quantity": 10
+      "Quantity": "10"
     },
     {
       "id": 16,
@@ -1705,7 +1599,7 @@
         "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2023/5/23/638204338060590865_samsung-galaxy-a34-den-4.jpg",
         "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2023/3/15/638144927832252282_samsung-galaxy-a34-den-5.jpg"
       ],
-      "Quantity": 10
+      "Quantity": "10"
     },
     {
       "id": 17,
@@ -1718,7 +1612,7 @@
         "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2023/5/23/638204339295282260_samsung-galaxy-a34-bac-5.jpg",
         "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2023/3/15/638144925775893546_samsung-galaxy-a34-bac-1.jpg"
       ],
-      "Quantity": 10
+      "Quantity": "10"
     },
     {
       "id": 18,
@@ -1731,7 +1625,7 @@
         "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2023/5/23/638204339293608450_samsung-galaxy-a34-xanh-1.jpg",
         "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2023/3/15/638144923424184250_samsung-galaxy-a34-xanh-5.jpg"
       ],
-      "Quantity": 10
+      "Quantity": "10"
     },
     {
       "id": 19,
@@ -1744,7 +1638,7 @@
         "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2023/5/23/638204321009255866_samsung-galaxy-a54-5g-den-4.jpg",
         "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2023/3/15/638144940395951814_samsung-galaxy-a54-5g-den-5.jpg"
       ],
-      "Quantity": 10
+      "Quantity": "10"
     },
     {
       "id": 20,
@@ -1757,7 +1651,7 @@
         "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2023/5/23/638204321009412140_samsung-galaxy-a54-5g-tim-4.jpg",
         "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2023/3/15/638144941703150056_samsung-galaxy-a54-5g-tim-5.jpg"
       ],
-      "Quantity": 10
+      "Quantity": "10"
     },
     {
       "id": 21,
@@ -1770,7 +1664,7 @@
         "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2023/5/23/638204318788583311_samsung-galaxy-a54-5g-xanh-3.jpg",
         "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2023/3/15/638144938462721074_samsung-galaxy-a54-5g-xanh-5.jpg"
       ],
-      "Quantity": 10
+      "Quantity": "10"
     },
     {
       "id": 22,
@@ -1783,7 +1677,7 @@
         "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2023/5/23/638204362401887460_samsung-galaxy-a14-4g-den-4.jpg",
         "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2023/3/3/638134395341162795_samsung-galaxy-a14-4g-den-1.jpg"
       ],
-      "Quantity": 10
+      "Quantity": "10"
     },
     {
       "id": 23,
@@ -1796,7 +1690,7 @@
         "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2023/5/23/638204361010609333_samsung-galaxy-a14-4g-do-4.jpg",
         "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2023/3/3/638134385010085870_samsung-galaxy-a14-4g-do-1.jpg"
       ],
-      "Quantity": 10
+      "Quantity": "10"
     },
     {
       "id": 24,
@@ -1809,7 +1703,7 @@
         "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2023/5/23/638204362402175588_samsung-galaxy-a14-4g-bac-4.jpg",
         "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2023/3/3/638134391881475817_samsung-galaxy-a14-4g-bac-1.jpg"
       ],
-      "Quantity": 10
+      "Quantity": "10"
     },
     {
       "id": 25,
@@ -1821,7 +1715,7 @@
         "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2022/10/19/638017839468843303_samsung-galaxy-a23-5g-den-3.jpg",
         "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2022/10/19/638017839462986316_samsung-galaxy-a23-5g-den-1.jpg"
       ],
-      "Quantity": 10
+      "Quantity": "10"
     },
     {
       "id": 26,
@@ -1834,7 +1728,7 @@
         "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2022/10/19/638017838322800166_samsung-galaxy-a23-5g-xanh-4.jpg",
         "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2022/10/19/638017838317020278_samsung-galaxy-a23-5g-xanh-1.jpg"
       ],
-      "Quantity": 10
+      "Quantity": "10"
     },
     {
       "id": 27,
@@ -1847,7 +1741,7 @@
         "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2022/11/25/638049964324437820_samsung-galaxy-a23-5g-bac-2.jpg",
         "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2022/11/25/638049964322281563_samsung-galaxy-a23-5g-bac-1.jpg"
       ],
-      "Quantity": 10
+      "Quantity": "10"
     },
     {
       "id": 28,
@@ -1860,7 +1754,7 @@
         "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2023/5/23/638204338060590865_samsung-galaxy-a34-den-4.jpg",
         "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2023/3/15/638144927832252282_samsung-galaxy-a34-den-5.jpg"
       ],
-      "Quantity": 10
+      "Quantity": "10"
     },
     {
       "id": 29,
@@ -1873,7 +1767,7 @@
         "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2023/5/23/638204394276938739_samsung-galaxy-a04s-xanh-1.jpg",
         "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2022/9/14/637987521298329140_samsung-galaxy-a04s-xanh-5.jpg"
       ],
-      "Quantity": 10
+      "Quantity": "10"
     },
     {
       "id": 30,
@@ -1886,7 +1780,7 @@
         "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2023/5/23/638204394279063054_samsung-galaxy-a04s-nau-5.jpg",
         "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2022/9/14/637987527402025386_samsung-galaxy-a04s-nau-3.jpg"
       ],
-      "Quantity": 10
+      "Quantity": "10"
     },
     {
       "id": 31,
@@ -1899,7 +1793,7 @@
         "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2023/5/23/638204396774170321_samsung-galaxy-a04-xanh-4.jpg",
         "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2022/10/11/638011087809373150_samsung-galaxy-a04-xanh-1.jpg"
       ],
-      "Quantity": 10
+      "Quantity": "10"
     },
     {
       "id": 32,
@@ -1912,7 +1806,7 @@
         "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2023/5/23/638204396774012504_samsung-galaxy-a04-cam-5.jpg",
         "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2022/10/11/638011089920131860_samsung-galaxy-a04-cam-1.jpg"
       ],
-      "Quantity": 10
+      "Quantity": "10"
     },
     {
       "id": 33,
@@ -1925,7 +1819,7 @@
         "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2023/5/23/638204398244541782_samsung-galaxy-a04-den-4.jpg",
         "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2022/10/11/638011085201750240_samsung-galaxy-a04-den-1.jpg"
       ],
-      "Quantity": 10
+      "Quantity": "10"
     },
     {
       "id": 34,
@@ -1938,7 +1832,7 @@
         "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2022/5/10/637877742594655382_xiaomi-redmi-10-2022-xam-4.jpg",
         "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2022/5/10/637877742594484913_xiaomi-redmi-10-2022-xam-5.jpg"
       ],
-      "Quantity": 10
+      "Quantity": "10"
     },
     {
       "id": 35,
@@ -1947,7 +1841,7 @@
       "Images": [
         "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2022/12/21/638072287030090738_Xiaomi-Redmi-10A-2GB-32GB-xanh-1.jpg"
       ],
-      "Quantity": 10
+      "Quantity": "10"
     },
     {
       "id": 36,
@@ -1956,7 +1850,7 @@
       "Images": [
         "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2022/12/21/638072287029391755_Xiaomi-Redmi-10A-2GB-32GB-bac-1.jpg"
       ],
-      "Quantity": 10
+      "Quantity": "10"
     },
     {
       "id": 37,
@@ -1969,7 +1863,7 @@
         "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2022/5/10/637877742594655382_xiaomi-redmi-10-2022-xam-4.jpg",
         "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2022/5/10/637877742594484913_xiaomi-redmi-10-2022-xam-5.jpg"
       ],
-      "Quantity": 10
+      "Quantity": "10"
     },
     {
       "id": 38,
@@ -1982,7 +1876,7 @@
         "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2022/5/10/637877751179682610_xiaomi-redmi-10-2022-trang-4.jpg",
         "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2022/5/10/637877751179526332_xiaomi-redmi-10-2022-trang-5.jpg"
       ],
-      "Quantity": 10
+      "Quantity": "10"
     },
     {
       "id": 39,
@@ -1995,7 +1889,7 @@
         "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2022/5/10/637877742149464908_xiaomi-redmi-10-2022-xanh-4.jpg",
         "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2022/5/10/637877742149161019_xiaomi-redmi-10-2022-xanh-5.jpg"
       ],
-      "Quantity": 10
+      "Quantity": "10"
     },
     {
       "id": 40,
@@ -2008,7 +1902,7 @@
         "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2023/3/22/638150992294466598_xiaomi-redmi-note-12-xam-1.jpg",
         "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2023/3/22/638150992293041764_xiaomi-redmi-note-12-xam-4.jpg"
       ],
-      "Quantity": 10
+      "Quantity": "10"
     },
     {
       "id": 41,
@@ -2021,7 +1915,7 @@
         "https://images.fpt.shop/unsafe/fit-in/585x390/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/3/22/638150994080863420_xiaomi-redmi-note-12-xanh-1.jpg",
         "https://images.fpt.shop/unsafe/fit-in/585x390/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/3/22/638150994079269073_xiaomi-redmi-note-12-xanh-4.jpg"
       ],
-      "Quantity": 10
+      "Quantity": "10"
     },
     {
       "id": 42,
@@ -2034,7 +1928,7 @@
         "https://images.fpt.shop/unsafe/fit-in/585x390/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/3/22/638150991181586413_xiaomi-redmi-note-12-xanh-la-2.jpg",
         "https://images.fpt.shop/unsafe/fit-in/585x390/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/3/22/638150991180296445_xiaomi-redmi-note-12-xanh-la-5.jpg"
       ],
-      "Quantity": 10
+      "Quantity": "10"
     },
     {
       "id": 43,
@@ -2047,7 +1941,7 @@
         "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2023/2/20/638125128407297140_xiaomi-13-lite-den-5.jpg",
         "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2023/2/20/638125128406559868_xiaomi-13-lite-den-4.jpg"
       ],
-      "Quantity": 10
+      "Quantity": "10"
     },
     {
       "id": 44,
@@ -2060,7 +1954,7 @@
         "https://images.fpt.shop/unsafe/fit-in/585x390/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/2/20/638125125188698712_xiaomi-13-lite-xanh-1.jpg",
         "https://images.fpt.shop/unsafe/fit-in/585x390/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/2/20/638125125187702557_xiaomi-13-lite-xanh-4.jpg"
       ],
-      "Quantity": 10
+      "Quantity": "10"
     },
     {
       "id": 45,
@@ -2073,7 +1967,7 @@
         "https://images.fpt.shop/unsafe/fit-in/585x390/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/2/20/638125125188698712_xiaomi-13-lite-xanh-1.jpg",
         "https://images.fpt.shop/unsafe/fit-in/585x390/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/2/20/638125125187702557_xiaomi-13-lite-xanh-4.jpg"
       ],
-      "Quantity": 10
+      "Quantity": "10"
     },
     {
       "id": 46,
@@ -2086,7 +1980,7 @@
         "https://images.fpt.shop/unsafe/fit-in/585x390/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2022/9/30/638001571506341605_xiaomi-redmi-a1-den-4.jpg",
         "https://images.fpt.shop/unsafe/fit-in/585x390/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2022/9/30/638001571505404236_xiaomi-redmi-a1-den-1.jpg"
       ],
-      "Quantity": 10
+      "Quantity": "10"
     },
     {
       "id": 47,
@@ -2099,7 +1993,7 @@
         "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2023/3/8/638138646674627859_xiaomi-redmi-12c-xam-4.jpg",
         "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2023/3/8/638138646673521195_xiaomi-redmi-12c-xam-5.jpg"
       ],
-      "Quantity": 10
+      "Quantity": "10"
     },
     {
       "id": 48,
@@ -2112,7 +2006,7 @@
         "https://images.fpt.shop/unsafe/fit-in/585x390/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/3/8/638138659476067815_xiaomi-redmi-12c-xanh-la-4.jpg",
         "https://images.fpt.shop/unsafe/fit-in/585x390/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/3/8/638138659473105768_xiaomi-redmi-12c-xanh-la-1.jpg"
       ],
-      "Quantity": 10
+      "Quantity": "10"
     },
     {
       "id": 49,
@@ -2125,7 +2019,7 @@
         "https://images.fpt.shop/unsafe/fit-in/585x390/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/3/8/638138653070930011_xiaomi-redmi-12c-xanh-4.jpg",
         "https://images.fpt.shop/unsafe/fit-in/585x390/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/3/8/638138653069270722_xiaomi-redmi-12c-xanh-5.jpg"
       ],
-      "Quantity": 10
+      "Quantity": "10"
     },
     {
       "id": 50,
@@ -2137,7 +2031,7 @@
         "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2022/1/27/637788719727101248_xiaomi-redmi-note-11-xanh-3.jpg",
         "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2022/1/27/637788719726320348_xiaomi-redmi-note-11-xanh-4.jpg"
       ],
-      "Quantity": 10
+      "Quantity": "10"
     },
     {
       "id": 51,
@@ -2149,7 +2043,7 @@
         "https://images.fpt.shop/unsafe/fit-in/585x390/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2022/1/27/637788717448997874_xiaomi-redmi-note-11-xam-3.jpg",
         "https://images.fpt.shop/unsafe/fit-in/585x390/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2022/1/27/637788717448997874_xiaomi-redmi-note-11-xam-4.jpg"
       ],
-      "Quantity": 10
+      "Quantity": "10"
     },
     {
       "id": 52,
@@ -2161,7 +2055,7 @@
         "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2022/2/14/637804380953569173_xiaomi-redmi-note-11s-xanh-4.jpg",
         "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2022/2/14/637804380953412961_xiaomi-redmi-note-11s-xanh-1.jpg"
       ],
-      "Quantity": 10
+      "Quantity": "10"
     },
     {
       "id": 53,
@@ -2173,7 +2067,7 @@
         "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2022/2/14/637804673213499589_2.xiaomi-redmi-note-11-pro-4g-trang-2.jpg",
         "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2022/2/14/637804673223655752_2.xiaomi-redmi-note-11-pro-4g-trang-1.jpg"
       ],
-      "Quantity": 10
+      "Quantity": "10"
     },
     {
       "id": 54,
@@ -2185,7 +2079,7 @@
         "https://images.fpt.shop/unsafe/fit-in/585x390/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2022/2/14/637804673210218283_2.xiaomi-redmi-note-11-pro-4g-xam-3.jpg",
         "https://images.fpt.shop/unsafe/fit-in/585x390/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2022/2/14/637804673212405813_2.xiaomi-redmi-note-11-pro-4g-xam-1.jpg"
       ],
-      "Quantity": 10
+      "Quantity": "10"
     },
     {
       "id": 55,
@@ -2197,7 +2091,7 @@
         "https://images.fpt.shop/unsafe/fit-in/585x390/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2022/2/14/637804673209593347_2.xiaomi-redmi-note-11-pro-4g-xanh-3.jpg",
         "https://images.fpt.shop/unsafe/fit-in/585x390/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2022/2/14/637804673208812132_2.xiaomi-redmi-note-11-pro-4g-xanh-1.jpg"
       ],
-      "Quantity": 10
+      "Quantity": "10"
     },
     {
       "id": 56,
@@ -2210,7 +2104,7 @@
         "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2023/2/20/638125113177912131_xiaomi-13-den-1.jpg",
         "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2023/2/20/638125113176973257_xiaomi-13-den-2.jpg"
       ],
-      "Quantity": 10
+      "Quantity": "10"
     },
     {
       "id": 57,
@@ -2223,7 +2117,7 @@
         "https://images.fpt.shop/unsafe/fit-in/585x390/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/2/20/638125111639884515_xiaomi-13-xanh-4.jpg",
         "https://images.fpt.shop/unsafe/fit-in/585x390/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/2/20/638125111638788241_xiaomi-13-xanh-3.jpg"
       ],
-      "Quantity": 10
+      "Quantity": "10"
     },
     {
       "id": 58,
@@ -2236,7 +2130,7 @@
         "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2022/11/10/638036699326710321_vivo-v25-pro-5g-xanh-1.jpg",
         "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2022/11/1/638029226813667067_vivo-v25-pro-5g-xanh-2.jpg"
       ],
-      "Quantity": 10
+      "Quantity": "10"
     },
     {
       "id": 59,
@@ -2249,7 +2143,7 @@
         "https://images.fpt.shop/unsafe/fit-in/585x390/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2022/11/10/638036697912569991_vivo-v25-pro-5g-den-4.jpg",
         "https://images.fpt.shop/unsafe/fit-in/585x390/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2022/11/1/638029229001630390_vivo-v25-pro-5g-den-1.jpg"
       ],
-      "Quantity": 10
+      "Quantity": "10"
     },
     {
       "id": 60,
@@ -2262,7 +2156,7 @@
         "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2022/9/14/637987658871662599_vivo-v25e-den-4.jpg",
         "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2022/9/14/637987658869475958_vivo-v25e-den-5.jpg"
       ],
-      "Quantity": 10
+      "Quantity": "10"
     },
     {
       "id": 61,
@@ -2275,7 +2169,7 @@
         "https://images.fpt.shop/unsafe/fit-in/585x390/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2022/9/14/637987661253416302_vivo-v25e-vang-4.jpg",
         "https://images.fpt.shop/unsafe/fit-in/585x390/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2022/9/14/637987661250760087_vivo-v25e-vang-5.jpg"
       ],
-      "Quantity": 10
+      "Quantity": "10"
     },
     {
       "id": 62,
@@ -2288,7 +2182,7 @@
         "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2022/9/14/637987654398480767_vivo-v25e-vang-4.jpg",
         "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2022/9/14/637987654397074596_vivo-v25e-vang-5.jpg"
       ],
-      "Quantity": 10
+      "Quantity": "10"
     },
     {
       "id": 63,
@@ -2301,7 +2195,7 @@
         "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2022/10/18/638016883144256822_vivo-y35-vang-2.jpg",
         "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2022/10/18/638016883143540631_vivo-y35-vang-5.jpg"
       ],
-      "Quantity": 10
+      "Quantity": "10"
     },
     {
       "id": 64,
@@ -2314,7 +2208,7 @@
         "https://images.fpt.shop/unsafe/fit-in/585x390/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2022/10/18/638016881305629285_vivo-y35-den-4.jpg",
         "https://images.fpt.shop/unsafe/fit-in/585x390/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2022/10/18/638016881303776431_vivo-y35-den-5.jpg"
       ],
-      "Quantity": 10
+      "Quantity": "10"
     },
     {
       "id": 65,
@@ -2327,7 +2221,7 @@
         "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2022/9/9/637983398315746205_vivo-y22s-xanh-8.jpg",
         "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2022/8/15/637961779016763701_vivo-y22s-xanh-2.jpg"
       ],
-      "Quantity": 10
+      "Quantity": "10"
     },
     {
       "id": 66,
@@ -2340,7 +2234,7 @@
         "https://images.fpt.shop/unsafe/fit-in/585x390/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2022/9/9/637983398315746205_vivo-y22s-den-6.jpg",
         "https://images.fpt.shop/unsafe/fit-in/585x390/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2022/8/15/637961779016920068_vivo-y22s-den-2.jpg"
       ],
-      "Quantity": 10
+      "Quantity": "10"
     },
     {
       "id": 67,
@@ -2353,7 +2247,7 @@
         "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2022/7/21/637939995439182671_vivo-t1x-xanh-4.jpg",
         "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2022/7/21/637939995425276231_vivo-t1x-xanh-5.jpg"
       ],
-      "Quantity": 10
+      "Quantity": "10"
     },
     {
       "id": 68,
@@ -2366,7 +2260,7 @@
         "https://images.fpt.shop/unsafe/fit-in/585x390/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2022/7/21/637939995438245175_vivo-t1x-den-4.jpg",
         "https://images.fpt.shop/unsafe/fit-in/585x390/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2022/7/21/637939998284378493_vivo-t1x-den-5.jpg"
       ],
-      "Quantity": 10
+      "Quantity": "10"
     },
     {
       "id": 69,
@@ -2379,7 +2273,7 @@
         "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2022/9/9/637983383787528657_vivo-y16-vang-8.jpg",
         "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2022/8/29/637973623420068240_vivo-y16-vang-1.jpg"
       ],
-      "Quantity": 10
+      "Quantity": "10"
     },
     {
       "id": 70,
@@ -2392,7 +2286,7 @@
         "https://images.fpt.shop/unsafe/fit-in/585x390/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2022/9/9/637983383787528657_vivo-y16-den-8.jpg",
         "https://images.fpt.shop/unsafe/fit-in/585x390/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2022/8/29/637973623420068240_vivo-y16-den-4.jpg"
       ],
-      "Quantity": 10
+      "Quantity": "10"
     },
     {
       "id": 71,
@@ -2405,7 +2299,7 @@
         "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2021/10/25/637707822860869927_00779950-vivo-y15s-trang-xanh-4.jpg",
         "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2021/10/25/637707822857588559_00779950-vivo-y15s-trang-xanh-5.jpg"
       ],
-      "Quantity": 10
+      "Quantity": "10"
     },
     {
       "id": 72,
@@ -2418,7 +2312,7 @@
         "https://images.fpt.shop/unsafe/fit-in/585x390/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2021/10/25/637707824370413165_00779951-vivo-y15s--xanh-den-4.jpg",
         "https://images.fpt.shop/unsafe/fit-in/585x390/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2021/10/25/637707824370100838_00779951-vivo-y15s--xanh-den-5.jpg"
       ],
-      "Quantity": 10
+      "Quantity": "10"
     },
     {
       "id": 73,
@@ -2431,7 +2325,7 @@
         "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2022/11/28/638052549037807412_vivo-y02-xanh-1.jpg",
         "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2022/11/28/638052549038915168_vivo-y02-xanh-2.jpg"
       ],
-      "Quantity": 10
+      "Quantity": "10"
     },
     {
       "id": 74,
@@ -2444,7 +2338,7 @@
         "https://images.fpt.shop/unsafe/fit-in/585x390/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2022/11/28/638052551478397731_vivo-y02-den-4.jpg",
         "https://images.fpt.shop/unsafe/fit-in/585x390/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2022/11/28/638052551477668204_vivo-y02-den-1.jpg"
       ],
-      "Quantity": 10
+      "Quantity": "10"
     },
     {
       "id": 75,
@@ -2457,7 +2351,7 @@
         "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2022/7/22/637940794897855406_vivo-y02s-3gb-32gb-xanh-4.jpg",
         "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2022/7/22/637940794893480185_vivo-y02s-3gb-32gb-xanh-5.jpg"
       ],
-      "Quantity": 10
+      "Quantity": "10"
     },
     {
       "id": 76,
@@ -2470,7 +2364,7 @@
         "https://images.fpt.shop/unsafe/fit-in/585x390/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2022/7/22/637940794897386586_vivo-y02s-3gb-32gb-den-4.jpg",
         "https://images.fpt.shop/unsafe/fit-in/585x390/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2022/7/22/637940794892698930_vivo-y02s-3gb-32gb-den-5.jpg"
       ],
-      "Quantity": 10
+      "Quantity": "10"
     },
     {
       "id": 77,
@@ -2484,7 +2378,7 @@
         "https://images.fpt.shop/unsafe/fit-in/585x390/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2022/12/6/638059309890257934_iphone-11-trang-5.jpg",
         "https://images.fpt.shop/unsafe/fit-in/585x390/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2022/12/6/638059309890726780_iphone-11-trang-6.jpg"
       ],
-      "Quantity": 10
+      "Quantity": "10"
     },
     {
       "id": 78,
@@ -2498,7 +2392,7 @@
         "https://images.fpt.shop/unsafe/fit-in/585x390/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2022/12/6/638059306728859551_iphone-11-den-5.jpg",
         "https://images.fpt.shop/unsafe/fit-in/585x390/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2022/12/6/638059306729960073_iphone-11-den-6.jpg"
       ],
-      "Quantity": 10
+      "Quantity": "10"
     },
     {
       "id": 79,
@@ -2513,7 +2407,7 @@
         "https://images.fpt.shop/unsafe/fit-in/585x390/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2022/12/6/638059237853240136_iphone-12-xanhla-6.jpg",
         "https://images.fpt.shop/unsafe/fit-in/585x390/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2022/12/6/638059237855486250_iphone-12-xanhla-7.jpg"
       ],
-      "Quantity": 9
+      "Quantity": "10"
     },
     {
       "id": 80,
@@ -2528,7 +2422,7 @@
         "https://images.fpt.shop/unsafe/fit-in/585x390/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2022/12/6/638059236214540519_iphone-12-xanh-6.jpg",
         "https://images.fpt.shop/unsafe/fit-in/585x390/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2022/12/6/638059236216168498_iphone-12-xanh-7.jpg"
       ],
-      "Quantity": 10
+      "Quantity": "10"
     },
     {
       "id": 81,
@@ -2543,7 +2437,7 @@
         "https://images.fpt.shop/unsafe/fit-in/585x390/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2022/12/6/638059219870196020_iphone-12-den-6.jpg",
         "https://images.fpt.shop/unsafe/fit-in/585x390/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2022/12/6/638059219871602235_iphone-12-den-7.jpg"
       ],
-      "Quantity": 9
+      "Quantity": "10"
     },
     {
       "id": 82,
@@ -2558,7 +2452,7 @@
         "https://images.fpt.shop/unsafe/fit-in/585x390/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2022/12/6/638059234481887272_iphone-12-trang-6.jpg",
         "https://images.fpt.shop/unsafe/fit-in/585x390/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2022/12/6/638059234483865737_iphone-12-trang-7.jpg"
       ],
-      "Quantity": 10
+      "Quantity": "10"
     },
     {
       "id": 83,
@@ -2573,7 +2467,7 @@
         "https://images.fpt.shop/unsafe/fit-in/585x390/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2022/12/6/638059230891345320_iphone-12-do-6.jpg",
         "https://images.fpt.shop/unsafe/fit-in/585x390/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2022/12/6/638059230892846211_iphone-12-do-7.jpg"
       ],
-      "Quantity": 10
+      "Quantity": "10"
     },
     {
       "id": 84,
@@ -2588,7 +2482,7 @@
         "https://images.fpt.shop/unsafe/fit-in/585x390/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2022/12/6/638059232364352124_iphone-12-tim-6.jpg",
         "https://images.fpt.shop/unsafe/fit-in/585x390/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2022/12/6/638059232365251782_iphone-12-tim-7.jpg"
       ],
-      "Quantity": 10
+      "Quantity": "10"
     },
     {
       "id": 85,
@@ -2601,7 +2495,7 @@
         "https://images.fpt.shop/unsafe/fit-in/585x390/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2022/4/25/637864948056130773_iphone-13-hong-4.jpg",
         "https://images.fpt.shop/unsafe/fit-in/585x390/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2022/4/25/637864948055193343_iphone-13-hong-5.jpg"
       ],
-      "Quantity": 10
+      "Quantity": "10"
     },
     {
       "id": 86,
@@ -2614,7 +2508,7 @@
         "https://images.fpt.shop/unsafe/fit-in/585x390/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2022/4/25/637864945997429464_iphone-13-do-4.jpg",
         "https://images.fpt.shop/unsafe/fit-in/585x390/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2022/4/25/637864945998054414_iphone-13-do-5.jpg"
       ],
-      "Quantity": 10
+      "Quantity": "10"
     },
     {
       "id": 87,
@@ -2627,7 +2521,7 @@
         "https://images.fpt.shop/unsafe/fit-in/585x390/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2022/4/25/637864944634322932_iphone-13-xanhla-4.jpg",
         "https://images.fpt.shop/unsafe/fit-in/585x390/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2022/4/25/637864944635572783_iphone-13-xanhla-5.jpg"
       ],
-      "Quantity": 10
+      "Quantity": "10"
     },
     {
       "id": 89,
@@ -2640,7 +2534,7 @@
         "https://images.fpt.shop/unsafe/fit-in/585x390/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2022/4/25/637864946612857368_iphone-13-den-4.jpg",
         "https://images.fpt.shop/unsafe/fit-in/585x390/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2022/4/25/637864946615415276_iphone-13-den-5.jpg"
       ],
-      "Quantity": 10
+      "Quantity": "10"
     },
     {
       "id": 90,
@@ -2653,7 +2547,7 @@
         "https://images.fpt.shop/unsafe/fit-in/585x390/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2022/4/25/637864950178607504_iphone-13-xanh-4.jpg",
         "https://images.fpt.shop/unsafe/fit-in/585x390/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2022/4/25/637864950178607504_iphone-13-xanh-5.jpg"
       ],
-      "Quantity": 10
+      "Quantity": "10"
     },
     {
       "id": 91,
@@ -2666,7 +2560,7 @@
         "https://images.fpt.shop/unsafe/fit-in/585x390/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2022/4/25/637864949258532597_iphone-13-trang-4.jpg",
         "https://images.fpt.shop/unsafe/fit-in/585x390/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2022/4/25/637864949259157858_iphone-13-trang-5.jpg"
       ],
-      "Quantity": 10
+      "Quantity": "10"
     },
     {
       "id": 92,
@@ -2683,7 +2577,7 @@
         "https://images.fpt.shop/unsafe/fit-in/585x390/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/2/23/638127639215376224_iphone-14-14-plus-5.jpg",
         "https://images.fpt.shop/unsafe/fit-in/585x390/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/2/23/638127642851966020_iphone-14-trang-6.jpg"
       ],
-      "Quantity": 10
+      "Quantity": "10"
     },
     {
       "id": 93,
@@ -2700,7 +2594,7 @@
         "https://images.fpt.shop/unsafe/fit-in/585x390/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/2/23/638127639215376224_iphone-14-14-plus-5.jpg",
         "https://images.fpt.shop/unsafe/fit-in/585x390/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/2/23/638127643976631617_iphone-14-do-6.jpg"
       ],
-      "Quantity": 10
+      "Quantity": "10"
     },
     {
       "id": 94,
@@ -2717,7 +2611,7 @@
         "https://images.fpt.shop/unsafe/fit-in/585x390/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/2/23/638127639215376224_iphone-14-14-plus-5.jpg",
         "https://images.fpt.shop/unsafe/fit-in/585x390/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/2/23/638127645598505486_iphone-14-xanh-6.jpg"
       ],
-      "Quantity": 10
+      "Quantity": "10"
     },
     {
       "id": 95,
@@ -2734,7 +2628,7 @@
         "https://images.fpt.shop/unsafe/fit-in/585x390/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/3/27/638155344506368397_iphone-14-14plus-vang-1.jpg",
         "https://images.fpt.shop/unsafe/fit-in/585x390/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/3/27/638155344512455809_iphone-14-vang-9.jpg"
       ],
-      "Quantity": 10
+      "Quantity": "10"
     },
     {
       "id": 96,
@@ -2751,7 +2645,7 @@
         "https://images.fpt.shop/unsafe/fit-in/585x390/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/2/23/638127639215376224_iphone-14-14-plus-5.jpg",
         "https://images.fpt.shop/unsafe/fit-in/585x390/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/2/23/638127645598332357_iphone-14-tim-6.jpg"
       ],
-      "Quantity": 10
+      "Quantity": "10"
     },
     {
       "id": 97,
@@ -2768,7 +2662,7 @@
         "https://images.fpt.shop/unsafe/fit-in/585x390/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/2/23/638127639215376224_iphone-14-14-plus-5.jpg",
         "https://images.fpt.shop/unsafe/fit-in/585x390/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/2/23/638127639850747462_iphone-14-den-6.jpg"
       ],
-      "Quantity": 10
+      "Quantity": "10"
     },
     {
       "id": 98,
@@ -2785,7 +2679,7 @@
         "https://images.fpt.shop/unsafe/fit-in/585x390/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/2/23/638127667775140076_iphone-14-plus-5.jpg",
         "https://images.fpt.shop/unsafe/fit-in/585x390/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/2/23/638127675898102452_iphone-14-plus-trang-6.jpg"
       ],
-      "Quantity": 9
+      "Quantity": "10"
     },
     {
       "id": 99,
@@ -2802,7 +2696,7 @@
         "https://images.fpt.shop/unsafe/fit-in/585x390/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/2/23/638127667775140076_iphone-14-plus-5.jpg",
         "https://images.fpt.shop/unsafe/fit-in/585x390/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/2/23/638127671398815929_iphone-14-plus-tim-6.jpg"
       ],
-      "Quantity": 10
+      "Quantity": "10"
     },
     {
       "id": 100,
@@ -2819,7 +2713,7 @@
         "https://images.fpt.shop/unsafe/fit-in/585x390/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/2/23/638127667775140076_iphone-14-plus-5.jpg",
         "https://images.fpt.shop/unsafe/fit-in/585x390/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/2/23/638127672785783412_iphone-14-plus-xanh-6.jpg"
       ],
-      "Quantity": 10
+      "Quantity": "10"
     },
     {
       "id": 101,
@@ -2836,7 +2730,7 @@
         "https://images.fpt.shop/unsafe/fit-in/585x390/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/2/23/638127667775140076_iphone-14-plus-5.jpg",
         "https://images.fpt.shop/unsafe/fit-in/585x390/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/2/23/638127674478721958_iphone-14-plus-den-6.jpg"
       ],
-      "Quantity": 10
+      "Quantity": "10"
     },
     {
       "id": 102,
@@ -2853,7 +2747,7 @@
         "https://images.fpt.shop/unsafe/fit-in/585x390/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/2/23/638127667775140076_iphone-14-plus-5.jpg",
         "https://images.fpt.shop/unsafe/fit-in/585x390/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/2/23/638127667975460962_iphone-14-plus-do-5.jpg"
       ],
-      "Quantity": 10
+      "Quantity": "10"
     },
     {
       "id": 103,
@@ -2870,7 +2764,7 @@
         "https://images.fpt.shop/unsafe/fit-in/585x390/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/3/27/638155339465955253_iphone-14-14plus-vang-1.jpg",
         "https://images.fpt.shop/unsafe/fit-in/585x390/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/3/27/638155339348604045_iphone-14plus-vang-7.jpg"
       ],
-      "Quantity": 10
+      "Quantity": "10"
     },
     {
       "id": 104,
@@ -2887,7 +2781,7 @@
         "https://images.fpt.shop/unsafe/fit-in/585x390/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/2/25/638129148589874966_iphone-14pro-14prm-4.jpg",
         "https://images.fpt.shop/unsafe/fit-in/585x390/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/2/25/638129148890455626_iphone-14pro-trang-3.jpg"
       ],
-      "Quantity": 10
+      "Quantity": "10"
     },
     {
       "id": 105,
@@ -2904,7 +2798,7 @@
         "https://images.fpt.shop/unsafe/fit-in/585x390/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/2/25/638129148589874966_iphone-14pro-14prm-4.jpg",
         "https://images.fpt.shop/unsafe/fit-in/585x390/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/2/25/638129148891010598_iphone-14pro-vang-3.jpg"
       ],
-      "Quantity": 10
+      "Quantity": "10"
     },
     {
       "id": 106,
@@ -2921,7 +2815,7 @@
         "https://images.fpt.shop/unsafe/fit-in/585x390/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/2/25/638129148589874966_iphone-14pro-14prm-4.jpg",
         "https://images.fpt.shop/unsafe/fit-in/585x390/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/2/25/638129148885556719_iphone-14pro-tim-3.jpg"
       ],
-      "Quantity": 10
+      "Quantity": "10"
     },
     {
       "id": 107,
@@ -2938,7 +2832,7 @@
         "https://images.fpt.shop/unsafe/fit-in/585x390/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/2/25/638129148589874966_iphone-14pro-14prm-4.jpg",
         "https://images.fpt.shop/unsafe/fit-in/585x390/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/2/25/638129148886039852_iphone-14pro-den-3.jpg"
       ],
-      "Quantity": 10
+      "Quantity": "10"
     },
     {
       "id": 108,
@@ -2955,7 +2849,7 @@
         "https://images.fpt.shop/unsafe/fit-in/585x390/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/2/25/638129176877756103_iphone-14pro-14prm-4.jpg",
         "https://images.fpt.shop/unsafe/fit-in/585x390/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/2/25/638129176745783085_iphone-14prm-trang-3.jpg"
       ],
-      "Quantity": 8
+      "Quantity": "10"
     },
     {
       "id": 109,
@@ -2972,7 +2866,7 @@
         "https://images.fpt.shop/unsafe/fit-in/585x390/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/2/25/638129176877756103_iphone-14pro-14prm-4.jpg",
         "https://images.fpt.shop/unsafe/fit-in/585x390/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/2/25/638129177600949647_iphone-14prm-den-3.jpg"
       ],
-      "Quantity": 10
+      "Quantity": "10"
     },
     {
       "id": 110,
@@ -2989,7 +2883,7 @@
         "https://images.fpt.shop/unsafe/fit-in/585x390/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/2/25/638129176877756103_iphone-14pro-14prm-4.jpg",
         "https://images.fpt.shop/unsafe/fit-in/585x390/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/2/25/638129176746370419_iphone-14prm-vang-3.jpg"
       ],
-      "Quantity": 10
+      "Quantity": "10"
     },
     {
       "id": 111,
@@ -3006,7 +2900,7 @@
         "https://images.fpt.shop/unsafe/fit-in/585x390/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/2/25/638129176877756103_iphone-14pro-14prm-4.jpg",
         "https://images.fpt.shop/unsafe/fit-in/585x390/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/2/25/638129177601588518_iphone-14prm-tim-3.jpg"
       ],
-      "Quantity": 10
+      "Quantity": "10"
     },
     {
       "id": 112,
@@ -3019,7 +2913,7 @@
         "https://images.fpt.shop/unsafe/fit-in/585x390/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/2/2/638109492830254873_oppo-reno8-t-5g-den-1.jpg",
         "https://images.fpt.shop/unsafe/fit-in/585x390/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/1/30/638106985758417050_oppo-reno8-t-5g-den-4.jpg"
       ],
-      "Quantity": 10
+      "Quantity": "10"
     },
     {
       "id": 113,
@@ -3032,7 +2926,7 @@
         "https://images.fpt.shop/unsafe/fit-in/585x390/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/2/2/638109492832529871_oppo-reno8-t-5g-vang-2.jpg",
         "https://images.fpt.shop/unsafe/fit-in/585x390/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/1/30/638106988528390612_oppo-reno8-t-5g-vang-4.jpg"
       ],
-      "Quantity": 10
+      "Quantity": "10"
     },
     {
       "id": 114,
@@ -3045,7 +2939,7 @@
         "https://images.fpt.shop/unsafe/fit-in/585x390/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2022/8/5/637952897276364359_oppo-reno8-4g-vang-1.jpg",
         "https://images.fpt.shop/unsafe/fit-in/585x390/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2022/8/5/637952897275426946_oppo-reno8-4g-vang-3.jpg"
       ],
-      "Quantity": 10
+      "Quantity": "10"
     },
     {
       "id": 115,
@@ -3058,7 +2952,7 @@
         "https://images.fpt.shop/unsafe/fit-in/585x390/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2022/8/5/637952897276208085_oppo-reno8-4g-den-1.jpg",
         "https://images.fpt.shop/unsafe/fit-in/585x390/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2022/8/5/637952897275583126_oppo-reno8-4g-den-3.jpg"
       ],
-      "Quantity": 10
+      "Quantity": "10"
     },
     {
       "id": 116,
@@ -3071,7 +2965,7 @@
         "https://images.fpt.shop/unsafe/fit-in/585x390/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2021/10/15/637699212153547860_oppo-a55-xanh-4.jpg",
         "https://images.fpt.shop/unsafe/fit-in/585x390/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2021/10/15/637699212155422951_oppo-a55-xanh-5.jpg"
       ],
-      "Quantity": 10
+      "Quantity": "10"
     },
     {
       "id": 117,
@@ -3084,7 +2978,7 @@
         "https://images.fpt.shop/unsafe/fit-in/585x390/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2022/3/21/637834586193570008_oppo-a55-xanhla-4.jpg",
         "https://images.fpt.shop/unsafe/fit-in/585x390/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2022/3/21/637834586195915126_oppo-a55-xanhla-5.jpg"
       ],
-      "Quantity": 10
+      "Quantity": "10"
     },
     {
       "id": 118,
@@ -3097,7 +2991,7 @@
         "https://images.fpt.shop/unsafe/fit-in/585x390/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2021/10/15/637699216667016454_oppo-a55-den-4.jpg",
         "https://images.fpt.shop/unsafe/fit-in/585x390/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2021/10/15/637699216665454059_oppo-a55-den-5.jpg"
       ],
-      "Quantity": 10
+      "Quantity": "10"
     },
     {
       "id": 119,
@@ -3110,7 +3004,7 @@
         "https://images.fpt.shop/unsafe/fit-in/585x390/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2022/9/27/637998707641715269_oppo-a57-4g-128gb-vang-5.jpg",
         "https://images.fpt.shop/unsafe/fit-in/585x390/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2022/9/27/637998707639059029_oppo-a57-4g-128gb-vang-4.jpg"
       ],
-      "Quantity": 10
+      "Quantity": "10"
     },
     {
       "id": 120,
@@ -3123,7 +3017,7 @@
         "https://images.fpt.shop/unsafe/fit-in/585x390/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2022/9/27/637998708773288019_oppo-a57-xanh-2.jpg",
         "https://images.fpt.shop/unsafe/fit-in/585x390/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2022/6/21/637914178033616026_oppo-a57-xanh-3.jpg"
       ],
-      "Quantity": 10
+      "Quantity": "10"
     },
     {
       "id": 121,
@@ -3136,7 +3030,7 @@
         "https://images.fpt.shop/unsafe/fit-in/585x390/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2022/9/27/637998708771256795_oppo-a57-den-2.jpg",
         "https://images.fpt.shop/unsafe/fit-in/585x390/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2022/6/17/637910569083881950_oppo-a57-den-1.jpg"
       ],
-      "Quantity": 10
+      "Quantity": "10"
     },
     {
       "id": 122,
@@ -3149,7 +3043,7 @@
         "https://images.fpt.shop/unsafe/fit-in/585x390/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2022/10/17/638016280150741437_oppo-a17-xanh-4.jpg",
         "https://images.fpt.shop/unsafe/fit-in/585x390/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2022/10/17/638016280148515330_oppo-a17-xanh-5.jpg"
       ],
-      "Quantity": 9
+      "Quantity": "10"
     },
     {
       "id": 123,
@@ -3162,7 +3056,7 @@
         "https://images.fpt.shop/unsafe/fit-in/585x390/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2022/10/17/638016278093338357_oppo-a17-den-4.jpg",
         "https://images.fpt.shop/unsafe/fit-in/585x390/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2022/10/17/638016278087001775_oppo-a17-den-5.jpg"
       ],
-      "Quantity": 10
+      "Quantity": "10"
     },
     {
       "id": 124,
@@ -3175,7 +3069,7 @@
         "https://images.fpt.shop/unsafe/fit-in/585x390/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2022/11/2/638029862728645090_oppo-a17k-vang-5.jpg",
         "https://images.fpt.shop/unsafe/fit-in/585x390/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2022/10/26/638023776668416355_oppo-a17k-vang-1.jpg"
       ],
-      "Quantity": 10
+      "Quantity": "10"
     },
     {
       "id": 125,
@@ -3188,7 +3082,7 @@
         "https://images.fpt.shop/unsafe/fit-in/585x390/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2022/11/2/638029862728979435_oppo-a17k-xanh-3.jpg",
         "https://images.fpt.shop/unsafe/fit-in/585x390/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2022/10/26/638023775850076020_oppo-a17k-xanh-2.jpg"
       ],
-      "Quantity": 10
+      "Quantity": "10"
     },
     {
       "id": 126,
@@ -3201,7 +3095,7 @@
         "https://images.fpt.shop/unsafe/fit-in/585x390/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2021/7/21/637624918163621115_oppo-reno6-den-4.jpg",
         "https://images.fpt.shop/unsafe/fit-in/585x390/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2021/7/21/637624918153620815_oppo-reno6-den-5.jpg"
       ],
-      "Quantity": 10
+      "Quantity": "10"
     },
     {
       "id": 127,
@@ -3214,7 +3108,7 @@
         "https://images.fpt.shop/unsafe/fit-in/585x390/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2022/9/8/637982295033674392_oppo-find-x5-pro-trang-4.jpg",
         "https://images.fpt.shop/unsafe/fit-in/585x390/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2022/9/8/637982295031330586_oppo-find-x5-pro-trang-1.jpg"
       ],
-      "Quantity": 10
+      "Quantity": "10"
     },
     {
       "id": 128,
@@ -3227,7 +3121,7 @@
         "https://images.fpt.shop/unsafe/fit-in/585x390/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2022/9/8/637982295035080684_oppo-find-x5-pro-den-4.jpg",
         "https://images.fpt.shop/unsafe/fit-in/585x390/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2022/9/8/637982295032268120_oppo-find-x5-pro-den-1.jpg"
       ],
-      "Quantity": 10
+      "Quantity": "10"
     },
     {
       "id": 129,
@@ -3240,7 +3134,7 @@
         "https://images.fpt.shop/unsafe/fit-in/585x390/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2021/11/20/637730059695619518_oppo-a95-bac-4.jpg",
         "https://images.fpt.shop/unsafe/fit-in/585x390/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2021/11/18/637728698842651830_oppo-a95-bac-5.jpg"
       ],
-      "Quantity": 10
+      "Quantity": "10"
     },
     {
       "id": 130,
@@ -3253,7 +3147,7 @@
         "https://images.fpt.shop/unsafe/fit-in/585x390/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2021/11/20/637730043527224050_oppo-a95-den-4.jpg",
         "https://images.fpt.shop/unsafe/fit-in/585x390/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2021/11/20/637730043527067786_oppo-a95-den-5.jpg"
       ],
-      "Quantity": 10
+      "Quantity": "10"
     },
     {
       "id": 131,
@@ -3265,7 +3159,7 @@
         "https://images.fpt.shop/unsafe/fit-in/585x390/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2022/2/28/637816847409611807_oppo-reno7-z-den-3.jpg",
         "https://images.fpt.shop/unsafe/fit-in/585x390/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2022/2/28/637816847403986651_oppo-reno7-z-den-4.jpg"
       ],
-      "Quantity": 10
+      "Quantity": "10"
     },
     {
       "id": 132,
@@ -3278,7 +3172,7 @@
         "https://images.fpt.shop/unsafe/fit-in/585x390/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2021/7/8/637613586594727431_oppo-reno6z-den-4.jpg",
         "https://images.fpt.shop/unsafe/fit-in/585x390/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2021/7/8/637613328812450235_oppo-reno6z-den-5.jpg"
       ],
-      "Quantity": 10
+      "Quantity": "10"
     },
     {
       "id": 133,
@@ -3291,7 +3185,7 @@
         "https://images.fpt.shop/unsafe/fit-in/585x390/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2021/11/24/637733878453213387_oppo-a16k-xanh-4.jpg",
         "https://images.fpt.shop/unsafe/fit-in/585x390/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2021/11/24/637733878453057229_oppo-a16k-xanh-5.jpg"
       ],
-      "Quantity": 10
+      "Quantity": "10"
     },
     {
       "id": 134,
@@ -3304,7 +3198,7 @@
         "https://images.fpt.shop/unsafe/fit-in/585x390/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2022/2/10/637801040844385368_oppo-a16k-black-4.jpg",
         "https://images.fpt.shop/unsafe/fit-in/585x390/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2022/2/10/637801040843916628_oppo-a16k-black-5.jpg"
       ],
-      "Quantity": 10
+      "Quantity": "10"
     },
     {
       "id": 135,
@@ -3317,7 +3211,7 @@
         "https://images.fpt.shop/unsafe/fit-in/585x390/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/3/15/638144856428312644_oppo-find-n2-flip-den-1.jpg",
         "https://images.fpt.shop/unsafe/fit-in/585x390/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/3/15/638144856426586730_oppo-find-n2-flip-den-5.jpg"
       ],
-      "Quantity": 10
+      "Quantity": "10"
     },
     {
       "id": 136,
@@ -3330,7 +3224,7 @@
         "https://images.fpt.shop/unsafe/fit-in/585x390/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/3/15/638144857817056370_oppo-find-n2-flip-tim-2.jpg",
         "https://images.fpt.shop/unsafe/fit-in/585x390/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/3/15/638144857815324025_oppo-find-n2-flip-tim-5.jpg"
       ],
-      "Quantity": 10
+      "Quantity": "10"
     },
     {
       "id": 137,
@@ -3343,7 +3237,7 @@
         "https://images.fpt.shop/unsafe/fit-in/585x390/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2022/10/18/638016907738164196_nokia-5710-xpressaudio-den-4.jpg",
         "https://images.fpt.shop/unsafe/fit-in/585x390/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2022/10/18/638016907739434913_nokia-5710-xpressaudio-den-5.jpg"
       ],
-      "Quantity": 10
+      "Quantity": "10"
     },
     {
       "id": 138,
@@ -3356,7 +3250,7 @@
         "https://images.fpt.shop/unsafe/fit-in/585x390/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2022/10/18/638016911093886202_nokia-5710-xpressaudio-trang-2.jpg",
         "https://images.fpt.shop/unsafe/fit-in/585x390/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2022/10/18/638016911092774046_nokia-5710-xpressaudio-trang-5.jpg"
       ],
-      "Quantity": 10
+      "Quantity": "10"
     },
     {
       "id": 139,
@@ -3369,7 +3263,7 @@
         "https://images.fpt.shop/unsafe/fit-in/585x390/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/3/20/638149295317093084_nokia-g22-xam-2.jpg",
         "https://images.fpt.shop/unsafe/fit-in/585x390/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/3/20/638149295315169638_nokia-g22-xam-1.jpg"
       ],
-      "Quantity": 10
+      "Quantity": "10"
     },
     {
       "id": 140,
@@ -3382,7 +3276,7 @@
         "https://images.fpt.shop/unsafe/fit-in/585x390/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/3/20/638149291125703944_nokia-g22-xanh-2.jpg",
         "https://images.fpt.shop/unsafe/fit-in/585x390/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/3/20/638149291123956101_nokia-g22-xanh-1.jpg"
       ],
-      "Quantity": 10
+      "Quantity": "10"
     },
     {
       "id": 141,
@@ -3394,7 +3288,7 @@
         "https://images.fpt.shop/unsafe/fit-in/585x390/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2021/7/1/637607587504683004_nokia-110-4g-xanh-3.jpg",
         "https://images.fpt.shop/unsafe/fit-in/585x390/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2021/7/1/637607587508403067_nokia-110-4g-xanh-4.jpg"
       ],
-      "Quantity": 10
+      "Quantity": "10"
     },
     {
       "id": 142,
@@ -3406,7 +3300,7 @@
         "https://images.fpt.shop/unsafe/fit-in/585x390/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2021/7/1/637607591142029819_nokia-110-4g-den-3.jpg",
         "https://images.fpt.shop/unsafe/fit-in/585x390/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2021/7/1/637607591137185844_nokia-110-4g-den-4.jpg"
       ],
-      "Quantity": 10
+      "Quantity": "10"
     },
     {
       "id": 143,
@@ -3418,7 +3312,7 @@
         "https://images.fpt.shop/unsafe/fit-in/585x390/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2021/7/1/637607604383520773_nokia-110-4g-vang-3.jpg",
         "https://images.fpt.shop/unsafe/fit-in/585x390/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2021/7/1/637607604379770751_nokia-110-4g-vang-4.jpg"
       ],
-      "Quantity": 10
+      "Quantity": "10"
     },
     {
       "id": 144,
@@ -3430,7 +3324,7 @@
         "https://images.fpt.shop/unsafe/fit-in/585x390/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2021/7/1/637607688524649073_nokia-105-4g-do-3.jpg",
         "https://images.fpt.shop/unsafe/fit-in/585x390/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2021/7/1/637607688532149163_nokia-105-4g-do-4.jpg"
       ],
-      "Quantity": 10
+      "Quantity": "10"
     },
     {
       "id": 145,
@@ -3442,7 +3336,7 @@
         "https://images.fpt.shop/unsafe/fit-in/585x390/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2021/7/1/637607687651509400_nokia-105-4g-xanh-3.jpg",
         "https://images.fpt.shop/unsafe/fit-in/585x390/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2021/7/1/637607687654790746_nokia-105-4g-xanh-4.jpg"
       ],
-      "Quantity": 10
+      "Quantity": "10"
     },
     {
       "id": 146,
@@ -3454,7 +3348,7 @@
         "https://images.fpt.shop/unsafe/fit-in/585x390/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2021/7/1/637607680393105673_nokia-105-4g-den-3.jpg",
         "https://images.fpt.shop/unsafe/fit-in/585x390/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2021/7/1/637607680400918485_nokia-105-4g-den-4.jpg"
       ],
-      "Quantity": 10
+      "Quantity": "10"
     },
     {
       "id": 147,
@@ -3466,7 +3360,7 @@
         "https://images.fpt.shop/unsafe/fit-in/585x390/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2021/8/18/637649100597144506_nokia-c30-xanh-3.jpg",
         "https://images.fpt.shop/unsafe/fit-in/585x390/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2021/8/18/637649100598550733_nokia-c30-xanh-4.jpg"
       ],
-      "Quantity": 10
+      "Quantity": "10"
     },
     {
       "id": 148,
@@ -3479,7 +3373,7 @@
         "https://images.fpt.shop/unsafe/fit-in/585x390/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2020/11/13/637408832231770650_nokia-215-xanh-4.png",
         "https://images.fpt.shop/unsafe/fit-in/585x390/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2020/11/13/637408832230840627_nokia-215-xanh-5.png"
       ],
-      "Quantity": 10
+      "Quantity": "10"
     },
     {
       "id": 149,
@@ -3492,7 +3386,7 @@
         "https://images.fpt.shop/unsafe/fit-in/585x390/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2020/11/13/637408828200441878_nokia-215-den-4.png",
         "https://images.fpt.shop/unsafe/fit-in/585x390/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2020/11/13/637408828199861949_nokia-215-den-5.png"
       ],
-      "Quantity": 10
+      "Quantity": "10"
     },
     {
       "id": 150,
@@ -3505,7 +3399,7 @@
         "https://images.fpt.shop/unsafe/fit-in/585x390/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2022/9/15/637988559499928473_nokia-2660-flip-den-5.jpg",
         "https://images.fpt.shop/unsafe/fit-in/585x390/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2022/9/15/637988559501178515_nokia-2660-flip-den-1.jpg"
       ],
-      "Quantity": 10
+      "Quantity": "10"
     },
     {
       "id": 151,
@@ -3518,7 +3412,7 @@
         "https://images.fpt.shop/unsafe/fit-in/585x390/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2022/8/4/637952294132626253_nokia-8210-4g-do-3.jpg",
         "https://images.fpt.shop/unsafe/fit-in/585x390/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2022/8/4/637952294128876251_nokia-8210-4g-do-1.jpg"
       ],
-      "Quantity": 10
+      "Quantity": "10"
     },
     {
       "id": 152,
@@ -3531,7 +3425,7 @@
         "https://images.fpt.shop/unsafe/fit-in/585x390/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2022/8/4/637952294132157550_nokia-8210-4g-xanh-1.jpg",
         "https://images.fpt.shop/unsafe/fit-in/585x390/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2022/8/4/637952294128094998_nokia-8210-4g-xanh-4.jpg"
       ],
-      "Quantity": 10
+      "Quantity": "10"
     },
     {
       "id": 153,
@@ -3544,44 +3438,43 @@
         "https://images.fpt.shop/unsafe/fit-in/585x390/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2022/8/4/637952294132626253_nokia-8210-4g-trang-5.jpg",
         "https://images.fpt.shop/unsafe/fit-in/585x390/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2022/8/4/637952294128563706_nokia-8210-4g-trang-1.jpg"
       ],
-      "Quantity": 10
+      "Quantity": "10"
     }
   ],
   "Order": [
     {
       "product_id": 1,
-      "Quantity": 2,
-      "Price": 30381000,
-      "Color": "Tím",
-      "OrderDetailId": 1,
+      "Quantity": 1,
+      "Price": 15190500,
+      "Color": "Vàng",
+      "OrderDetailId": 0,
       "id": 1
     },
     {
       "product_id": 2,
-      "Quantity": 1,
-      "Price": 8743000,
+      "Quantity": 2,
+      "Price": 17486000,
       "Color": "Xanh",
-      "OrderDetailId": 1,
+      "OrderDetailId": 0,
       "id": 2
-    },
-    {
-      "product_id": 1,
-      "Quantity": 1,
-      "Price": 15190500,
-      "Color": "Tím",
-      "OrderDetailId": 4,
-      "id": 3
     },
     {
       "product_id": 2,
       "Quantity": 1,
       "Price": 8743000,
+      "Color": "Đen",
+      "OrderDetailId": 0,
+      "id": 3
+    },
+    {
+      "product_id": 9,
+      "Quantity": 1,
+      "Price": 3420200,
       "Color": "Xanh",
-      "OrderDetailId": 5,
+      "OrderDetailId": 0,
       "id": 4
     },
     {
-<<<<<<< HEAD
       "product_id": 1,
       "Quantity": 2,
       "Price": 30381000,
@@ -3772,121 +3665,22 @@
       "Price": 15190500,
       "Color": "Tím",
       "id": 29
-    },
-    {
-      "product_id": 2,
-      "Quantity": 3,
-      "Price": 26229000,
-      "Color": "Tím",
-      "id": 30
-    },
-    {
-      "product_id": 2,
-      "Quantity": 1,
-      "Price": 8743000,
-      "Color": "Xanh",
-      "id": 31
-    },
-    {
-      "product_id": 2,
-      "Quantity": 1,
-      "Price": 8743000,
-      "Color": "Đen",
-      "id": 32
-    },
-    {
-      "product_id": 3,
-      "Quantity": 1,
-      "Price": 18193000,
-      "Color": "Xanh",
-      "id": 33
-    },
-    {
-      "product_id": 4,
-      "Quantity": 1,
-      "Price": 29990000,
-      "Color": "Đỏ",
-      "id": 34
-    },
-    {
-      "product_id": 6,
-      "Quantity": 1,
-      "Price": 8730500,
-      "Color": "Đen",
-      "id": 35
-=======
-      "product_id": 32,
-      "Quantity": 2,
-      "Price": 24883400,
-      "Color": "Đen",
-      "OrderDetailId": 6,
-      "id": 5
-    },
-    {
-      "product_id": 42,
-      "Quantity": 2,
-      "Price": 6789600,
-      "Color": "Xanh",
-      "OrderDetailId": 6,
-      "id": 6
-    },
-    {
-      "product_id": 37,
-      "Quantity": 1,
-      "Price": 23656200,
-      "Color": "Bạc",
-      "OrderDetailId": 7,
-      "id": 7
-    },
-    {
-      "product_id": 32,
-      "Quantity": 1,
-      "Price": 12441700,
-      "Color": "Xanh lá",
-      "OrderDetailId": 8,
-      "id": 8
-    },
-    {
-      "product_id": 35,
-      "Quantity": 1,
-      "Price": 18861600,
-      "Color": "Trắng",
-      "OrderDetailId": 8,
-      "id": 9
-    },
-    {
-      "product_id": 37,
-      "Quantity": 2,
-      "Price": 47312400,
-      "Color": "Bạc",
-      "OrderDetailId": 8,
-      "id": 10
-    },
-    {
-      "product_id": 1,
-      "Quantity": 1,
-      "Price": 15190500,
-      "Color": "Vàng",
-      "OrderDetailId": 9,
-      "id": 11
->>>>>>> d67a251db2f6e250e4c0958659fa625ff76bd31f
     }
   ],
   "OrderDetail": [
     {
-      "firstName": "khdai",
-      "lastName": "dao",
-      "phone": "292929292",
+      "firstName": "dao",
+      "lastName": "khai",
+      "phone": "39393",
       "address": "HN",
       "email": "dao@gmail.com",
       "purchaseMethod": "Thanh toán bằng ZaloPay",
       "userId": null,
-      "totalPrice": 39124000,
-      "status": 3,
+      "totalPrice": 44839700,
+      "status": 1,
       "id": 1
     },
     {
-<<<<<<< HEAD
       "firstName": "chien",
       "lastName": "dam",
       "phone": "03223232232",
@@ -3908,45 +3702,15 @@
       "userId": null,
       "totalPrice": 23933500,
       "status": 1,
-=======
-      "firstName": "khdai",
-      "lastName": "dao",
-      "phone": "292929292",
-      "address": "HN",
-      "email": "dao@gmail.com",
-      "purchaseMethod": "Thanh toán bằng ZaloPay",
-      "userId": null,
-      "totalPrice": 39124000,
-      "status": 3,
-      "id": 2
-    },
-    {
-      "firstName": "khdai",
-      "lastName": "dao",
-      "phone": "292929292",
-      "address": "HN",
-      "email": "dao@gmail.com",
-      "purchaseMethod": "Thanh toán bằng ZaloPay",
-      "userId": null,
-      "totalPrice": 39124000,
-      "status": 0,
->>>>>>> d67a251db2f6e250e4c0958659fa625ff76bd31f
       "id": 3
     },
     {
       "firstName": "hh",
       "lastName": "hh",
-<<<<<<< HEAD
       "phone": "38938383",
       "address": "HN",
       "email": "@",
       "purchaseMethod": "Thanh toán khi nhận hàng",
-=======
-      "phone": "8383838",
-      "address": "HN",
-      "email": "@kdkdkd",
-      "purchaseMethod": "Thanh toán bằng Momo",
->>>>>>> d67a251db2f6e250e4c0958659fa625ff76bd31f
       "userId": null,
       "totalPrice": 15190500,
       "status": 1,
@@ -3955,46 +3719,28 @@
     {
       "firstName": "hh",
       "lastName": "hh",
-<<<<<<< HEAD
       "phone": "342423423",
       "address": "HN",
       "email": "@",
       "purchaseMethod": "Thanh toán khi nhận hàng",
       "userId": null,
       "totalPrice": 52296000,
-=======
-      "phone": "23",
-      "address": "45",
-      "email": "@",
-      "purchaseMethod": "Thanh toán bằng ZaloPay",
-      "userId": null,
-      "totalPrice": 8743000,
->>>>>>> d67a251db2f6e250e4c0958659fa625ff76bd31f
       "status": 1,
       "id": 5
     },
     {
       "firstName": "hh",
       "lastName": "hh",
-<<<<<<< HEAD
       "phone": "9393933",
-=======
-      "phone": "2344",
->>>>>>> d67a251db2f6e250e4c0958659fa625ff76bd31f
       "address": "HN",
       "email": "@",
       "purchaseMethod": "Thanh toán bằng ZaloPay",
       "userId": null,
-<<<<<<< HEAD
       "totalPrice": 22306000,
-=======
-      "totalPrice": 31673000,
->>>>>>> d67a251db2f6e250e4c0958659fa625ff76bd31f
       "status": 1,
       "id": 6
     },
     {
-<<<<<<< HEAD
       "firstName": "hh",
       "lastName": "hh",
       "phone": "232323232",
@@ -4003,21 +3749,10 @@
       "purchaseMethod": "Thanh toán khi nhận hàng",
       "userId": null,
       "totalPrice": 22306000,
-=======
-      "firstName": "dao",
-      "lastName": "khai",
-      "phone": "123123",
-      "address": "12423453412",
-      "email": "123@123",
-      "purchaseMethod": "Thanh toán khi nhận hàng",
-      "userId": null,
-      "totalPrice": 23656200,
->>>>>>> d67a251db2f6e250e4c0958659fa625ff76bd31f
       "status": 1,
       "id": 7
     },
     {
-<<<<<<< HEAD
       "firstName": "hh",
       "lastName": "hh",
       "phone": "2432432432",
@@ -4026,21 +3761,10 @@
       "purchaseMethod": "Thanh toán khi nhận hàng",
       "userId": null,
       "totalPrice": 2538200,
-=======
-      "firstName": "aa",
-      "lastName": "aa",
-      "phone": "34343",
-      "address": "HNN",
-      "email": "@",
-      "purchaseMethod": "Thanh toán bằng ZaloPay",
-      "userId": null,
-      "totalPrice": 78615700,
->>>>>>> d67a251db2f6e250e4c0958659fa625ff76bd31f
       "status": 1,
       "id": 8
     },
     {
-<<<<<<< HEAD
       "firstName": "abs",
       "lastName": "bad",
       "phone": "23234234234",
@@ -4065,28 +3789,16 @@
       "id": 10
     },
     {
-      "firstName": "dcsd",
-      "lastName": "csc",
-      "phone": "2123",
-      "address": "ads",
-      "email": "cdcs",
+      "firstName": "ádf",
+      "lastName": "ádf",
+      "phone": "2342342",
+      "address": "ádfasdfdsf",
+      "email": "ádfasdf",
       "purchaseMethod": "Thanh toán khi nhận hàng",
-      "userId": null,
-      "totalPrice": 115819000,
-      "status": 1,
-      "id": 11
-=======
-      "firstName": "khai",
-      "lastName": "dao",
-      "phone": "93939393",
-      "address": "HN",
-      "email": "djdj@gmail.com",
-      "purchaseMethod": "Thanh toán bằng ZaloPay",
-      "userId": null,
+      "userId": "UV7459",
       "totalPrice": 15190500,
       "status": 1,
-      "id": 9
->>>>>>> d67a251db2f6e250e4c0958659fa625ff76bd31f
+      "id": 11
     }
   ]
 }

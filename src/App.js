@@ -1,5 +1,6 @@
 import "./App.css";
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
+import "../node_modules/bootstrap/js/dist/modal";
 import ListProduct from "./components/Client/ListProduct";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./App.css";
@@ -18,6 +19,8 @@ import EditProduct from "./components/admin/EditProduct";
 import OrderManagement from "./components/admin/OrderManagement";
 import OrderDetail from "./components/admin/OrderDetails";
 import CreateProduct from "./components/admin/CreateProduct";
+import AdminUsers from "./components/admin/AdminUsers";
+import Profile from "./components/common/Profile/Profile";
 function App() {
   return (
     <BrowserRouter>
@@ -39,20 +42,16 @@ function App() {
           path="dien-thoai/purchase/:ID/:COLORID/:TYPE"
           element={<Purchase />}
         />
-        <Route
-          path="/dien-thoai/purchase/:TYPE"
-          element={<Purchase />}
-        />
-        <Route
-          path="/chi-tiet-san-pham/:ProductID"
-          element={<EditProduct />}
-        />
+        <Route path="/dien-thoai/purchase/:TYPE" element={<Purchase />} />
+        <Route path="/chi-tiet-san-pham/:ProductID" element={<EditProduct />} />
         <Route path="/logout" element={<Logout />} />
-        <Route path="/dashboard" element={<DashBoard/>} />
-        <Route path="/productmanagement" element={<AdminListProduct/>} />
-        <Route path="/adminorders" element={<OrderManagement/>} />
-        <Route path="/chi-tiet-don-hang/:id" element={<OrderDetail/>} />
-        <Route path="/createproduct" element={<CreateProduct/>} />
+        <Route path="/profile" element={<Profile />} />
+        <Route path="/dashboard" element={<DashBoard />} />
+        <Route path="/productmanagement" element={<AdminListProduct />} />
+        <Route path="/adminusers" element={<AdminUsers />} />
+        <Route path="/adminorders" element={<OrderManagement />} />
+        <Route path="/chi-tiet-don-hang/:id" element={<OrderDetail />} />
+        <Route path="/createproduct" element={<CreateProduct />} />
       </Routes>
     </BrowserRouter>
   );

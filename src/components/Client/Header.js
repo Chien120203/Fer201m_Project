@@ -22,17 +22,16 @@ import { useRef } from "react";
 const Header = () => {
   const checkLogin = () => {
     return sessionStorage.getItem("user") !== null;
-  }
+  };
   const searchs = useRef(null);
   const navigate = useNavigate();
   const handleSearch = () => {
     if (searchs.current) {
-      navigate(`/tim-kiem/${searchs.current.value}`)
+      navigate(`/tim-kiem/${searchs.current.value}`);
+    } else {
+      navigate(`/tim-kiem`);
     }
-    else {
-      navigate(`/tim-kiem`)
-    }
-  }
+  };
   return (
     <Container fluid className="fixed-top">
       <Row>
@@ -47,7 +46,9 @@ const Header = () => {
               }}
               className="header-item"
             >
-              <Link to="/"><img src="../Images/logo.png" id="logo"></img></Link>
+              <Link to="/">
+                <img src="../Images/logo.png" id="logo"></img>
+              </Link>
             </Col>
             <Col
               md={4}
@@ -55,7 +56,11 @@ const Header = () => {
               style={{ height: "50px", padding: "5px" }}
             >
               <div className="input-group">
-                <FormControl type="text" placeholder="Nhập tên điện thoại" ref={searchs} />
+                <FormControl
+                  type="text"
+                  placeholder="Nhập tên điện thoại"
+                  ref={searchs}
+                />
                 <div className="input-group-prepend">
                   <Button className="btn-dark" onClick={() => handleSearch()}>
                     <FontAwesomeIcon icon={faMagnifyingGlass} />
@@ -65,68 +70,73 @@ const Header = () => {
             </Col>
             <Col md={5} style={{ height: "50px", textAlign: "right" }}>
               <div>
-                {
-                  checkLogin() ? (
-                    <div style={{ display: "flex", justifyContent: "space-around" }}>
-                      <Link
-                        style={{
-                          textAlign: "center",
-                          display: "inline-block",
-                          marginRight: "10px",
-                        }}
-                        to={"/shoppingcard"}
-                      >
-                        <FontAwesomeIcon
-                          icon={faShoppingCart}
-                          style={{ color: "white" }}
-                        />
-                        <p style={{ color: "white" }}>Giỏ hàng</p>
-                      </Link>
-                      <Link>
-                        <FontAwesomeIcon icon={faUser} style={{ color: "white" }} />
-                        <p style={{ color: "white" }}>Tài khoản</p>
-                      </Link>
-                      <Link to={"/logout"}>
-                        <FontAwesomeIcon
-                          icon={faSignOut}
-                          style={{ color: "white" }}
-                        />
-                        <p style={{ color: "white" }}>Đăng xuất</p>
-                      </Link>
-                    </div>
-                  ) : (
-                    <div style={{ display: "flex", justifyContent: "space-around" }}>
-                      <Link
-                        style={{
-                          textAlign: "center",
-                          display: "inline-block",
-                          marginRight: "10px",
-                        }}
-                        to={"/shoppingcard"}
-                      >
-                        <FontAwesomeIcon
-                          icon={faShoppingCart}
-                          style={{ color: "white" }}
-                        />
-                        <p style={{ color: "white" }}>Giỏ hàng</p>
-                      </Link>
-                      <Link to={"/login"} style={{textAlign:"center"}}>
-                        <FontAwesomeIcon
-                          icon={faSignInAlt}
-                          style={{ color: "white" }}
-                        />
-                        <p style={{ color: "white" }}>Đăng Nhập</p>
-                      </Link>
-                      <Link to={"/signup"} style={{textAlign:"center"}}>
-                        <FontAwesomeIcon
-                          icon={faUserPlus}
-                          style={{ color: "white" }}
-                        />
-                        <p style={{ color: "white" }}>Đăng Ký</p>
-                      </Link>
-                    </div>
-                  )
-                }
+                {checkLogin() ? (
+                  <div
+                    style={{ display: "flex", justifyContent: "space-around" }}
+                  >
+                    <Link
+                      style={{
+                        textAlign: "center",
+                        display: "inline-block",
+                        marginRight: "10px",
+                      }}
+                      to={"/shoppingcard"}
+                    >
+                      <FontAwesomeIcon
+                        icon={faShoppingCart}
+                        style={{ color: "white" }}
+                      />
+                      <p style={{ color: "white" }}>Giỏ hàng</p>
+                    </Link>
+                    <Link to={"/profile"}>
+                      <FontAwesomeIcon
+                        icon={faUser}
+                        style={{ color: "white" }}
+                      />
+                      <p style={{ color: "white" }}>Tài khoản</p>
+                    </Link>
+                    <Link to={"/logout"}>
+                      <FontAwesomeIcon
+                        icon={faSignOut}
+                        style={{ color: "white" }}
+                      />
+                      <p style={{ color: "white" }}>Đăng xuất</p>
+                    </Link>
+                  </div>
+                ) : (
+                  <div
+                    style={{ display: "flex", justifyContent: "space-around" }}
+                  >
+                    <Link
+                      style={{
+                        textAlign: "center",
+                        display: "inline-block",
+                        marginRight: "10px",
+                      }}
+                      to={"/shoppingcard"}
+                    >
+                      <FontAwesomeIcon
+                        icon={faShoppingCart}
+                        style={{ color: "white" }}
+                      />
+                      <p style={{ color: "white" }}>Giỏ hàng</p>
+                    </Link>
+                    <Link to={"/login"} style={{ textAlign: "center" }}>
+                      <FontAwesomeIcon
+                        icon={faSignInAlt}
+                        style={{ color: "white" }}
+                      />
+                      <p style={{ color: "white" }}>Đăng Nhập</p>
+                    </Link>
+                    <Link to={"/signup"} style={{ textAlign: "center" }}>
+                      <FontAwesomeIcon
+                        icon={faUserPlus}
+                        style={{ color: "white" }}
+                      />
+                      <p style={{ color: "white" }}>Đăng Ký</p>
+                    </Link>
+                  </div>
+                )}
               </div>
             </Col>
           </Row>
