@@ -48,7 +48,7 @@ const Header = () => {
                 }}
                 className="header-item"
               >
-                <Link to="/"><img src="../Images/logo.png" id="logo"></img></Link>
+                <Link to="/"><img src="../../Images/logo.png" id="logo"></img></Link>
               </Col>
               <button
                 className="navbar-toggler"

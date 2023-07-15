@@ -1184,24 +1184,6 @@
         "Origin": "Trung Quốc",
         "Release_time": "08/2022"
       }
-    },
-    {
-      "Name": "sa",
-      "Category_ID": "1",
-      "Price": "12344",
-      "SalePrice": "0.5",
-      "Images": "C:\\fakepath\\vivo.png",
-      "Specifications": {
-        "Screen": "ffff",
-        "RAM": "ffff",
-        "Internal_memory": "fff",
-        "CPU": "fff",
-        "Battery_capacity": "fff",
-        "Operating_system": "fff",
-        "Origin": "fff",
-        "Release_time": "fff"
-      },
-      "id": 59
     }
   ],
   "Category": [
