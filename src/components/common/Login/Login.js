@@ -28,11 +28,16 @@ const Login = () => {
     let indexUser = users.findIndex(
       (user) => user.account === username && user.password === password
     );
-    if (indexUser === -1) {
+    if (indexUser === -1 || users[indexUser].status == 0) {
       toast.error("User or password not found");
     } else {
       sessionStorage.setItem("user", JSON.stringify(users[indexUser]));
-      navigate("/");
+      if (users[indexUser].roll == 0 && users[indexUser].status == 1) {
+        navigate("/");
+      }
+      if (users[indexUser].roll == 1) {
+        navigate("/dashboard");
+      }
     }
 
     // Reset the form
