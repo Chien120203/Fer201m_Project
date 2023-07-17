@@ -120,7 +120,6 @@ const AdminListProduct = () => {
                                                 <th>Category</th>
                                                 <th>Price</th>
                                                 <th>SalePrice</th>
-                                                <th>Disable</th>
                                                 <th>Action</th>
                                             </thead>
                                             <tbody>
@@ -137,8 +136,7 @@ const AdminListProduct = () => {
                                                                 }</td>
                                                                 <td>{p.Price}</td>
                                                                 <td>{p.SalePrice}</td>
-                                                                <td></td>
-                                                                <td><button className='btn btn-success'>Change Status</button>&nbsp;&nbsp;<Link to={`/chi-tiet-san-pham/${p.id}`} title='edit'><FontAwesomeIcon icon={faPenToSquare} /></Link></td>
+                                                                <td><Link to={`/chi-tiet-san-pham/${p.id}`} title='edit'><FontAwesomeIcon icon={faPenToSquare} /></Link></td>
                                                             </tr>
                                                         )
                                                     })

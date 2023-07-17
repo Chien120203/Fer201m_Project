@@ -49,7 +49,6 @@ const Purchase = () => {
               let color = dataColor.find((a) => {
                 return a.id == COLORID;
               });
-              console.log(COLORID);
               listPrCol.push({
                 ...product,
                 colorName: color.ColorName,
@@ -85,8 +84,8 @@ const Purchase = () => {
               sum =
                 sum +
                 listPrCol[i].Price *
-                  (1 - listPrCol[i].SalePrice) *
-                  listPrCol[i].quantity;
+                (1 - listPrCol[i].SalePrice) *
+                listPrCol[i].quantity;
             }
             setTotalPrice(sum);
             setListProduct(listPrCol);
@@ -117,15 +116,34 @@ const Purchase = () => {
     }
   };
   const updateProduct = (id, colId, quantity) => {
-    let pro = listProduct.find((p) => p.id == id && p.colorID == colId);
-    const updatedListProductIds = { ...productIds };
-    let colorId = pro.colorID;
-    updatedListProductIds[id][colorId] = quantity;
-    setProductIds(updatedListProductIds);
-    setCookie("productIds", updatedListProductIds, { path: "/" });
+    let pro;
+    if (TYPE == 1) {
+      pro = listProduct[0];
+      pro.quantity = quantity;
+      setTotalPrice(pro.Price * (1 - pro.SalePrice) * pro.quantity);
+      setListProduct([pro]);
+    }
+    else {
+      pro = listProduct.find((p) => p.id == id && p.colorID == colId);
+      const updatedListProductIds = { ...productIds };
+      let colorId = pro.colorID;
+      updatedListProductIds[id][colorId] = quantity;
+      setProductIds(updatedListProductIds);
+      setCookie("productIds", updatedListProductIds, { path: "/" });
+    }
   };
-  const deleteProduct = (id, colId) => {
-    if (listProduct.length > 1) {
+  const deleteProduct = (id, colId, status) => {
+    if (status == 1) {
+      if (listProduct.length > 1) {
+        let pro = listProduct.find((p) => p.id == id && p.colorID == colId);
+        const updatedListProductIds = { ...productIds };
+        let colorId = pro.colorID;
+        delete updatedListProductIds[id][colorId];
+        setProductIds(updatedListProductIds);
+        setCookie("productIds", updatedListProductIds, { path: "/" });
+      }
+    }
+    else {
       let pro = listProduct.find((p) => p.id == id && p.colorID == colId);
       const updatedListProductIds = { ...productIds };
       let colorId = pro.colorID;
@@ -133,12 +151,7 @@ const Purchase = () => {
       setProductIds(updatedListProductIds);
       setCookie("productIds", updatedListProductIds, { path: "/" });
     }
-  };
 
-  var Id = 0;
-  const getOrderDetailIDD = (a) => {
-    Id = a;
-    console.log(`nhay vaoday: ${Id}`);
   };
   const handlePurchase = async () => {
     try {
@@ -156,6 +169,7 @@ const Purchase = () => {
       ) {
         alert("Vui lòng nhập đầy đủ thông tin.");
       } else {
+        const d = new Date();
         const user = JSON.parse(sessionStorage.getItem("user"));
         let userid = user ? user.id : null;
         const newOrderDetail = {
@@ -164,6 +178,7 @@ const Purchase = () => {
           phone: phoneNumber.current.value.trim(),
           address: address.current.value.trim(),
           email: email.current.value.trim(),
+          date: `${d.getFullYear()}-${d.getMonth()}-${d.getDate()}`,
           purchaseMethod: purchaseMethods,
           userId: userid,
           totalPrice: totalPrice,
@@ -180,7 +195,6 @@ const Purchase = () => {
         if (!response.ok) {
           throw new Error("Failed to create order detail.");
         }
-        const orderDetail = await response.json();
 
         for (const product of listProduct) {
           const newOrder = {
@@ -202,7 +216,7 @@ const Purchase = () => {
             throw new Error("Failed to create order.");
           }
 
-          deleteProduct(product.id, product.colorID);
+          deleteProduct(product.id, product.colorID, 2);
         }
 
         navigate("/");
@@ -215,6 +229,9 @@ const Purchase = () => {
 
   return (
     <div>
+      {
+        console.log(listProduct)
+      }
       <Header />
       <Container style={{ marginTop: "100px" }}>
         <Row>
@@ -320,7 +337,7 @@ const Purchase = () => {
                       <Col md={3}>
                         <button
                           className="btn-delete"
-                          onClick={() => deleteProduct(l.id, l.colorID)}
+                          onClick={() => deleteProduct(l.id, l.colorID, 1)}
                         >
                           <FontAwesomeIcon icon={faTrashAlt} />
                           Xoá

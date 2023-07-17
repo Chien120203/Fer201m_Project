@@ -130,3 +130,13 @@
     display: none;
   }
 }
+
+.category-search{
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+@media(max-width: 770px){
+  .category-search{
+    margin-top: 180px;
+  }
+}

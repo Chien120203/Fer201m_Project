@@ -74,72 +74,76 @@ const CreateProduct = () => {
         }
     }
     const handleCreate = async () => {
-        try {
-            if (name.current.value == "" || category.current.value == "" || price.current.value == "" || saleprice.current.value == ""
-                || image.current.value == "" || screen.current.value == "" || ram.current.value == "" || internalMemory.current.value == ""
-                || cpu.current.value == "" || batteryCapacity.current.value == "" || operatingSystem.current.value == "" || origin.current.value == ""
-                || releaseTime.current.value == "") {
-                alert("Nhập đầy đủ thông tin")
-            }
-            const link = image.current.value;
-            const links = link.split("\\");
-            const nameproduct = name.current.value.trim().split(" ");
-            const linkname = nameproduct.join("_");
-            // console.log(links)
-            // setImg(`Images/Product/${linkname}/${links.pop()}`)
-            const newproduct = {
-                Name: name.current.value,
-                Category_ID: category.current.value,
-                Price: price.current.value,
-                SalePrice: saleprice.current.value,
-                Images: `../../Images/Product/${linkname}/${links.pop()}`,
-                Specifications: {
-                    Screen: screen.current.value,
-                    RAM: ram.current.value,
-                    Internal_memory: internalMemory.current.value,
-                    CPU: cpu.current.value,
-                    Battery_capacity: batteryCapacity.current.value,
-                    Operating_system: operatingSystem.current.value,
-                    Origin: origin.current.value,
-                    Release_time: releaseTime.current.value
+        if (name.current.value == "" || category.current.value == "" || price.current.value == "" || saleprice.current.value == ""
+            && image.current.value == "" || screen.current.value == "") {
+            alert("Nhập đầy đủ thông tin")
+        }
+        else {
+            try {
+
+
+                const link = image.current.value;
+                const links = link.split("\\");
+                const nameproduct = name.current.value.trim().split(" ");
+                const linkname = nameproduct.join("_");
+                // console.log(links)
+                // setImg(`Images/Product/${linkname}/${links.pop()}`)
+                const newproduct = {
+                    Name: name.current.value,
+                    Category_ID: category.current.value,
+                    Price: price.current.value,
+                    SalePrice: saleprice.current.value,
+                    Images: `../../Images/Product/${linkname}/${links.pop()}`,
+                    Specifications: {
+                        Screen: screen.current.value,
+                        Rear_camera: rearCamera.current.value,
+                        RAM: ram.current.value,
+                        Internal_memory: internalMemory.current.value,
+                        CPU: cpu.current.value,
+                        Battery_capacity: batteryCapacity.current.value,
+                        Operating_system: operatingSystem.current.value,
+                        Origin: origin.current.value,
+                        Release_time: releaseTime.current.value
+                    }
                 }
-            }
 
-            const response = await fetch("http://localhost:9999/Product", {
-                method: "POST",
-                headers: {
-                    "Content-Type": "application/json",
-                },
-                body: JSON.stringify(newproduct),
-            });
-            if (!response.ok) {
-                throw new Error("Failed to create order detail.");
-            }
-
-            for (const color of confirmColor) {
-                const newColor = {
-                    ProductId: productId,
-                    ColorName: color.ColorName,
-                    Images: color.Images,
-                    Quantity: color.Quantity
-                };
-
-                const orderResponse = await fetch("http://localhost:9999/Color", {
+                const response = await fetch("http://localhost:9999/Product", {
                     method: "POST",
                     headers: {
                         "Content-Type": "application/json",
                     },
-                    body: JSON.stringify(newColor),
+                    body: JSON.stringify(newproduct),
                 });
-                if (!orderResponse.ok) {
-                    throw new Error("Failed to create order.");
+                if (!response.ok) {
+                    throw new Error("Failed to create order detail.");
                 }
+
+                for (const color of confirmColor) {
+                    const newColor = {
+                        ProductId: productId,
+                        ColorName: color.ColorName,
+                        Images: color.Images,
+                        Quantity: color.Quantity
+                    };
+
+                    const orderResponse = await fetch("http://localhost:9999/Color", {
+                        method: "POST",
+                        headers: {
+                            "Content-Type": "application/json",
+                        },
+                        body: JSON.stringify(newColor),
+                    });
+                    if (!orderResponse.ok) {
+                        throw new Error("Failed to create order.");
+                    }
+                }
+
+            } catch (error) {
+                console.error(error);
+                // Handle the error, show an error message, or perform any necessary actions
             }
-        } catch (error) {
-            console.error(error);
-            // Handle the error, show an error message, or perform any necessary actions
+            navigate("/productmanagement");
         }
-        navigate("/");
     }
     const updateImage = (e) => {
         const link = e.target.value;

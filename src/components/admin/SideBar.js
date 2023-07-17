@@ -5,7 +5,7 @@ import { NavLink } from 'react-router-dom'
 const SideBar = () => {
     return (
         <Col md={2} className='side-bar'>
-            <img src='Images/logo.png' style={{ width: '65%', marginLeft: "30px", marginTop: "40px" }} />
+            <img src='../../Images/logo.png' style={{ width: '65%', marginLeft: "30px", marginTop: "40px" }} />
             <ul className='adminsidebar' style={{ marginTop: "50px" }}>
                 <li><NavLink to="/dashboard">
                     <div className='navlink-container'>

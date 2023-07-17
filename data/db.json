@@ -1184,6 +1184,25 @@
         "Origin": "Trung Quốc",
         "Release_time": "08/2022"
       }
+    },
+    {
+      "id": 59,
+      "Name": "iPhone 11 64GB",
+      "Category_ID": "4",
+      "Price": "1090000",
+      "SalePrice": "0.2",
+      "Images": "../../Images/Product/iPhone_11_64GB/1.png",
+      "Specifications": {
+        "Screen": "hh",
+        "Rear_camera": "he",
+        "RAM": "hh",
+        "Internal_memory": "hh",
+        "CPU": "hh",
+        "Battery_capacity": "hh",
+        "Operating_system": "hh",
+        "Origin": "hh",
+        "Release_time": "hh"
+      }
     }
   ],
   "Category": [
@@ -3439,6 +3458,28 @@
         "https://images.fpt.shop/unsafe/fit-in/585x390/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2022/8/4/637952294128563706_nokia-8210-4g-trang-1.jpg"
       ],
       "Quantity": "10"
+    },
+    {
+      "id": 154,
+      "ProductId": 59,
+      "ColorName": "Trangs",
+      "Quantity": "10",
+      "Images": [
+        "../../Images/Product/iPhone_11_64GB/1.png",
+        "../../Images/Product/iPhone_11_64GB/2.png",
+        "../../Images/Product/iPhone_11_64GB/3.png"
+      ]
+    },
+    {
+      "ProductId": 59,
+      "ColorName": "Den",
+      "Images": [
+        "../../Images/Product/iPhone_11_64GB/4.png",
+        "../../Images/Product/iPhone_11_64GB/5.png",
+        "../../Images/Product/iPhone_11_64GB/6.png"
+      ],
+      "Quantity": "9",
+      "id": 155
     }
   ],
   "Order": [
@@ -3665,6 +3706,102 @@
       "Price": 15190500,
       "Color": "Tím",
       "id": 29
+    },
+    {
+      "product_id": 1,
+      "Quantity": 1,
+      "Price": 15190500,
+      "Color": "Vàng",
+      "OrderDetailId": 12,
+      "id": 30
+    },
+    {
+      "product_id": 3,
+      "Quantity": 2,
+      "Price": 36386000,
+      "Color": "Xanh",
+      "OrderDetailId": 13,
+      "id": 31
+    },
+    {
+      "product_id": 1,
+      "Quantity": 2,
+      "Price": 30381000,
+      "Color": "Tím",
+      "OrderDetailId": 14,
+      "id": 32
+    },
+    {
+      "product_id": 1,
+      "Quantity": 2,
+      "Price": 30381000,
+      "Color": "Vàng",
+      "OrderDetailId": 14,
+      "id": 33
+    },
+    {
+      "product_id": 1,
+      "Quantity": 2,
+      "Price": 30381000,
+      "Color": "Tím",
+      "OrderDetailId": 15,
+      "id": 34
+    },
+    {
+      "product_id": 1,
+      "Quantity": 2,
+      "Price": 30381000,
+      "Color": "Vàng",
+      "OrderDetailId": 15,
+      "id": 35
+    },
+    {
+      "product_id": 1,
+      "Quantity": 2,
+      "Price": 30381000,
+      "Color": "Tím",
+      "OrderDetailId": 16,
+      "id": 36
+    },
+    {
+      "product_id": 1,
+      "Quantity": 2,
+      "Price": 30381000,
+      "Color": "Vàng",
+      "OrderDetailId": 16,
+      "id": 37
+    },
+    {
+      "product_id": 35,
+      "Quantity": 1,
+      "Price": 18861600,
+      "Color": "Xanh",
+      "OrderDetailId": 17,
+      "id": 38
+    },
+    {
+      "product_id": 1,
+      "Quantity": 2,
+      "Price": 30381000,
+      "Color": "Tím",
+      "OrderDetailId": 18,
+      "id": 39
+    },
+    {
+      "product_id": 1,
+      "Quantity": 2,
+      "Price": 30381000,
+      "Color": "Vàng",
+      "OrderDetailId": 18,
+      "id": 40
+    },
+    {
+      "product_id": 59,
+      "Quantity": 1,
+      "Price": 872000,
+      "Color": "Trangs",
+      "OrderDetailId": 19,
+      "id": 41
     }
   ],
   "OrderDetail": [
@@ -3799,6 +3936,110 @@
       "totalPrice": 15190500,
       "status": 1,
       "id": 11
+    },
+    {
+      "firstName": "khai",
+      "lastName": "dao",
+      "phone": "0393939333",
+      "address": "HN",
+      "email": "daokhai@gmail.com",
+      "date": "2023-6-18",
+      "purchaseMethod": "Thanh toán bằng ZaloPay",
+      "userId": null,
+      "totalPrice": 15190500,
+      "status": 1,
+      "id": 12
+    },
+    {
+      "firstName": "hh",
+      "lastName": "hh",
+      "phone": "34234234",
+      "address": "HN",
+      "email": "@",
+      "date": "2023-6-18",
+      "purchaseMethod": "Thanh toán khi nhận hàng",
+      "userId": null,
+      "totalPrice": 36386000,
+      "status": 1,
+      "id": 13
+    },
+    {
+      "firstName": "hh",
+      "lastName": "hh",
+      "phone": "34234",
+      "address": "HN",
+      "email": "@",
+      "date": "2023-6-18",
+      "purchaseMethod": "Thanh toán khi nhận hàng",
+      "userId": null,
+      "totalPrice": 60762000,
+      "status": 1,
+      "id": 14
+    },
+    {
+      "firstName": "hh",
+      "lastName": "hh",
+      "phone": "3433423",
+      "address": "HN",
+      "email": "@",
+      "date": "2023-6-18",
+      "purchaseMethod": "Thanh toán khi nhận hàng",
+      "userId": null,
+      "totalPrice": 60762000,
+      "status": 1,
+      "id": 15
+    },
+    {
+      "firstName": "hh",
+      "lastName": "hh",
+      "phone": "43242",
+      "address": "HN",
+      "email": "@",
+      "date": "2023-6-18",
+      "purchaseMethod": "Thanh toán bằng Momo",
+      "userId": null,
+      "totalPrice": 60762000,
+      "status": 1,
+      "id": 16
+    },
+    {
+      "firstName": "hh",
+      "lastName": "hh",
+      "phone": "343242",
+      "address": "HN",
+      "email": "@",
+      "date": "2023-6-18",
+      "purchaseMethod": "Thanh toán khi nhận hàng",
+      "userId": null,
+      "totalPrice": 18861600,
+      "status": 1,
+      "id": 17
+    },
+    {
+      "firstName": "hh",
+      "lastName": "hh",
+      "phone": "34224",
+      "address": "HN",
+      "email": "@",
+      "date": "2023-6-18",
+      "purchaseMethod": "Thanh toán bằng ZaloPay",
+      "userId": null,
+      "totalPrice": 60762000,
+      "status": 1,
+      "id": 18
+    },
+    {
+      "firstName": "hh",
+      "lastName": "hh",
+      "phone": "34242",
+      "address": "HN",
+      "email": "@",
+      "date": "2023-6-18",
+      "purchaseMethod": "Thanh toán bằng Momo",
+      "userId": null,
+      "totalPrice": 872000,
+      "status": 1,
+      "id": 19
     }
   ]
 }
