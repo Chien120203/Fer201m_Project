@@ -8,6 +8,13 @@ import Footer from "../../Client/Footer";
 import "react-toastify/dist/ReactToastify.css";
 const Profile = () => {
   const [user, setUser] = useState();
+  const [listUsers, setListUsers] = useState([]);
+
+  useEffect(() => {
+    fetch("http://localhost:9999/user")
+      .then((response) => response.json())
+      .then((data) => setListUsers(data));
+  }, []);
   const {
     register,
     handleSubmit,
@@ -22,6 +29,7 @@ const Profile = () => {
   const handleChangeAccPass = (data) => {
     const { currentPass, newPass, rePass } = data;
     let updatedUser;
+
     if (currentPass == user.password) {
       if (newPass === rePass) {
         updatedUser = { ...user, password: rePass };
@@ -51,31 +59,79 @@ const Profile = () => {
     }
     reset();
   };
-  const udpateProfile = async () => {
+  // const udpateProfile = async () => {
+  //   if (user) {
+  //     try {
+  //       let check = listUsers.some((u) => {
+  //         if (u.account === user.account) {
+  //           toast.error("Account already exists");
+  //           return false;
+  //         }
+  //       });
+  //       check == true ? (
+  //         const updatedUser = {
+  //           ...user,
+  //         }
+
+  //         const response = await fetch(`http://localhost:9999/user/${user.id}`, {
+  //           method: "PUT",
+  //           headers: {
+  //             "Content-Type": "application/json",
+  //           },
+  //           body: JSON.stringify(updatedUser),
+  //         });
+
+  //         if (!response.ok) {
+  //           throw new Error("Error updating user.");
+  //         }
+
+  //         const data = await response.json();
+
+  //         console.log("User updated:", data);
+  //         setUser(updatedUser);
+  //         sessionStorage.setItem("user", JSON.stringify(updatedUser));
+  //         toast.success("Update succesfully!");
+  //       } catch (error) {
+  //         toast.error("Update fail");
+  //         console.error("Error updating user:", error);
+  //       }
+  //       ):""
+
+  //   }
+  // };
+  const updateProfile = async () => {
     if (user) {
       try {
-        const updatedUser = {
-          ...user,
-        };
+        let check = listUsers.some((u) => u.account == user.account);
+        if (check == true) {
+          toast.error("account has existed, please enter another account name");
+        } else {
+          const updatedUser = {
+            ...user,
+          };
 
-        const response = await fetch(`http://localhost:9999/user/${user.id}`, {
-          method: "PUT",
-          headers: {
-            "Content-Type": "application/json",
-          },
-          body: JSON.stringify(updatedUser),
-        });
+          const response = await fetch(
+            `http://localhost:9999/user/${user.id}`,
+            {
+              method: "PUT",
+              headers: {
+                "Content-Type": "application/json",
+              },
+              body: JSON.stringify(updatedUser),
+            }
+          );
 
-        if (!response.ok) {
-          throw new Error("Error updating user.");
+          if (!response.ok) {
+            throw new Error("Error updating user.");
+          }
+
+          const data = await response.json();
+
+          console.log("User updated:", data);
+          setUser(updatedUser);
+          sessionStorage.setItem("user", JSON.stringify(updatedUser));
+          toast.success("Update succesfully!");
         }
-
-        const data = await response.json();
-
-        console.log("User updated:", data);
-        setUser(updatedUser);
-        sessionStorage.setItem("user", JSON.stringify(updatedUser));
-        toast.success("Update succesfully!");
       } catch (error) {
         toast.error("Update fail");
         console.error("Error updating user:", error);
@@ -280,12 +336,12 @@ const Profile = () => {
                   </tr>
                   <tr>
                     <td colSpan={2}>
-                      <div className="d-flex  mb-3">
+                      <div className="d-flex mb-3">
                         <span style={{ width: "15%" }}>Account:</span>
                         <input
                           style={{ width: "85%" }}
                           type="text"
-                          id="acc"
+                          id="account"
                           value={user ? user.account : ""}
                           onChange={(e) =>
                             setUser((prevUser) => ({
@@ -377,7 +433,7 @@ const Profile = () => {
                     <button
                       className="btn btn-danger w-25"
                       style={{ height: "48px" }}
-                      onClick={() => udpateProfile()}
+                      onClick={() => updateProfile()}
                     >
                       Update Profile
                     </button>

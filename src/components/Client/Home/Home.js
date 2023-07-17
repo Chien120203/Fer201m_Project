@@ -45,7 +45,7 @@ const Home = () => {
           {category.map((c) => {
             return (
               <Col xs={2}>
-                <Link className="category_link">
+                <Link className="category_link" to={`/dien-thoai/${c.id}`}>
                   <div style={{ textAlign: "center" }}>
                     <img
                       src={c.Logo}

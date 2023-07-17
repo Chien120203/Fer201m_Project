@@ -22,6 +22,7 @@ import OrderDetail from "./components/admin/OrderDetails";
 import CreateProduct from "./components/admin/CreateProduct";
 import AdminUsers from "./components/admin/AdminUsers";
 import Profile from "./components/common/Profile/Profile";
+import Order from "./components/Client/Order";
 function App() {
   return (
     <BrowserRouter>
@@ -48,6 +49,7 @@ function App() {
         <Route path="/logout" element={<Logout />} />
         <Route path="/profile" element={<Profile />} />
         <Route path="/dashboard" element={<DashBoard />} />
+        <Route path="/myorder/:id" element={<Order />} />
         <Route path="/productmanagement" element={<AdminListProduct />} />
         <Route path="/adminusers" element={<AdminUsers />} />
         <Route path="/adminorders" element={<OrderManagement />} />

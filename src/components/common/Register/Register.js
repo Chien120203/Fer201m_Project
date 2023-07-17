@@ -71,7 +71,7 @@ const SignUp = () => {
           return response.json();
         })
         .then((responseData) => {
-          // Handle the response if needed
+          toast.success("Register successfully");
           navigate("/login");
         })
         .catch((error) => {

@@ -1184,6 +1184,25 @@
         "Origin": "Trung Quốc",
         "Release_time": "08/2022"
       }
+    },
+    {
+      "id": 59,
+      "Name": "iPhone 11 64GB",
+      "Category_ID": "4",
+      "Price": "1090000",
+      "SalePrice": "0.2",
+      "Images": "../../Images/Product/iPhone_11_64GB/1.png",
+      "Specifications": {
+        "Screen": "hh",
+        "Rear_camera": "he",
+        "RAM": "hh",
+        "Internal_memory": "hh",
+        "CPU": "hh",
+        "Battery_capacity": "hh",
+        "Operating_system": "hh",
+        "Origin": "hh",
+        "Release_time": "hh"
+      }
     }
   ],
   "Category": [
@@ -1234,12 +1253,12 @@
     {
       "id": "KC2971",
       "firstName": "Ange",
-      "lastName": "Castelletti",
+      "lastName": "adfasd",
       "phone": "527-139-9281",
       "address": "825 Cambridge Center",
       "email": "acastelletti1@wufoo.com",
       "dateOfBirth": "1969-11-22",
-      "account": "CQ93719869",
+      "account": "admin",
       "roll": 1,
       "password": "=.*M=.*7)k{8,}"
     },
@@ -1251,21 +1270,9 @@
       "address": "63279 Oriole Pass",
       "email": "ejeannin2@weebly.com",
       "dateOfBirth": "1964-06-11",
-      "account": "MS66652092",
+      "account": "chiendam12333",
       "roll": 1,
-      "password": "=.*e)=.*3Z{8,}"
-    },
-    {
-      "id": "TU5004",
-      "firstName": "Perry",
-      "lastName": "Emsley",
-      "phone": "576-573-0278",
-      "address": "39 Susan Terrace",
-      "email": "pemsley3@nymag.com",
-      "dateOfBirth": "1903-08-30",
-      "account": "CE65036430",
-      "roll": 1,
-      "password": "=.*c)=.*3\\{8,}"
+      "password": "1234567"
     },
     {
       "id": "XB1793",
@@ -1300,10 +1307,10 @@
       "address": "67050 Lotheville Trail",
       "email": "dgaskell1@aol.com",
       "dateOfBirth": "1964-05-14",
-      "account": "PH13552618",
+      "account": "chien123",
       "roll": 0,
       "status": 1,
-      "password": "=.*W)=.*8h{8,}"
+      "password": "123456"
     },
     {
       "id": "TH4341",
@@ -1316,7 +1323,7 @@
       "account": "HK33503365",
       "roll": 0,
       "status": 1,
-      "password": "=.*H)=.*0)\\{8,}"
+      "password": "=.*H)=.*0){8,}"
     },
     {
       "id": "UV7459",
@@ -1382,6 +1389,18 @@
       "roll": 0,
       "status": 1,
       "password": "=.*d)=.*6\\{8,}"
+    },
+    {
+      "firstName": "csdc",
+      "lastName": "ccc",
+      "phone": "0359601009",
+      "address": "",
+      "email": "quangchien1202@gmail.com",
+      "dateOfBirth": "",
+      "account": "zxczxcxzcxz",
+      "roll": 0,
+      "password": "123456",
+      "id": "NL6hv1D"
     }
   ],
   "Color": [
@@ -3439,6 +3458,28 @@
         "https://images.fpt.shop/unsafe/fit-in/585x390/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2022/8/4/637952294128563706_nokia-8210-4g-trang-1.jpg"
       ],
       "Quantity": "10"
+    },
+    {
+      "id": 154,
+      "ProductId": 59,
+      "ColorName": "Trangs",
+      "Quantity": "10",
+      "Images": [
+        "../../Images/Product/iPhone_11_64GB/1.png",
+        "../../Images/Product/iPhone_11_64GB/2.png",
+        "../../Images/Product/iPhone_11_64GB/3.png"
+      ]
+    },
+    {
+      "ProductId": 59,
+      "ColorName": "Den",
+      "Images": [
+        "../../Images/Product/iPhone_11_64GB/4.png",
+        "../../Images/Product/iPhone_11_64GB/5.png",
+        "../../Images/Product/iPhone_11_64GB/6.png"
+      ],
+      "Quantity": "9",
+      "id": 155
     }
   ],
   "Order": [
@@ -3617,196 +3658,191 @@
       "Color": "Xanh",
       "OrderDetailId": 15,
       "id": 22
+    },
+    {
+      "product_id": 1,
+      "Quantity": 1,
+      "Price": 15190500,
+      "Color": "Vàng",
+      "OrderDetailId": 12,
+      "id": 30
+    },
+    {
+      "product_id": 3,
+      "Quantity": 2,
+      "Price": 36386000,
+      "Color": "Xanh",
+      "OrderDetailId": 13,
+      "id": 31
+    },
+    {
+      "product_id": 1,
+      "Quantity": 2,
+      "Price": 30381000,
+      "Color": "Tím",
+      "OrderDetailId": 14,
+      "id": 32
+    },
+    {
+      "product_id": 1,
+      "Quantity": 2,
+      "Price": 30381000,
+      "Color": "Vàng",
+      "OrderDetailId": 14,
+      "id": 33
+    },
+    {
+      "product_id": 1,
+      "Quantity": 2,
+      "Price": 30381000,
+      "Color": "Tím",
+      "OrderDetailId": 15,
+      "id": 34
+    },
+    {
+      "product_id": 1,
+      "Quantity": 2,
+      "Price": 30381000,
+      "Color": "Vàng",
+      "OrderDetailId": 15,
+      "id": 35
+    },
+    {
+      "product_id": 1,
+      "Quantity": 2,
+      "Price": 30381000,
+      "Color": "Tím",
+      "OrderDetailId": 16,
+      "id": 36
+    },
+    {
+      "product_id": 1,
+      "Quantity": 2,
+      "Price": 30381000,
+      "Color": "Vàng",
+      "OrderDetailId": 16,
+      "id": 37
+    },
+    {
+      "product_id": 35,
+      "Quantity": 1,
+      "Price": 18861600,
+      "Color": "Xanh",
+      "OrderDetailId": 17,
+      "id": 38
+    },
+    {
+      "product_id": 1,
+      "Quantity": 2,
+      "Price": 30381000,
+      "Color": "Tím",
+      "OrderDetailId": 18,
+      "id": 39
+    },
+    {
+      "product_id": 1,
+      "Quantity": 2,
+      "Price": 30381000,
+      "Color": "Vàng",
+      "OrderDetailId": 18,
+      "id": 40
+    },
+    {
+      "product_id": 59,
+      "Quantity": 1,
+      "Price": 872000,
+      "Color": "Trangs",
+      "OrderDetailId": 19,
+      "id": 41
+    },
+    {
+      "product_id": 2,
+      "Quantity": 1,
+      "Price": 8743000,
+      "Color": "Tím",
+      "OrderDetailId": 12,
+      "id": 42
+    },
+    {
+      "product_id": 1,
+      "Quantity": 1,
+      "Price": 15190500,
+      "Color": "Vàng",
+      "OrderDetailId": 1,
+      "id": 43
+    },
+    {
+      "product_id": 2,
+      "Quantity": 2,
+      "Price": 17486000,
+      "Color": "Tím",
+      "OrderDetailId": 2,
+      "id": 44
+    },
+    {
+      "product_id": 1,
+      "Quantity": 1,
+      "Price": 15190500,
+      "Color": "Tím",
+      "OrderDetailId": 3,
+      "id": 45
+    },
+    {
+      "product_id": 3,
+      "Quantity": 1,
+      "Price": 18193000,
+      "Color": "Xanh",
+      "OrderDetailId": 3,
+      "id": 46
+    },
+    {
+      "product_id": 58,
+      "Quantity": 1,
+      "Price": 1590000,
+      "Color": "Đỏ",
+      "OrderDetailId": 3,
+      "id": 47
     }
   ],
   "OrderDetail": [
     {
       "firstName": "Chien",
-      "lastName": "Dam",
-      "phone": "234234",
-      "address": "ha noi",
-      "email": "adfadfadf",
+      "lastName": "Dam Quang",
+      "phone": "0",
+      "address": "19 Clemons Circle",
+      "email": "wsherbrooke2@dyndns.org",
+      "date": "2023-6-18",
       "purchaseMethod": "Thanh toán khi nhận hàng",
-      "userId": null,
-      "totalPrice": 86991000,
-      "status": 0,
-      "date": "2023-07-18",
+      "userId": "TH4341",
+      "totalPrice": 15190500,
+      "status": 2,
       "id": 1
     },
     {
-      "firstName": "cxz",
-      "lastName": "zcx",
-      "phone": "12312",
-      "address": "ads",
-      "email": "asd",
+      "firstName": "Chien",
+      "lastName": "Dam Quang",
+      "phone": "0",
+      "address": "19 Clemons Circle",
+      "email": "wsherbrooke2@dyndns.org",
+      "date": "2021-6-18",
       "purchaseMethod": "Thanh toán khi nhận hàng",
-      "userId": null,
-      "totalPrice": 8743000,
-      "status": 3,
-      "date": "2023-07-18",
+      "userId": "TH4341",
+      "totalPrice": 17486000,
+      "status": 0,
       "id": 2
     },
     {
-      "firstName": "cqwec",
-      "lastName": "asdca",
-      "phone": "123",
-      "address": "adsc",
-      "email": "dscadsc",
+      "firstName": "csdc",
+      "lastName": "ccc",
+      "phone": "0",
+      "address": "acasdc",
+      "email": "quangchien1202@gmail.com",
+      "date": "2023-6-18",
       "purchaseMethod": "Thanh toán khi nhận hàng",
-      "userId": null,
-      "totalPrice": 8743000,
+      "userId": "NL6hv1D",
+      "totalPrice": 34973500,
       "status": 1,
-      "date": "2023-07-18",
       "id": 3
-    },
-    {
-      "firstName": "acd",
-      "lastName": "adsc",
-      "phone": "2342342",
-      "address": "erqfeqrer",
-      "email": "aadcasd",
-      "purchaseMethod": "Thanh toán khi nhận hàng",
-      "userId": null,
-      "totalPrice": 15858500,
-      "status": 3,
-      "date": "2023-07-18",
-      "id": 4
-    },
-    {
-      "firstName": "234",
-      "lastName": "adsf",
-      "phone": "21312",
-      "address": "adsfa",
-      "email": "adf",
-      "purchaseMethod": "Thanh toán khi nhận hàng",
-      "userId": null,
-      "totalPrice": 7614600,
-      "status": 0,
-      "date": "2023-04-18",
-      "id": 5
-    },
-    {
-      "firstName": "asdf",
-      "lastName": "asdf",
-      "phone": "32423",
-      "address": "adsfasdf",
-      "email": "asdf",
-      "purchaseMethod": "Thanh toán khi nhận hàng",
-      "userId": null,
-      "totalPrice": 1852200,
-      "status": 1,
-      "date": "2023-06-18",
-      "id": 6
-    },
-    {
-      "firstName": "adsfa",
-      "lastName": "asdfa",
-      "phone": "1231",
-      "address": "asdfasf",
-      "email": "afaf",
-      "purchaseMethod": "Thanh toán khi nhận hàng",
-      "userId": null,
-      "totalPrice": 3420200,
-      "status": 2,
-      "date": "2023-04-18",
-      "id": 7
-    },
-    {
-      "firstName": "asdc",
-      "lastName": "adsc",
-      "phone": "234",
-      "address": "asdf",
-      "email": "as",
-      "purchaseMethod": "Thanh toán khi nhận hàng",
-      "userId": null,
-      "totalPrice": 29990000,
-      "status": 1,
-      "date": "2021-06-18",
-      "id": 8
-    },
-    {
-      "firstName": "asf",
-      "lastName": "asf",
-      "phone": "23423423",
-      "address": "sadfasdf",
-      "email": "adfgdfsg",
-      "purchaseMethod": "Thanh toán khi nhận hàng",
-      "userId": null,
-      "totalPrice": 1233800,
-      "status": 1,
-      "id": 9
-    },
-    {
-      "firstName": "vvbvcvx",
-      "lastName": "fsdf",
-      "phone": "2342",
-      "address": "vsdfv",
-      "email": "eerger",
-      "purchaseMethod": "Thanh toán khi nhận hàng",
-      "userId": null,
-      "totalPrice": 18193000,
-      "status": 1,
-      "id": 10
-    },
-    {
-      "firstName": "asdfa",
-      "lastName": "adsf",
-      "phone": "2342",
-      "address": "adsf",
-      "email": "asdf",
-      "purchaseMethod": "Thanh toán khi nhận hàng",
-      "userId": null,
-      "totalPrice": 18193000,
-      "status": 1,
-      "id": 11
-    },
-    {
-      "firstName": "sdfg",
-      "lastName": "sdfg",
-      "phone": "435345",
-      "address": "sgsdfg",
-      "email": "sdfgsdfg",
-      "purchaseMethod": "Thanh toán khi nhận hàng",
-      "userId": null,
-      "totalPrice": 18193000,
-      "status": 1,
-      "id": 12
-    },
-    {
-      "firstName": "sdfg",
-      "lastName": "sdfg",
-      "phone": "435345",
-      "address": "sgsdfg",
-      "email": "sdfgsdfg",
-      "purchaseMethod": "Thanh toán khi nhận hàng",
-      "userId": null,
-      "totalPrice": 18193000,
-      "status": 1,
-      "id": 13
-    },
-    {
-      "firstName": "sdfg",
-      "lastName": "sdfg",
-      "phone": "435345",
-      "address": "sgsdfg",
-      "email": "sdfgsdfg",
-      "purchaseMethod": "Thanh toán khi nhận hàng",
-      "userId": null,
-      "totalPrice": 18193000,
-      "status": 1,
-      "id": 14
-    },
-    {
-      "firstName": "asdf",
-      "lastName": "af",
-      "phone": "32234",
-      "address": "asdfasdf",
-      "email": "3232",
-      "purchaseMethod": "Thanh toán khi nhận hàng",
-      "userId": null,
-      "totalPrice": 18193000,
-      "status": 1,
-      "id": 15
     }
   ]
 }

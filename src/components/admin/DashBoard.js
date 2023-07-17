@@ -6,17 +6,20 @@ import { Pie, Bar } from "react-chartjs-2";
 import { Chart as ChartJS } from "chart.js/auto";
 import "./assets/Admin.css";
 import { error } from "jquery";
-
+import { faUser, faSignOut } from "@fortawesome/free-solid-svg-icons";
+import { Link } from "react-router-dom";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 const Dashboard = () => {
   const [orderStatus, setOrderStatus] = useState([]);
   const [numberOrder, setNumberOrder] = useState([]);
   const [orderPerMonthList, setOrderPerMonth] = useState([]);
   const [selectedYear, setSelectedYear] = useState("All Years"); // State variable for the selected year
-  const [user, setUser] = useState();
+  // const [user, setUser] = useState();
 
-  useEffect(() => {
-    setUser(JSON.parse(sessionStorage.getItem("user")));
-  }, []);
+  // useEffect(() => {
+  //   setUser(JSON.parse(sessionStorage.getItem("user")));
+  // }, []);
+  // console.log(user.roll);
   useEffect(() => {
     fetch("http://localhost:9999/OrderDetail")
       .then((res) => res.json())
@@ -145,87 +148,107 @@ const Dashboard = () => {
   const handleYearChange = (e) => {
     setSelectedYear(e.target.value);
   };
-  // if (user != undefined && user.roll == 1) {
-  return (
-    <div>
-      <Container fluid>
-        <Row>
-          <SideBar />
-          <Col md={10} style={{ padding: "0" }}>
-            <div className="topbar">
-              <h1 className="admin-title">Data statistics</h1>
-            </div>
-            <div
-              className="p-3 d-flex justify-content-center"
-              style={{ minHeight: "350px" }}
-            >
-              <Pie data={data} options={options} />
-            </div>
-            <div>
-              <div>
-                <label className="ml-2" htmlFor="yearFilter">
-                  Select Year:{" "}
-                </label>
-                <select
-                  id="yearFilter"
-                  value={selectedYear}
-                  onChange={handleYearChange}
-                  className="custom-select w-25"
-                >
-                  <option value="All Years" selected>
-                    All Years
-                  </option>
-                  {numberOrder
-                    .map((order) => {
-                      const dateString = order.date;
-                      const year = new Date(dateString).getFullYear();
-                      return year;
-                    })
-                    .filter((year, index, self) => self.indexOf(year) === index)
-                    .map((year) => (
-                      <option key={year} value={year}>
-                        {year}
-                      </option>
-                    ))}
-                </select>
+  if (
+    JSON.parse(sessionStorage.getItem("user")) != null &&
+    JSON.parse(sessionStorage.getItem("user")).roll == 1
+  ) {
+    return (
+      <div>
+        <Container fluid>
+          <Row>
+            <SideBar />
+            <Col md={10} style={{ padding: "0" }}>
+              <div className="topbar row ml-1">
+                <div className="col-10">
+                  <h1 className="admin-title ">Data statistics</h1>
+                </div>
+                <div className="col-2">
+                  <Link to={"/profile"}>
+                    <FontAwesomeIcon icon={faUser} style={{ color: "white" }} />
+                    <p style={{ color: "white" }}>Tài khoản</p>
+                  </Link>
+                  <Link to={"/logout"}>
+                    <FontAwesomeIcon
+                      icon={faSignOut}
+                      style={{ color: "white" }}
+                    />
+                    <p style={{ color: "white" }}>Đăng xuất</p>
+                  </Link>
+                </div>
               </div>
-            </div>
-            <div
-              className="p-3 d-flex justify-content-center"
-              style={{ minHeight: "350px" }}
-            >
-              <Bar data={data2} options={option2} />
-            </div>
-          </Col>
-        </Row>
-      </Container>
-      <Navbar
-        bg="dark"
-        variant="dark"
-        className="d-flex flex-column align-items-center"
-      >
-        <Navbar.Collapse>
-          <Nav.Link href="#">
-            <Icon.Facebook size={24} />
-          </Nav.Link>
-          <Nav.Link href="#">
-            <Icon.Twitch size={24} />
-          </Nav.Link>
-          <Nav.Link href="https://github.com/Chien120203/Fer201m_project">
-            <Icon.Github size={24} />
-          </Nav.Link>
-        </Navbar.Collapse>
-        <Navbar.Collapse className="justify-content-center">
-          <Navbar.Text className="text-light">
-            © 2023 Your Website. All rights reserved.
-          </Navbar.Text>
-        </Navbar.Collapse>
-      </Navbar>
-    </div>
-  );
-  // } else {
-  //   error("cxasxasx");
-  // }
+              <div
+                className="p-3 d-flex justify-content-center"
+                style={{ minHeight: "350px" }}
+              >
+                <Pie data={data} options={options} />
+              </div>
+              <div>
+                <div>
+                  <label className="ml-2" htmlFor="yearFilter">
+                    Select Year:{" "}
+                  </label>
+                  <select
+                    id="yearFilter"
+                    value={selectedYear}
+                    onChange={handleYearChange}
+                    className="custom-select w-25"
+                  >
+                    <option value="All Years" selected>
+                      All Years
+                    </option>
+                    {numberOrder
+                      .map((order) => {
+                        const dateString = order.date;
+                        const year = new Date(dateString).getFullYear();
+                        return year;
+                      })
+                      .filter(
+                        (year, index, self) => self.indexOf(year) === index
+                      )
+                      .map((year) => (
+                        <option key={year} value={year}>
+                          {year}
+                        </option>
+                      ))}
+                  </select>
+                </div>
+              </div>
+              <div
+                className="p-3 d-flex justify-content-center"
+                style={{ minHeight: "350px" }}
+              >
+                <Bar data={data2} options={option2} />
+              </div>
+            </Col>
+          </Row>
+        </Container>
+        <Navbar
+          bg="dark"
+          variant="dark"
+          className="d-flex flex-column align-items-center"
+        >
+          <Navbar.Collapse>
+            <Nav.Link href="#">
+              <Icon.Facebook size={24} />
+            </Nav.Link>
+            <Nav.Link href="#">
+              <Icon.Twitch size={24} />
+            </Nav.Link>
+            <Nav.Link href="https://github.com/Chien120203/Fer201m_project">
+              <Icon.Github size={24} />
+            </Nav.Link>
+          </Navbar.Collapse>
+          <Navbar.Collapse className="justify-content-center">
+            <Navbar.Text className="text-light">
+              © 2023 Your Website. All rights reserved.
+            </Navbar.Text>
+          </Navbar.Collapse>
+        </Navbar>
+      </div>
+    );
+  } else {
+    error("You are not allowed to access this page");
+  }
 };
 
 export default Dashboard;
