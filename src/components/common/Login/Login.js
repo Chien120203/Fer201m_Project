@@ -13,7 +13,7 @@ const Login = () => {
     fetch("http://localhost:9999/user")
       .then((response) => response.json())
       .then((data) => setUsers(data));
-  }, [users]);
+  }, []);
 
   const handleUsernameChange = (e) => {
     setUsername(e.target.value);
@@ -26,13 +26,13 @@ const Login = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     let indexUser = users.findIndex(
-      (user) => user.account === username && user.password === password
+      (user) => user.account == username && user.password == password
     );
     if (indexUser === -1 || users[indexUser].status == 0) {
       toast.error("User or password not found");
     } else {
       sessionStorage.setItem("user", JSON.stringify(users[indexUser]));
-      if (users[indexUser].roll == 0 && users[indexUser].status == 1) {
+      if (users[indexUser].roll == 0) {
         navigate("/");
       }
       if (users[indexUser].roll == 1) {

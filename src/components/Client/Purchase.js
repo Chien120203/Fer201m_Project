@@ -99,7 +99,7 @@ const Purchase = () => {
       .then((data) => {
         setOrderDetailId(data.length + 1);
       });
-  }, [])
+  }, []);
   const getQuantity = (id, colId) => {
     let pro = listProduct.find((p) => p.colorID == colId);
     return pro.quantity;
@@ -181,7 +181,7 @@ const Purchase = () => {
           throw new Error("Failed to create order detail.");
         }
         const orderDetail = await response.json();
-
+        sessionStorage.setItem("status", true);
         for (const product of listProduct) {
           const newOrder = {
             product_id: product.id,
@@ -198,6 +198,7 @@ const Purchase = () => {
             },
             body: JSON.stringify(newOrder),
           });
+
           if (!orderResponse.ok) {
             throw new Error("Failed to create order.");
           }
