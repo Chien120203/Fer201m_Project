@@ -20,12 +20,8 @@ import EditProduct from "./components/admin/EditProduct";
 import OrderManagement from "./components/admin/OrderManagement";
 import OrderDetail from "./components/admin/OrderDetails";
 import CreateProduct from "./components/admin/CreateProduct";
-<<<<<<< HEAD
 import AdminUsers from "./components/admin/AdminUsers";
 import Profile from "./components/common/Profile/Profile";
-=======
-import Order from "./components/Client/Order";
->>>>>>> babbe7dfddbbce014c19fcac3f1c5b72151848ae
 function App() {
   return (
     <BrowserRouter>
@@ -50,7 +46,6 @@ function App() {
         <Route path="/dien-thoai/purchase/:TYPE" element={<Purchase />} />
         <Route path="/chi-tiet-san-pham/:ProductID" element={<EditProduct />} />
         <Route path="/logout" element={<Logout />} />
-<<<<<<< HEAD
         <Route path="/profile" element={<Profile />} />
         <Route path="/dashboard" element={<DashBoard />} />
         <Route path="/productmanagement" element={<AdminListProduct />} />
@@ -58,14 +53,6 @@ function App() {
         <Route path="/adminorders" element={<OrderManagement />} />
         <Route path="/chi-tiet-don-hang/:id" element={<OrderDetail />} />
         <Route path="/createproduct" element={<CreateProduct />} />
-=======
-        <Route path="/dashboard" element={<DashBoard/>} />
-        <Route path="/productmanagement" element={<AdminListProduct/>} />
-        <Route path="/adminorders" element={<OrderManagement/>} />
-        <Route path="/chi-tiet-don-hang/:id" element={<OrderDetail/>} />
-        <Route path="/createproduct" element={<CreateProduct/>} />
-        <Route path="/order" element={<Order/>} />
->>>>>>> babbe7dfddbbce014c19fcac3f1c5b72151848ae
       </Routes>
     </BrowserRouter>
   );

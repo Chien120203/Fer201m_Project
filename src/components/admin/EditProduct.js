@@ -4,23 +4,23 @@ import { useParams } from 'react-router-dom'
 import { useEffect, useState, useRef } from 'react';
 const EditProduct = () => {
     const defaultProduct = {
-        ID: 1,
-        Name: "Samsung Galaxy Z Flip4 5G 128GB",
+        ID: 0,
+        Name: "",
         Category_ID: 1,
-        Price: 15990000,
-        SalePrice: 0.05,
-        Images: "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2022/8/10/637957658354316100_samsung-galaxy-z-flip4-tim-1.jpg",
+        Price: 0,
+        SalePrice: 0,
+        Images: "",
         Specifications: {
-            Screen: "Chính: 6.7 inch, Phụ: 1.9 inch, Dynamic AMOLED 2X, FHD+, 1080 x 2636 Pixels",
-            Rear_camera: "12.0 MP + 12.0 MP",
-            Camera_Selfie: "10.0 MP",
-            RAM: "8 GB",
-            Internal_memory: "128 GB",
-            CPU: "Snapdragon 8+ Gen 1",
-            Battery_capacity: "3700 mAh",
-            Operating_system: "Android 12",
-            Origin: "Việt Nam",
-            Release_time: "08/2022"
+            Screen: "",
+            Rear_camera: "",
+            Camera_Selfie: "",
+            RAM: "",
+            Internal_memory: "",
+            CPU: "",
+            Battery_capacity: "",
+            Operating_system: "",
+            Origin: "",
+            Release_time: "2"
         }
     }
     const { ProductID } = useParams();
@@ -45,11 +45,10 @@ const EditProduct = () => {
         fetch("http://localhost:9999/Product")
             .then((res) => res.json())
             .then((result) => {
-                result.map((r) => {
-                    if (r.id == ProductID) {
-                        setProduct(r);
-                    }
+                const currentProduct = result.find((r) => {
+                    return r.id == ProductID;
                 })
+                setProduct(currentProduct);
             });
     }, [])
     useEffect(() => {
@@ -62,6 +61,9 @@ const EditProduct = () => {
 
     return (
         <div>
+            {
+                console.log(Product)
+            }
             <Container fluid>
                 <Row>
                     <SideBar />
